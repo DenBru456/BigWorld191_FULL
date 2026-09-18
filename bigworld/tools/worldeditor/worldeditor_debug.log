@@ -1,0 +1,1018 @@
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Apr 25 2009 at 16:16:55)starting on 04/25/09 16:35:17
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. e:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is e:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: e:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - the graphics card/driver matches so we don't autodetect settings
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: PeShell::initSound: Failed to initialise sound
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering free snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 648
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0004i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0003o.chunk'
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP 5bce048
+DEBUG: DELETING LIGHT MAP 5004d80
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Apr 25 2009 at 16:16:55)starting on 07/30/09 16:37:46
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. e:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is e:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: e:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - the graphics card/driver matches so we don't autodetect settings
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: PeShell::initSound: Failed to initialise sound
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+ERROR: SpeedTree authorisation failed
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering free snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 648
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP 5bd2230
+DEBUG: DELETING LIGHT MAP 5004d80
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Apr 26 2009 at 13:12:08)starting on 04/26/09 13:17:15
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. E:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is E:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: E:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - the graphics card/driver matches so we don't autodetect settings
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: PeShell::initSound: Failed to initialise sound
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering free snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 648
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+ERROR: UIExt.updateUmbraDisabled: Failed to get Render/Umbra/enabled. (<type 'exceptions.TypeError'>)
+SCRIPT: Traceback (most recent call last):
+SCRIPT:   File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+SCRIPT:     return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+SCRIPT: TypeError: Failed to get Render/Umbra/enabled.
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0004i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffbo.chunk'
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP 59f05d8
+DEBUG: DELETING LIGHT MAP 5101680
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Apr 26 2009 at 16:30:07)starting on 04/26/09 16:34:13
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. E:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is E:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: E:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - the graphics card/driver matches so we don't autodetect settings
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: PeShell::initSound: Failed to initialise sound
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering free snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 648
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP 5362008
+DEBUG: DELETING LIGHT MAP 5d067f0
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Apr 26 2009 at 16:30:07)starting on 04/27/08 23:35:48
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. F:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "F:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "F:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is F:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: F:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "F:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - autodetection succeeded
+INFO: RenderContext::createDevice - available texture memory after create: 1581252608
+DEBUG: Moo: Changed mode: 1276 706
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: PeShell::initSound: Failed to initialise sound
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering free snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1585446912
+DEBUG: Moo: Changed mode: 973 653
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0004i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030003o.chunk'
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP a327390
+DEBUG: DELETING LIGHT MAP a353600
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager

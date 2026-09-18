@@ -1,0 +1,1861 @@
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Nov  5 2008 at 12:22:13)starting on 11/28/08 15:58:38
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for speedtree
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. E:/Relique_src/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/Relique_src/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/Relique_src/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is E:\Relique_src\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: E:\Relique_src\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/Relique_src/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - autodetection succeeded
+INFO: RenderContext::createDevice - available texture memory after create: 760217600
+DEBUG: Moo: Changed mode: 1436 801
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Real path is E:/Relique_src/BW191/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/desert at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: TextureManager : write DDS resources/maps/gui/3d_wait2.dds
+TRACE: TextureManager : write DDS resources/materials/flare_halo.dds
+TRACE: TextureManager : write DDS resources/maps/gizmo/quads.dds
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+TRACE: TextureManager : write DDS resources/maps/gizmo/alphatool.dds
+TRACE: TextureManager : write DDS resources/maps/gizmo/heighttool.dds
+TRACE: TextureManager : write DDS resources/maps/gizmo/filtertool.dds
+TRACE: TextureManager : write DDS resources/maps/gizmo/freepointer.dds
+TRACE: TextureManager : write DDS helpers/maps/dashed_line.dds
+ACTION: entered Object mode
+ACTION: Entering terrain snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+TRACE: TextureManager : write DDS resources/maps/gizmo/chunktextures.dds
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 765460480
+DEBUG: Moo: Changed mode: 1133 769
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: TextureManager : write DDS helpers/maps/system/col_red.dds
+TRACE: TextureManager : write DDS resources/maps/gizmo/chunkmaxtextures.dds
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00000000o.chunk'
+TRACE: TextureManager : write DDS helpers/maps/col_white.dds
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00010000o.chunk'
+DEBUG: Water::Water: using 61 vertices out of 169
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/0000ffffo.chunk'
+WARNING: WinFileSystem: Case mismatch opening E:/Relique_src/BW191/fantasydemo/res/speedtree/Palms_Cacti_Cycads/suguaro_cactus/compositemap_Diffuse.dds (CompositeMap_diffuse.dds)
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/fffe0001o.chunk'
+WARNING: Moo::ManagedTexture::load: Can't read texture file 'maps/landscape/ls2_dust.dds'.
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00am0001i.chunk'
+WARNING: Effect 'shaders/std_effects/spintoface_add.fx' not finished initializing this frame.
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/desert/00am0003i.chunk'
+TRACE: TextureManager : write DDS helpers/maps/two_axes.dds
+TRACE: TextureManager : write DDS helpers/maps/four_colour.dds
+TRACE: TextureManager : write DDS helpers/maps/half_opacity.dds
+TRACE: TextureManager : write DDS helpers/maps/disc_quarter.dds
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+ACTION: Undoing: Move fd_magic_shrine
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+ACTION: Entering free snap mode
+ACTION: Entering terrain snap mode
+ACTION: Entering obstacle snap mode
+ACTION: Entering terrain snap mode
+ACTION: Reference Coordinate System: Local
+ACTION: Reference Coordinate System: View
+ACTION: Reference Coordinate System: Local
+ACTION: Reference Coordinate System: World
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/desert/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/desert/ from space 1
+DEBUG: DELETING LIGHT MAP 1fd1748
+DEBUG: DELETING LIGHT MAP 1f1fa20
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/menu_space at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 2
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+DEBUG: cloud map darkness 0.65
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: deleting tree type speedtree/Palms_Cacti_Cycads/suguaro_cactus/SaguaroCactus_RT.spt
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00000000o.chunk'
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+WARNING: Effect 'shaders/std_effects/normalmap_specmap_skinned.fx' not finished initializing this frame.
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00ny0002i.chunk'
+TRACE: TextureManager : write DDS helpers/maps/col_orange.dds
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00ny0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00ny000fi.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00ny0010i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00ny0011i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/menu_space/00ny0016i.chunk'
+TRACE: TextureManager : write DDS resources/maps/system/col_orange.dds
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+DEBUG: ChunkSpace::clear: Clearing space 2
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/menu_space/ in space 2
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/menu_space/ from space 2
+DEBUG: DELETING LIGHT MAP 9989b58
+DEBUG: DELETING LIGHT MAP 1f1fa20
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 3
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+DEBUG: cloud map darkness 0.65
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0004i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffbo.chunk'
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 3
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 3
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 3
+DEBUG: DELETING LIGHT MAP 9989b58
+DEBUG: DELETING LIGHT MAP 1f1fa20
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Nov  5 2008 at 12:22:13)starting on 03/06/09 00:09:28
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for speedtree
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. E:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is E:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: E:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - autodetection succeeded
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Real path is E:/BW191/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering terrain snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 669
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0004i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040004o.chunk'
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 644874240
+DEBUG: Moo: Changed mode: 973 216
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 639631360
+DEBUG: Moo: Changed mode: 973 521
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 648
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+ACTION: Lighting Mode: Dynamic
+ACTION: Lighting Mode: Standard
+ACTION: Lighting Mode: Specular
+ACTION: Lighting Mode: Standard
+ACTION: Entering obstacle snap mode
+ACTION: Entering free snap mode
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+ACTION: Undoing: Move ChunkOmniLight 项目
+INFO: recalculating lighting for chunk 00am0004i
+ACTION: Undoing: Move ChunkOmniLight 项目
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+ACTION: Undoing: Move dungeon_plug_dead
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+ACTION: Undoing: 删除ChunkOmniLight 项目
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+WARNING: SimpleGUIComponent.widthRelative has been deprecated. Use widthMode instead.
+WARNING: SimpleGUIComponent.heightRelative has been deprecated. Use heightMode instead.
+INFO: recalculating lighting for chunk 00am0004i
+WARNING: SimpleGUIComponent.widthRelative has been deprecated. Use widthMode instead.
+WARNING: SimpleGUIComponent.heightRelative has been deprecated. Use heightMode instead.
+INFO: recalculating lighting for chunk 00am0004i
+WARNING: SimpleGUIComponent.widthRelative has been deprecated. Use widthMode instead.
+WARNING: SimpleGUIComponent.heightRelative has been deprecated. Use heightMode instead.
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+ACTION: Undoing: Move fd_magic_shrine
+INFO: recalculating lighting for chunk 00am0004i
+ACTION: Undoing: 改变选择
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+WARNING: SimpleGUIComponent.widthRelative has been deprecated. Use widthMode instead.
+WARNING: SimpleGUIComponent.heightRelative has been deprecated. Use heightMode instead.
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+WARNING: SimpleGUIComponent.widthRelative has been deprecated. Use widthMode instead.
+WARNING: SimpleGUIComponent.heightRelative has been deprecated. Use heightMode instead.
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+WARNING: SimpleGUIComponent.widthRelative has been deprecated. Use widthMode instead.
+WARNING: SimpleGUIComponent.heightRelative has been deprecated. Use heightMode instead.
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP 2011480
+DEBUG: DELETING LIGHT MAP 1f205f0
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager
+
+/------------------------------------------------------------------------------------------\
+BigWorld World Editor 1.9.1 (compiled at Nov  5 2008 at 12:22:13)starting on 03/21/09 16:10:41
+
+INFO: Registering factory for binding
+INFO: Registering factory for entity
+INFO: Registering factory for flare
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for particles
+INFO: Registering factory for station
+INFO: Registering factory for speedtree
+INFO: Registering factory for UserDataObject
+INFO: Registering factory for vlo
+INFO: Registering factory for water
+INFO: Registering factory for particles
+INFO: Registering factory for terrain
+INFO: Registering factory for vlo
+INFO: Registering factory for flare
+INFO: Registering factory for station
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for speedtree
+INFO: Registering factory for binding
+INFO: Registering factory for marker
+INFO: Registering factory for marker_cluster
+INFO: Registering factory for flora
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: AnimationChannel: registered type 0
+DEBUG: Loading.. E:/BW191/bigworld/tools/worldeditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Options file is E:\BW191\bigworld\tools\worldeditor\options.xml
+TRACE: DataResource::load: E:\BW191\bigworld\tools\worldeditor\options.xml
+INFO: Added res path: "E:/BW191/bigworld/tools/worldeditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: GraphicsSetting::init - the graphics card/driver matches so we don't autodetect settings
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Real path is E:/BW191/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: EditorEntityType constructor - Importing editor entity scripts
+INFO: EditorEntityType - no editor script found for Account
+INFO: EditorEntityType - no editor script found for AuctionHouse
+INFO: EditorEntityType - no editor script found for Avatar
+INFO: EditorEntityType - no editor script found for Button
+INFO: EditorEntityType - no editor script found for Fog
+INFO: EditorEntityType - no editor script found for IndoorMapInfo
+INFO: EditorEntityType - no editor script found for LightGuard
+INFO: EditorEntityType - no editor script found for RespawnManager
+INFO: EditorEntityType - no editor script found for TED
+INFO: EditorEntityType - no editor script found for TradingSupervisor
+INFO: EditorEntityType - no editor script found for VehicleExample
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: EditorUserDataObjectType constructor - Importing editor UserDataObject scripts
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding spaces/arctic at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+TRACE: DataResource::load: resources/data/terrain_paint_strengths.xml
+ACTION: entered Object mode
+ACTION: Entering free snap mode
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: PythonAdapter was loaded correctly
+INFO: EntityDescription::parseProperties: property Guard.health is being overridden.
+INFO: EntityDescription::parseProperties: property Guard.maxHealth is being overridden.
+INFO: Highest exposed counts:
+INFO: 	Avatar: client top-level property count = 19. Efficient to 61 (limit is 256)
+INFO: 	Avatar: client method count = 39. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: base method count = 11. Efficient to 62 (limit is 15872)
+INFO: 	Avatar: cell method count = 36. Efficient to 62 (limit is 15872)
+INFO: 
+INFO: UserDataObjectDescription::parseProperties: property testItem.testOverrideProperty is being overridden.
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 638582784
+DEBUG: Moo: Changed mode: 973 648
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0002i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0003i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0004i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00am0001i.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'spaces/arctic/fffbfffbo.chunk'
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+ACTION: Undoing: 删除ChunkOmniLight 项目
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: recalculating lighting for chunk 00am0004i
+INFO: finished calculating lighting for 00am0004i
+INFO: recalculating lighting for chunk 00am0002i
+INFO: finished calculating lighting for 00am0002i
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: Calling WorldEditor Destructor
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned spaces/arctic/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted spaces/arctic/ from space 1
+DEBUG: DELETING LIGHT MAP 200f4d8
+DEBUG: DELETING LIGHT MAP 2003370
+WARNING: SimpleGUIComponent: Destroying GUI component before construction or after destruction of SimpleGUI, possible python leak.
+INFO: Destroying SimulationManager

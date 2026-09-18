@@ -1,0 +1,132 @@
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Nov  5 2008 at 12:22:13) starting on Fri Nov 28 15:58:40 2008
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Nov  5 2008 at 12:22:13) starting on Fri Mar 06 00:09:32 2009
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Nov  5 2008 at 12:22:13) starting on Sat Mar 21 16:10:45 2009
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Debug (compiled on Apr 25 2009 at 16:16:55) starting on Sat Apr 25 16:35:28 2009
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Debug (compiled on Apr 25 2009 at 16:16:55) starting on Thu Jul 30 16:37:50 2009
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Debug (compiled on Apr 26 2009 at 13:12:08) starting on Sun Apr 26 13:17:33 2009
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+Traceback (most recent call last):
+  File "resources/scripts/UIExt.py", line 161, in updateUmbraDisabled
+    return BigWorld.getWatcher( "Render/Umbra/enabled") == "false" and WorldEditor.getOptionInt("render/useUmbra") == 0
+TypeError: Failed to get Render/Umbra/enabled.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Debug (compiled on Apr 26 2009 at 16:30:07) starting on Sun Apr 26 16:34:24 2009
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Debug (compiled on Apr 26 2009 at 16:30:07) starting on Sun Apr 27 23:35:58 2008
+\--------------------------------------------------------------------------------/

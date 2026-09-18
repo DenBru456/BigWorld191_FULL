@@ -1,0 +1,285 @@
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor 1.9.1 (compiled at Apr 26 2009 at 13:34:36) starting on 04/26/09 13:40:14
+
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for flare
+INFO: Registering factory for terrain
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for flora
+INFO: Registering factory for vlo
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 0
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for particles
+INFO: Options file is E:\BW191\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: E:\BW191\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. E:/BW191/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Added res path: "E:/BW191/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: MeShell::initSound: Failed to initialise sound
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+DEBUG: PythonAdapter was loaded correctly
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 637534208
+DEBUG: Moo: Changed mode: 986 669
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: TextureManager : write DDS characters/avatars/warrior/1b_legs_d.dds
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: TextureManager : write DDS characters/avatars/warrior/1b_legs_norms.dds
+INFO: 退出模型编辑器...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+TRACE: TextureManager : write DDS characters/avatars/warrior/1b_legs_s.dds
+WARNING: Moo::ManagedTexture::load: Can't read texture file 'characters/avatars/warrior/1a_head_ss.dds'.
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted helpers/spaces/pe/ from space 1
+DEBUG: DELETING LIGHT MAP 50473a8
+DEBUG: DELETING LIGHT MAP 50494b0
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 11506652
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: characters/avatars/warrior/1b_legs_00.visual
+INFO: -- Visual not deleted: helpers/models/radius_gizmo_small.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly_alpha.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+WARNING: 6 - Effect shaders/std_effects/normalmap_specmap_chrome_skinned.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1a_head_ss.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1b_legs_d.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1b_legs_norms.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1b_legs_s.dds
+INFO: -- Texture not properly deleted on exit: helpers/maps/fat_disc_quarter.dds
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_10.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_11.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_13.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_15.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/HGSoeiKakugothicUB_15.dds
+INFO: -- Texture not properly deleted on exit: system/maps/cloudyhillscubemap2.dds
+WARNING: 6 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 3461a50
+WARNING: DeviceCallback: NOT DELETED : 3461b40
+WARNING: DeviceCallback: NOT DELETED : 3461d20
+WARNING: DeviceCallback: NOT DELETED : 485728c
+WARNING: DeviceCallback: NOT DELETED : 5102210
+WARNING: DeviceCallback: NOT DELETED : 51fc854
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor 1.9.1 (compiled at Apr 26 2009 at 13:34:36) starting on 04/26/09 15:00:07
+
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for speedtree
+INFO: Registering factory for flare
+INFO: Registering factory for terrain
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for flora
+INFO: Registering factory for vlo
+INFO: Registering factory for overlapper
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 0
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for particles
+INFO: Options file is E:\BW191\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: E:\BW191\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. E:/BW191/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "E:/BW191/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "E:/BW191/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 1.9.1.0
+INFO: Added res path: "E:/BW191/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: nVidia compatibility selected
+INFO: RenderContext::createDevice - available texture memory after create: 634388480
+DEBUG: Moo: Changed mode: 1276 701
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+ERROR: MeShell::initSound: Failed to initialise sound
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+DEBUG: PythonAdapter was loaded correctly
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 637534208
+DEBUG: Moo: Changed mode: 986 669
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+WARNING: Moo::ManagedTexture::load: Can't read texture file 'characters/avatars/warrior/1a_head_ss.dds'.
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: TextureManager : write DDS characters/avatars/warrior/1b_chest_d.dds
+INFO: 退出模型编辑器...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+TRACE: TextureManager : write DDS characters/avatars/warrior/1b_chest_norms.dds
+TRACE: TextureManager : write DDS characters/avatars/warrior/1b_chest_s.dds
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: ChunkDirMapping::~ChunkDirMapping: Deleted helpers/spaces/pe/ from space 1
+DEBUG: DELETING LIGHT MAP 50473a8
+DEBUG: DELETING LIGHT MAP 50494b0
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 11494308
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: characters/avatars/warrior/1b_chest_01.visual
+INFO: -- Visual not deleted: helpers/models/radius_gizmo_small.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly_alpha.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+WARNING: 6 - Effect shaders/std_effects/normalmap_specmap_chrome_skinned.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1b_chest_d.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1b_chest_norms.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/warrior/1b_chest_s.dds
+INFO: -- Texture not properly deleted on exit: helpers/maps/fat_disc_quarter.dds
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_10.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_11.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_13.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/Courier New_15.dds
+INFO: -- Texture not properly deleted on exit: system/fonts/HGSoeiKakugothicUB_15.dds
+INFO: -- Texture not properly deleted on exit: system/maps/cloudyhillscubemap2.dds
+WARNING: 6 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 3461a50
+WARNING: DeviceCallback: NOT DELETED : 3461b40
+WARNING: DeviceCallback: NOT DELETED : 3461d20
+WARNING: DeviceCallback: NOT DELETED : 485728c
+WARNING: DeviceCallback: NOT DELETED : 5102210
+WARNING: DeviceCallback: NOT DELETED : 51fc854
