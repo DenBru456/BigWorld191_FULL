@@ -1,0 +1,9 @@
+<market_apple.model>
+	<nodelessVisual>	sets/town/props/market_stall/models/market_apple	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	20.000000	</extent>
+	<visibilityBox>
+		<min>	-0.092748 -0.000463 -0.092988	</min>
+		<max>	0.092748 0.181304 0.092988	</max>
+	</visibilityBox>
+</market_apple.model>

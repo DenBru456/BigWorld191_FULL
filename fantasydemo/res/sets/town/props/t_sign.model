@@ -1,0 +1,14 @@
+<t_sign.model>
+	<animation>
+		<name>	t_sign_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/t_sign_anim	</nodes>
+	</animation>
+	<nodefullVisual>	sets/town/props/t_sign	</nodefullVisual>
+	<extent>	150.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	2.049467 -1.903960 0.048895	</min>
+		<max>	2.670492 3.254770 7.555154	</max>
+	</visibilityBox>
+</t_sign.model>

@@ -1,0 +1,10 @@
+<dun_highpassage_ramp.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/shells/dun_highpassage_ramp.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.363500 -5.338201 -0.544400	</min>
+		<max>	4.363500 7.663601 16.544401	</max>
+	</visibilityBox>
+	<extent>	400.000000	</extent>
+</dun_highpassage_ramp.model>

@@ -1,0 +1,26 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/cor_end.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/cor_end-1	</lighting>
+	</shell>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	19.099993 0.660000 25.679981	</row3>
+	</transform>
+	<boundingBox>
+		<min>	15.099992 0.565900 21.679979	</min>
+		<max>	23.199993 5.160000 29.679979	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,10 @@
+<dungeon_plug_arch1.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/props/dungeon_plug_arch1.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.004802 -0.002759 -0.000000	</min>
+		<max>	0.000000 8.999997 0.500000	</max>
+	</visibilityBox>
+	<extent>	80.000000	</extent>
+</dungeon_plug_arch1.model>

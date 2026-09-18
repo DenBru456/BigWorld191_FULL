@@ -1,0 +1,12 @@
+<root>
+	<navmesh>
+		<resource>	00030000o.cdata/navmesh	</resource>
+	</navmesh>
+	<waypointGenerationTime>
+		<hi>	29734720	</hi>
+		<lo>	849595380	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<resource>	00030000o.cdata/terrain	</resource>
+	</terrain>
+</root>

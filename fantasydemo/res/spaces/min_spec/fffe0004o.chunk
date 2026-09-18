@@ -1,0 +1,61 @@
+<fffe0004o.chunk>
+	<terrain>
+		<resource>	fffe0004o.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.919759 0.000000 1.441634	</row0>
+			<row1>	0.000000 1.710049 0.000000	</row1>
+			<row2>	-1.441634 0.000000 0.919759	</row2>
+			<row3>	5.075882 102.179001 16.811676	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	1.113268 0.000000 -1.266010	</row0>
+			<row1>	0.000000 1.685866 0.000000	</row1>
+			<row2>	1.266010 0.000000 1.113268	</row2>
+			<row3>	20.415466 101.034882 45.226776	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-2.058314 0.000000 0.650476	</row0>
+			<row1>	0.000000 2.158651 0.000000	</row1>
+			<row2>	-0.650476 0.000000 -2.058314	</row2>
+			<row3>	25.325256 100.335693 42.484558	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	1.741372 0.000000 1.148489	</row0>
+			<row1>	0.000000 2.086003 0.000000	</row1>
+			<row2>	-1.148489 0.000000 1.741372	</row2>
+			<row3>	20.522797 102.475861 3.220825	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+</fffe0004o.chunk>

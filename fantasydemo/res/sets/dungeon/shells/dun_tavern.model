@@ -1,0 +1,10 @@
+<dun_tavern.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/shells/dun_tavern.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-5.544700 0.000000 -0.000600	</min>
+		<max>	9.561001 11.104300 15.554502	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+</dun_tavern.model>

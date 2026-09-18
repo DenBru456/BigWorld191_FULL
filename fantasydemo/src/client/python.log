@@ -1,0 +1,116 @@
+
+/------------------------------------------------------------------------------\
+BigWorld Debug Client (compiled at 18:01:12 Apr 25 2009) starting on Sat Apr 25 18:03:38 2009
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+Traceback (most recent call last):
+  File "scripts/client/FDGUI/ActionBar.py", line 83, in onBound
+    self.getButton( 2, "umbra" ).setToggleState( BigWorld.getWatcher( "Render/Umbra/occlusionCulling" ) )
+TypeError: Failed to get Render/Umbra/occlusionCulling.
+fantasydemo personality selected.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Debug Client (compiled at 21:21:04 Apr 25 2009) starting on Sat Apr 25 21:22:20 2009
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+Traceback (most recent call last):
+  File "scripts/client/FDGUI/ActionBar.py", line 83, in onBound
+    self.getButton( 2, "umbra" ).setToggleState( BigWorld.getWatcher( "Render/Umbra/occlusionCulling" ) )
+TypeError: Failed to get Render/Umbra/occlusionCulling.
+fantasydemo personality selected.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Debug Client (compiled at 21:21:04 Apr 25 2009) starting on Thu Jul 30 21:24:21 2009
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+Traceback (most recent call last):
+  File "scripts/client/FDGUI/ActionBar.py", line 83, in onBound
+    self.getButton( 2, "umbra" ).setToggleState( BigWorld.getWatcher( "Render/Umbra/occlusionCulling" ) )
+TypeError: Failed to get Render/Umbra/occlusionCulling.
+fantasydemo personality selected.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Debug Client (compiled at 10:53:53 Apr 26 2009) starting on Sun Apr 26 10:57:13 2009
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+Traceback (most recent call last):
+  File "scripts/client/FDGUI/ActionBar.py", line 83, in onBound
+    self.getButton( 2, "umbra" ).setToggleState( BigWorld.getWatcher( "Render/Umbra/occlusionCulling" ) )
+TypeError: Failed to get Render/Umbra/occlusionCulling.
+fantasydemo personality selected.
+\--------------------------------------------------------------------------------/

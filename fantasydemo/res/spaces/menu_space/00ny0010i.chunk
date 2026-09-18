@@ -1,0 +1,103 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/t_intersection.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/t_intersection-0	</lighting>
+	</shell>
+	<omniLight>
+		<colour>	84.000000 252.000031 151.000000	</colour>
+		<position>	1.576553 1.963124 -0.831467	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	9.728013	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	1.412659 2.793864 2.468296	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	2.342192	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.540756 2.784961 2.409416	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.059722 0.000000 -0.960667	</row0>
+			<row1>	0.000000 0.962523 0.000000	</row1>
+			<row2>	0.960667 0.000000 -0.059722	</row2>
+			<row3>	1.771791 1.367328 2.608387	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.412094	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	0.412094 0.000000 0.000000	</row2>
+			<row3>	1.610786 2.679970 2.599174	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-1	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.022831 0.000000 0.999737	</row0>
+			<row1>	0.000001 0.999998 0.000000	</row1>
+			<row2>	-0.999737 0.000001 -0.022831	</row2>
+			<row3>	1.598145 2.661583 2.599293	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.144632 0.057812 -0.399327	</row0>
+			<row1>	-0.046415 -0.695515 -0.012761	</row1>
+			<row2>	-0.227930 0.237000 -0.117984	</row2>
+			<row3>	-1.862854 3.996522 -0.793427	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/brush-1	</lighting>
+	</model>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	43.099998 0.660000 33.679985	</row3>
+	</transform>
+	<boundingBox>
+		<min>	38.999996 0.565900 29.579979	</min>
+		<max>	47.199997 5.160000 37.779980	</max>
+	</boundingBox>
+</root>

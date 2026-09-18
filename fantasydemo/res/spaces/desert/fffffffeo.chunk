@@ -1,0 +1,74 @@
+<fffffffeo.chunk>
+	<overlapper>	00am0001i	</overlapper>
+	<overlapper>	00am0003i	</overlapper>
+	<waypointGenerationTime>
+		<hi>	29728290	</hi>
+		<lo>	639621160	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	39.085518 13.419525 56.164169	</row3>
+		</transform>
+	</particles>
+	<overlapper>	00am0002i	</overlapper>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	1.863702 -0.408800 1.101590	</row0>
+			<row1>	0.472042 2.152018 0.000000	</row1>
+			<row2>	-1.076009 0.236021 1.908010	</row2>
+			<row3>	55.918945 12.548902 97.443016	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_medium.model	</resource>
+		<transform>
+			<row0>	3.094867 0.000000 0.569214	</row0>
+			<row1>	0.279850 2.740203 -1.521571	</row1>
+			<row2>	-0.495670 1.547093 2.695000	</row2>
+			<row3>	43.246532 15.633316 95.453766	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_medium.model	</resource>
+		<transform>
+			<row0>	3.094867 0.000000 0.569214	</row0>
+			<row1>	0.279850 2.740203 -1.521571	</row1>
+			<row2>	-0.495670 1.547093 2.695000	</row2>
+			<row3>	43.157646 12.075164 100.761658	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.005767 -0.619385 1.342235	</row0>
+			<row1>	-0.568305 1.200137 0.572916	</row1>
+			<row2>	-1.254153 -0.540980 -0.265782	</row2>
+			<row3>	53.653976 14.480964 98.894173	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<navmesh>
+		<resource>	fffffffeo.cdata/navmesh	</resource>
+	</navmesh>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	2.072520 0.000000 0.000000	</row0>
+			<row1>	0.000000 2.072520 0.000000	</row1>
+			<row2>	0.000000 0.000000 2.072520	</row2>
+			<row3>	50.581802 17.823614 96.955826	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	fffffffeo.cdata/terrain	</resource>
+	</terrain>
+</fffffffeo.chunk>

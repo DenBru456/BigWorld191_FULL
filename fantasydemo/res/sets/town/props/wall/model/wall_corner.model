@@ -1,0 +1,8 @@
+<wall_corner.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.000975 -2.007154 -20.000153	</min>
+		<max>	19.999937 10.000795 -0.000002	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_corner	</nodelessVisual>
+</wall_corner.model>

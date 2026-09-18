@@ -1,0 +1,9 @@
+<beast_entrance.model>
+	<nodelessVisual>	sets/temperate/props/beast_entrance	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	200.000000	</extent>
+	<visibilityBox>
+		<min>	3.115600 -0.064100 -7.103000	</min>
+		<max>	18.770498 6.437400 7.119500	</max>
+	</visibilityBox>
+</beast_entrance.model>

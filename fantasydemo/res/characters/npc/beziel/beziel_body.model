@@ -1,0 +1,59 @@
+<beziel_body.model>
+	<nodefullVisual>	characters/npc/beziel/beziel_body	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	xzh	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/xzh	</nodes>
+	</animation>
+	<animation>
+		<name>	attack	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/attack	</nodes>
+	</animation>
+	<animation>
+		<name>	die	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/die	</nodes>
+	</animation>
+	<animation>
+		<name>	kick	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/kick	</nodes>
+	</animation>
+	<animation>
+		<name>	rest05	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/rest05	</nodes>
+	</animation>
+	<animation>
+		<name>	rest07	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/rest07	</nodes>
+	</animation>
+	<animation>
+		<name>	right	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/right	</nodes>
+	</animation>
+	<animation>
+		<name>	run	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/run	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-1.622325 -0.212385 -1.689524	</min>
+		<max>	1.602608 2.917693 1.478997	</max>
+	</visibilityBox>
+	<animation>
+		<name>	walk	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/walk	</nodes>
+	</animation>
+	<animation>
+		<name>	left	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beziel/animations/left	</nodes>
+	</animation>
+	<extent>	200.000000	</extent>
+</beziel_body.model>

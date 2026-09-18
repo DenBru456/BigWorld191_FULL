@@ -1,0 +1,56 @@
+<beast.model>
+	<action>
+		<name>	Idle	</name>
+		<animation>	idle	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	0.100000	</maxEntitySpeed>
+				<minEntityAux1>	-1.000000	</minEntityAux1>
+				<maxEntityAux1>	1.000000	</maxEntityAux1>
+				<maxModelYaw>	1.000000	</maxModelYaw>
+				<minModelYaw>	-1.000000	</minModelYaw>
+			</trigger>
+		</match>
+	</action>
+	<action>
+		<name>	Rage	</name>
+		<animation>	rage	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	0.100000	</maxEntitySpeed>
+				<minEntityAux1>	-1.000000	</minEntityAux1>
+				<maxEntityAux1>	1.000000	</maxEntityAux1>
+				<minModelYaw>	-1.000000	</minModelYaw>
+				<maxModelYaw>	1.000000	</maxModelYaw>
+			</trigger>
+		</match>
+	</action>
+	<action>
+		<name>	Roar	</name>
+		<animation>	roar	</animation>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-16.259007 -0.369444 -10.988703	</min>
+		<max>	16.491749 19.343407 7.908058	</max>
+	</visibilityBox>
+	<animation>
+		<name>	idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beast/idle	</nodes>
+	</animation>
+	<animation>
+		<name>	rage	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beast/rage	</nodes>
+	</animation>
+	<animation>
+		<name>	roar	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/beast/roar	</nodes>
+	</animation>
+	<nodefullVisual>	characters/npc/beast/beast	</nodefullVisual>
+	<extent>	60.000000	</extent>
+</beast.model>

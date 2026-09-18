@@ -1,0 +1,9 @@
+<fd_campfire.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.362500 -0.059200 -1.414600	</min>
+		<max>	1.527700 1.043900 1.368600	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/fd_campfire	</nodelessVisual>
+	<extent>	50.000000	</extent>
+</fd_campfire.model>

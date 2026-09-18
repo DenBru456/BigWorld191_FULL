@@ -1,0 +1,10 @@
+<dun_highroom_big.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/shells/dun_highroom_big.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-16.547001 -0.404400 -0.548200	</min>
+		<max>	20.539600 14.542602 20.537201	</max>
+	</visibilityBox>
+	<extent>	400.000000	</extent>
+</dun_highroom_big.model>

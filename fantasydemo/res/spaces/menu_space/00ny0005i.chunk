@@ -1,0 +1,26 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/t_intersection.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/t_intersection-0	</lighting>
+	</shell>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	27.099991 0.660000 25.679987	</row3>
+	</transform>
+	<boundingBox>
+		<min>	22.999989 0.565900 21.579987	</min>
+		<max>	31.199989 5.160000 29.779985	</max>
+	</boundingBox>
+</root>

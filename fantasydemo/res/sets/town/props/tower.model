@@ -1,0 +1,8 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-6.238730 -0.001971 -6.143949	</min>
+		<max>	6.090991 58.946236 6.223801	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/tower	</nodelessVisual>
+</root>

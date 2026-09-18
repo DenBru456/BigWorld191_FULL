@@ -1,0 +1,22 @@
+<root>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.329550 -0.000000 1.121789	</row0>
+			<row1>	0.000000 1.169194 0.000000	</row1>
+			<row2>	-1.121789 0.000000 -0.329550	</row2>
+			<row3>	1.747543 200.589844 97.608322	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0001fffeo.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</root>

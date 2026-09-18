@@ -1,0 +1,10 @@
+<tree_bare.model>
+	<materialNames>	</materialNames>
+	<extent>	300.000000	</extent>
+	<parent>	sets/minspec/props/tree/model/tree_bare_lod1	</parent>
+	<visibilityBox>
+		<min>	-2.677974 0.045460 -2.762292	</min>
+		<max>	2.974814 17.826517 2.815123	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/props/tree/model/tree_bare	</nodelessVisual>
+</tree_bare.model>

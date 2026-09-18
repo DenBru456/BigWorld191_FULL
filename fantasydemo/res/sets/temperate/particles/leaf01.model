@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	sets/temperate/particles/leaf01	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.729500 0.000000 -0.729500	</min>
+		<max>	0.729500 0.216700 0.729500	</max>
+	</visibilityBox>
+</root>

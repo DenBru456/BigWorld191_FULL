@@ -1,0 +1,9 @@
+<corridor_transition.model>
+	<nodelessVisual>	sets/temperate/shells/corridor_transition	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	100.000000	</extent>
+	<visibilityBox>
+		<min>	-16.540398 -0.338700 -2.357700	</min>
+		<max>	0.204102 7.737300 2.369300	</max>
+	</visibilityBox>
+</corridor_transition.model>

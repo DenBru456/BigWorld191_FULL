@@ -1,0 +1,30 @@
+<p_room.model>
+	<materialNames>
+		<material>
+			<original>	fd_s_particle_room_01	</original>
+			<display>	bell	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_02	</original>
+			<display>	floor_path	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_03	</original>
+			<display>	wall01	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_04	</original>
+			<display>	wall02	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_05	</original>
+			<display>	roof01	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-10.758601 -0.123400 -19.502302	</min>
+		<max>	12.000001 12.807401 18.325403	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/shells/p_room	</nodelessVisual>
+	<extent>	100.000000	</extent>
+</p_room.model>

@@ -1,0 +1,10 @@
+<fd_peasant_hut.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.509700 -0.014700 -7.539001	</min>
+		<max>	9.807501 12.769601 10.590300	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/fd_peasant_hut	</nodelessVisual>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<extent>	550.000000	</extent>
+</fd_peasant_hut.model>

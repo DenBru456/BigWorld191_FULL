@@ -1,0 +1,35 @@
+<dun_highpassage_t.model.template>
+	<omniLight>
+		<colour>	196.000031 103.000015 40.000000	</colour>
+		<position>	9.088562 3.126192 10.394409	</position>
+		<innerRadius>	9.300000	</innerRadius>
+		<outerRadius>	12.100000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	169.000000 100.000015 47.000000	</colour>
+		<position>	-4.390965 2.861730 10.613983	</position>
+		<innerRadius>	0.100000	</innerRadius>
+		<outerRadius>	6.200000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.400000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	20.000000 30.000006 40.000000	</colour>
+	</ambientLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	9.263249 2.535812 11.518646	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-4.326426 3.462946 11.424042	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+</dun_highpassage_t.model.template>

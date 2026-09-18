@@ -1,0 +1,15 @@
+<dun_highpassage_4x_kinked.model.template>
+	<omniLight>
+		<colour>	126.000023 51.000011 1.000000	</colour>
+		<position>	1.480003 3.600000 9.139999	</position>
+		<innerRadius>	4.300000	</innerRadius>
+		<outerRadius>	10.200000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	20.000000 30.000006 40.000000	</colour>
+	</ambientLight>
+</dun_highpassage_4x_kinked.model.template>

@@ -1,0 +1,620 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/beast_room.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/beast_room-1	</lighting>
+	</shell>
+	<pulseLight>
+		<colour>	182.000000 130.000000 20.000000	</colour>
+		<position>	-0.035728 13.497589 15.588135	</position>
+		<innerRadius>	11.183360	</innerRadius>
+		<outerRadius>	12.819907	</outerRadius>
+		<multiplier>	3.000000	</multiplier>
+	</pulseLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	-9.702583 5.552361 0.837296	</position>
+		<innerRadius>	4.170326	</innerRadius>
+		<outerRadius>	19.087355	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</omniLight>
+	<spotLight>
+		<colour>	45.000000 194.000443 238.000443	</colour>
+		<position>	0.010010 25.313690 -1.113098	</position>
+		<direction>	-0.000000 0.999902 -0.013962	</direction>
+		<innerRadius>	15.909017	</innerRadius>
+		<outerRadius>	23.153389	</outerRadius>
+		<cosConeAngle>	0.147802	</cosConeAngle>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</spotLight>
+	<model>
+		<resource>	sets/temperate/props/pillar.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-10.983932 0.589096 -3.931641	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/pillar-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/pillar.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	11.297180 0.589096 -3.963867	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/pillar-1	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 -0.026254 0.999657	</row0>
+			<row1>	0.025597 0.999328 0.026245	</row1>
+			<row2>	-0.999675 0.025588 0.000672	</row2>
+			<row3>	6.747246 6.870605 15.848389	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	-6.357262 6.937485 15.989746	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/beast_room_fire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	-11.138489 12.088669 -3.887512	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/beast_room_fire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	11.208153 12.088669 -3.684387	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	11.063797 5.552368 0.525574	</position>
+		<innerRadius>	4.170326	</innerRadius>
+		<outerRadius>	19.087355	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</omniLight>
+	<pulseLight>
+		<colour>	254.000137 218.000137 109.000069	</colour>
+		<position>	-11.555550 16.994431 -4.174194	</position>
+		<innerRadius>	4.871962	</innerRadius>
+		<outerRadius>	5.950252	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<particles>
+		<resource>	particles/large_water_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000002 0.000000 0.000000	</row2>
+			<row3>	11.344696 0.543060 -3.590393	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	12.630554 17.569595 -3.816956	</position>
+		<innerRadius>	6.257569	</innerRadius>
+		<outerRadius>	9.080024	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</omniLight>
+	<particles>
+		<resource>	particles/large_water_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000002 0.000000 0.000000	</row2>
+			<row3>	-10.987373 0.543060 -3.738831	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/large_water_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000002 0.000000 0.000000	</row2>
+			<row3>	3.608307 0.543060 -4.997437	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	-15.794395 6.819839 6.778564	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	-15.968346 6.819839 -6.388916	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	15.866623 6.819839 6.432373	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	15.821480 6.819839 -6.735474	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/large_water_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000002 0.000000 0.000000	</row2>
+			<row3>	-2.464371 0.543060 -5.589966	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<ambientLight>
+		<colour>	20.000000 30.000013 40.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	10.964104 4.988907 -1.689087	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/beast_room_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000002	</row0>
+			<row1>	-0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000002 -0.000000 0.000000	</row2>
+			<row3>	-0.186134 0.580521 0.455505	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.996434 -0.064108 -0.054856	</row0>
+			<row1>	-0.053859 0.983742 -0.171325	</row1>
+			<row2>	0.064947 -0.167759 -0.983686	</row2>
+			<row3>	11.055031 3.845978 -1.645325	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	15.611259 7.059464 6.528381	</position>
+		<innerRadius>	4.170326	</innerRadius>
+		<outerRadius>	7.000031	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	characters/npc/beast/beast_collision_geometry.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000002 0.000000 0.000000	</row2>
+			<row3>	0.738396 0.506699 -7.157288	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/beast_bsp-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.965926 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 -0.965926	</row2>
+			<row3>	-10.882423 4.100784 -1.780823	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-2	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/bonfire.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	-10.831512 5.306274 -1.619873	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-10.725563 5.730774 -1.553284	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.155894 0.000000 -0.581803	</row0>
+			<row1>	0.000000 0.602326 0.000000	</row1>
+			<row2>	0.581803 0.000000 -0.155894	</row2>
+			<row3>	-10.841766 5.400772 -1.590454	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<shell>
+		<resource>	sets/temperate/shells/beast_room.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/beast_room-0	</lighting>
+	</shell>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	15.561150 7.561798 -6.151855	</position>
+		<innerRadius>	4.170326	</innerRadius>
+		<outerRadius>	7.000031	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/town/props/t_steps.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	3.727421 0.000000 -0.000000	</row2>
+			<row3>	-4.274109 0.776794 22.202942	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/t_steps-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_steps.model	</resource>
+		<transform>
+			<row0>	0.040064 0.000000 0.999197	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-3.724428 0.000000 0.149335	</row2>
+			<row3>	4.976852 0.675400 17.342346	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/t_steps-0	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/water_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	2.954819 0.502823 18.491272	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/water_ripples.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000002	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000002 0.000000 0.000000	</row2>
+			<row3>	-1.949158 0.502823 19.005249	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<worldNavmesh>
+		<resource>	00am0014i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	8d0b10ae.475a1419.40583f94.6b83ae3c	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<guid>	A076CCBA.44819A2B.22F4E9A8.A33791E5	</guid>
+		<type>	TriggeredDust	</type>
+		<transform>
+			<row0>	-0.909558 0.000000 -0.415574	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.415574 0.000000 -0.909558	</row2>
+			<row3>	5.710878 23.025482 2.581055	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<effectName>	sfx/falling_dust.xml	</effectName>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	905AAA03.439F4B8B.D0635580.5D215BD0	</guid>
+		<type>	TriggeredDust	</type>
+		<transform>
+			<row0>	0.948643 0.169930 -0.266829	</row0>
+			<row1>	0.180235 -0.983518 0.014427	</row1>
+			<row2>	-0.259979 -0.061778 -0.963635	</row2>
+			<row3>	-6.551683 24.378841 0.718750	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<effectName>	sfx/falling_dust.xml	</effectName>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	9E826512.4801085F.284C5181.65E376F6	</guid>
+		<type>	TriggeredDust	</type>
+		<transform>
+			<row0>	0.512609 0.725419 -0.459343	</row0>
+			<row1>	0.841494 -0.318123 0.436678	</row1>
+			<row2>	0.170648 -0.610378 -0.773508	</row2>
+			<row3>	-3.681669 24.197323 7.057755	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<effectName>	sfx/falling_dust.xml	</effectName>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	5D3E63C8.46CE3D53.1CB34E8A.2AC69FED	</guid>
+		<type>	TriggeredDust	</type>
+		<transform>
+			<row0>	0.959883 0.203837 -0.192543	</row0>
+			<row1>	0.243274 -0.946866 0.210389	</row1>
+			<row2>	-0.139427 -0.248790 -0.958468	</row2>
+			<row3>	-3.998127 23.458813 -9.983475	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<effectName>	sfx/falling_dust.xml	</effectName>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	B0C647AD.41F62821.821E80A6.B63363A3	</guid>
+		<type>	TriggeredDust	</type>
+		<transform>
+			<row0>	0.979431 -0.152618 -0.131984	</row0>
+			<row1>	-0.137413 -0.983512 0.117567	</row1>
+			<row2>	-0.147751 -0.097013 -0.984254	</row2>
+			<row3>	5.098958 24.197296 -5.524887	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<effectName>	sfx/falling_dust.xml	</effectName>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	141D40A7.46A121EE.ECEB1CA5.88A4E5A7	</guid>
+		<type>	Beast	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	0.153214 0.518036 -3.950867	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<effectRadius>	30.000000	</effectRadius>
+			<dustTriggerRadius>	56.480667	</dustTriggerRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	85891EB7.41EB9E92.3FB4768E.775F1D8C	</guid>
+		<type>	AlertBeastTrigger	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999450 0.033168	</row1>
+			<row2>	0.000000 -0.033168 0.999448	</row2>
+			<row3>	-0.250145 0.017380 9.119263	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<trapRadius>	10.000000	</trapRadius>
+			<findBeastRadius>	50.000000	</findBeastRadius>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	0.540001 2.410004 12.190002	</row3>
+		</transform>
+		<guid>	02808E47.4D1AC5FA.7851C6BB.4BCBE702	</guid>
+		<properties>
+			<next>
+				<guid>	0C1AD391.4D82B742.17BF8E96.2023F5E0	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	576A72E9.411F3A40.14713A95.C4277B5F	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.866025 0.000000 -0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.500000 0.000000 -0.866025	</row2>
+			<row3>	5.059998 5.789993 6.690002	</row3>
+		</transform>
+		<guid>	0C1AD391.4D82B742.17BF8E96.2023F5E0	</guid>
+		<properties>
+			<next>
+				<guid>	E3984D64.495BD2ED.6015428F.0D012734	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	02808E47.4D1AC5FA.7851C6BB.4BCBE702	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	-4.419998 7.449997 7.570007	</row3>
+		</transform>
+		<guid>	E3984D64.495BD2ED.6015428F.0D012734	</guid>
+		<properties>
+			<next>
+				<guid>	04F41D3F.4945A9B3.668B2AAE.B7894C84	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0C1AD391.4D82B742.17BF8E96.2023F5E0	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.999999 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-1.269997 2.899994 12.309998	</row3>
+		</transform>
+		<guid>	04F41D3F.4945A9B3.668B2AAE.B7894C84	</guid>
+		<properties>
+			<next>
+				<guid>	98A47D88.48658EB2.86BB4D96.9B8582F3	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	E3984D64.495BD2ED.6015428F.0D012734	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	599.119263 156.382614 -103.749855	</row3>
+	</transform>
+	<boundingBox>
+		<min>	570.419189 152.649506 -132.449844	</min>
+		<max>	627.819214 191.895508 -75.049843	</max>
+	</boundingBox>
+</root>

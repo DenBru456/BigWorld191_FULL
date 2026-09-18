@@ -1,0 +1,77 @@
+<multimat_static_bsp.xml>
+	<glow>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	0.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	0.000000 2.500000 0.000000	</position_>
+					</PointVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	0.000000 0.000000 0.000000	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	1.000000	</rate_>
+				<sensitivity_>	0.100000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	5.000000	</minimumSize_>
+				<maximumSize_>	5.000000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	1.000000	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+		</Actions>
+		<Renderer>
+			<SpriteParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	testassets/multi_material_static_BSP.bmp	</textureName_>
+				<materialFX_>	0	</materialFX_>
+				<frameCount_>	0	</frameCount_>
+				<frameRate_>	0.000000	</frameRate_>
+				<explicitOrientation_>	0.000000 0.000000 0.000000	</explicitOrientation_>
+			</SpriteParticleRenderer>
+		</Renderer>
+		<capacity>	3	</capacity>
+		<boundingBox>
+			<min>	-5.008856 -5.008856 -5.008856	</min>
+			<max>	5.008856 7.498856 5.008856	</max>
+		</boundingBox>
+	</glow>
+</multimat_static_bsp.xml>

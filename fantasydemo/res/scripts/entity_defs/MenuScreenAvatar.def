@@ -1,0 +1,11 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Properties>
+		<avatarModel>
+			<Type>			PERSISTENT_AVATAR_MODEL	</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</avatarModel>
+	</Properties>
+</root>

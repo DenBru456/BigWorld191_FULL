@@ -1,0 +1,9 @@
+<pillar_stage4.model>
+	<nodefullVisual>	sets/town/props/pillar_stage4	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.949700 -0.277373 -1.870800	</min>
+		<max>	2.050300 9.639973 2.129200	</max>
+	</visibilityBox>
+	<extent>	190.000000	</extent>
+</pillar_stage4.model>

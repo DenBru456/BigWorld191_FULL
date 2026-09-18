@@ -1,0 +1,9 @@
+<pot.model>
+	<nodelessVisual>	sets/town/props/pot/model/pot	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.485808 -0.000846 -0.485808	</min>
+		<max>	0.485808 0.831182 0.548735	</max>
+	</visibilityBox>
+	<extent>	60.000000	</extent>
+</pot.model>

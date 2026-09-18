@@ -1,0 +1,184 @@
+<hair00.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.965720 0.000001 0.259588	</row0>
+						<row1>	-0.000002 1.000000 0.000004	</row1>
+						<row2>	-0.259588 -0.000004 0.965720	</row2>
+						<row3>	0.064957 -0.000000 0.026584	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	0.947772 -0.000001 -0.318950	</row0>
+							<row1>	0.000001 1.000000 -0.000000	</row1>
+							<row2>	0.318950 -0.000000 0.947772	</row2>
+							<row3>	0.136475 -0.000000 -0.000103	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Spine2	</identifier>
+							<transform>
+								<row0>	0.939693 -0.000001 -0.342020	</row0>
+								<row1>	0.000001 1.000000 -0.000000	</row1>
+								<row2>	0.342020 -0.000000 0.939693	</row2>
+								<row3>	0.136468 -0.000000 -0.000115	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Neck	</identifier>
+								<transform>
+									<row0>	0.733122 0.040302 0.678902	</row0>
+									<row1>	-0.146589 0.984143 0.099873	</row1>
+									<row2>	-0.664111 -0.172739 0.727405	</row2>
+									<row3>	0.202632 0.000000 -0.012916	</row3>
+								</transform>
+								<node>
+									<identifier>	biped Head	</identifier>
+									<transform>
+										<row0>	0.984764 -0.068390 -0.159887	</row0>
+										<row1>	0.040301 0.984143 -0.172738	</row1>
+										<row2>	0.169165 0.163663 0.971904	</row2>
+										<row3>	0.062487 -0.002811 -0.001435	</row3>
+									</transform>
+									<node>
+										<identifier>	Bone_Hair_01	</identifier>
+										<transform>
+											<row0>	-0.993372 0.000000 0.114947	</row0>
+											<row1>	-0.000000 1.000000 -0.000001	</row1>
+											<row2>	-0.114947 -0.000001 -0.993372	</row2>
+											<row3>	0.188885 0.000000 -0.155443	</row3>
+										</transform>
+										<node>
+											<identifier>	Bone_Hair_02	</identifier>
+											<transform>
+												<row0>	0.984872 -0.000000 0.173284	</row0>
+												<row1>	0.000000 1.000000 0.000000	</row1>
+												<row2>	-0.173284 0.000000 0.984872	</row2>
+												<row3>	0.107082 -0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	Bone_Hair_03	</identifier>
+												<transform>
+													<row0>	0.945131 -0.000000 0.326691	</row0>
+													<row1>	0.000000 1.000000 0.000000	</row1>
+													<row2>	-0.326691 0.000000 0.945131	</row2>
+													<row3>	0.124604 0.000000 0.000001	</row3>
+												</transform>
+												<node>
+													<identifier>	Bone_Hair_03BlendBonehair_v1_LOD0	</identifier>
+													<transform>
+														<row0>	0.000000 -1.000000 -0.000000	</row0>
+														<row1>	-0.848546 -0.000000 0.529122	</row1>
+														<row2>	-0.529122 -0.000000 -0.848545	</row2>
+														<row3>	1.231700 0.000000 -1.042217	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Bone_Hair_02BlendBonehair_v1_LOD0	</identifier>
+												<transform>
+													<row0>	0.000000 -1.000000 -0.000000	</row0>
+													<row1>	-0.974846 -0.000000 0.222878	</row1>
+													<row2>	-0.222878 -0.000000 -0.974846	</row2>
+													<row3>	1.629206 0.000000 -0.582646	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	Bone_Hair_01BlendBonehair_v1_LOD0	</identifier>
+											<transform>
+												<row0>	0.000000 -1.000000 0.000000	</row0>
+												<row1>	-0.998720 -0.000000 0.050581	</row1>
+												<row2>	-0.050581 -0.000000 -0.998720	</row2>
+												<row3>	1.812604 0.000000 -0.291517	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped HeadBlendBonehair_v1_LOD0	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000001	</row0>
+											<row1>	0.986286 -0.000000 -0.165046	</row1>
+											<row2>	0.165046 0.000001 0.986286	</row2>
+											<row3>	-1.578195 0.000001 0.342495	</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone_Hair_01BlendBonehair_v1_LOD0	</node>
+		<node>	biped HeadBlendBonehair_v1_LOD0	</node>
+		<node>	Bone_Hair_02BlendBonehair_v1_LOD0	</node>
+		<node>	Bone_Hair_03BlendBonehair_v1_LOD0	</node>
+		<geometry>
+			<vertices>	hair_v1_LOD0.vertices	</vertices>
+			<primitive>	hair_v1_LOD0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #111_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/avatars/warrior/hair00_spec.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	120	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/warrior/hair00_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/warrior/hair00.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.077979 1.498878 -0.305755	</min>
+		<max>	0.078602 1.826043 0.046224	</max>
+	</boundingBox>
+</hair00.visual>

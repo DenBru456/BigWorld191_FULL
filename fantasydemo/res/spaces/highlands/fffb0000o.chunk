@@ -1,0 +1,8 @@
+<fffb0000o.chunk>
+	<worldNavmesh>
+		<resource>	fffb0000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<resource>	fffb0000o.cdata/terrain2	</resource>
+	</terrain>
+</fffb0000o.chunk>

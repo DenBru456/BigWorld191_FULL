@@ -1,0 +1,14 @@
+<fd_watch_tower.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.575761 0.046132 -2.362754	</min>
+		<max>	2.433937 20.141361 3.224511	</max>
+	</visibilityBox>
+	<animation>
+		<name>	flagwave	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/temperate/props/animations/flagwave	</nodes>
+	</animation>
+	<nodefullVisual>	sets/temperate/props/fd_watch_tower	</nodefullVisual>
+	<extent>	600.000000	</extent>
+</fd_watch_tower.model>

@@ -1,0 +1,14 @@
+<cart.model>
+	<nodelessVisual>	sets/town/props/cart/model/cart	</nodelessVisual>
+	<materialNames>
+		<material>
+			<original>	21 - Default	</original>
+			<display>	cart	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.939124 -0.004501 -0.963904	</min>
+		<max>	0.939124 1.457186 2.520958	</max>
+	</visibilityBox>
+	<extent>	85.000000	</extent>
+</cart.model>

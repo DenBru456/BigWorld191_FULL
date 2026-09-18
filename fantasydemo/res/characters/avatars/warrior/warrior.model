@@ -1,0 +1,10 @@
+<warrior.model>
+	<extent>	96.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.195315 -0.532102 -1.364740	</min>
+		<max>	1.106088 2.650772 1.233612	</max>
+	</visibilityBox>
+	<parent>	characters/avatars/warrior/warrior_lod	</parent>
+	<nodefullVisual>	characters/avatars/warrior/warrior	</nodefullVisual>
+</warrior.model>

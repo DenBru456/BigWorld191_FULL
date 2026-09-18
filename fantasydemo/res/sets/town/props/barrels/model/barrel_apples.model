@@ -1,0 +1,9 @@
+<barrel_apples.model>
+	<nodelessVisual>	sets/town/props/barrels/model/barrel_apples	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	70.000000	</extent>
+	<visibilityBox>
+		<min>	-0.417545 0.002069 -0.435774	</min>
+		<max>	0.403318 0.821257 0.403318	</max>
+	</visibilityBox>
+</barrel_apples.model>

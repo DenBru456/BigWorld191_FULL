@@ -1,0 +1,53 @@
+<root>
+	<action>	Character
+		<text>	Toggles the display of the character customization screen (not yet implemented). </text>
+	</action>
+	<action>	Equipment
+		<text>	Toggles the display of the equipment screen (not yet implemented). </text>
+	</action>
+	<action>	Inventory
+		<text>	Toggles the display of the player's inventory window.	</text>
+	</action>
+	<action>	Weather
+		<text>	Toggles the display of the weather window.	</text>
+	</action>
+	<action>	Help
+		<text>	Toggles the display of the help window.	</text>
+	</action>
+	<action>	ClientServerStats
+		<text>	Toggles the display of the network stats window.	</text>
+	</action>
+	<action>	ToggleUmbra
+		<text>	Enables/disables Umbra occlusion culling.	</text>	
+	</action>
+	<action>	HideGUI
+		<text>	Hides all GUI elements.	</text>
+	</action>
+	<action>	TogglePythonConsole
+		<text>	Toggles the display of the Python debugging console.	</text>
+	</action>
+	<action>	ToggleWatcherConsole
+		<text>	Toggles the display of the watcher debugging console.	</text>
+	</action>
+	<action>	ToggleStatsConsole
+		<text>	Toggles the display of the client performance stats console.	</text>
+	</action>
+	<action>	ToggleTerrainWireframe
+		<text>	Toggles wireframe rendering for terrain.	</text>
+	</action>
+	<action>	ToggleObjectWireframe
+		<text>	Toggles wireframe rendering for objects.	</text>
+	</action>
+	<action>	ToggleHistogram
+		<text>	Toggles display of colour histogram.	</text>
+	</action>
+	<action>	CellBoundaryVisualisation
+		<text>	Toggles cell boundary visualisation.	</text>
+	</action>
+	<action>	ToggleFlyThroughMode
+		<text>	Toggles fly-through mode.	</text>
+	</action>
+	<action>	EscapeKey
+		<text>	Cancels current action and displays in-game menu.	</text>
+	</action>
+</root>

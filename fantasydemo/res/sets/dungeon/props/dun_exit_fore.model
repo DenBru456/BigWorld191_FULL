@@ -1,0 +1,10 @@
+<dun_exit_fore.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/props/dun_exit_fore.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.590400 -0.376900 -7.529200	</min>
+		<max>	3.706400 10.565600 4.877100	</max>
+	</visibilityBox>
+	<extent>	600.000000	</extent>
+</dun_exit_fore.model>

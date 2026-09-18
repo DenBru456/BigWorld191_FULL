@@ -1,0 +1,112 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29816845	</hi>
+		<lo>	-1549243416	</lo>
+	</waypointGenerationTime>
+	<shell>
+		<resource>	sets/dungeon/shells/dun_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/dun_exit-1	</lighting>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</shell>
+	<shell>
+		<resource>	sets/dungeon/shells/dun_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/dun_exit-1	</lighting>
+	</shell>
+	<ambientLight>
+		<colour>	20.000000 30.000010 40.000000	</colour>
+		<multiplier>	1.200000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/dungeon/props/web01.model	</resource>
+		<transform>
+			<row0>	0.000000 -1.701844 0.907448	</row0>
+			<row1>	-1.928661 -0.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.907448 -1.701844	</row2>
+			<row3>	2.855415 5.622864 -0.096008	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/web01-1	</lighting>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</model>
+	<omniLight>
+		<colour>	255.000000 242.000061 221.000061	</colour>
+		<position>	1.907372 5.348709 -5.943115	</position>
+		<innerRadius>	4.735810	</innerRadius>
+		<outerRadius>	12.000000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.376543 0.000000 -0.926398	</row0>
+			<row1>	-0.059398 0.997942 0.024143	</row1>
+			<row2>	0.924492 0.064117 -0.375767	</row2>
+			<row3>	3.588226 2.902802 -5.344940	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-1	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.376890 0.000000 0.926257	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.926257 0.000000 0.376890	</row2>
+			<row3>	3.334412 4.214432 -5.229767	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.199425 4.413757 -5.241821	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.192755 0.000000 0.473720	</row0>
+			<row1>	0.000000 0.511435 0.000000	</row1>
+			<row2>	-0.473720 0.000000 0.192755	</row2>
+			<row3>	3.283813 4.191956 -5.262299	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-1	</lighting>
+	</model>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	6.953064 0.937557 88.546951	</row3>
+	</transform>
+	<boundingBox>
+		<min>	0.000022 0.937557 84.055908	</min>
+		<max>	6.953064 9.937557 89.037979	</max>
+	</boundingBox>
+</root>

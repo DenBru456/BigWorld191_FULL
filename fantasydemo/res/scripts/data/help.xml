@@ -1,0 +1,92 @@
+<help.xml>
+
+	<category> Game Keys
+		<item> Movement			<action> W/A/S/D	</action> </item>
+		<item> Crouch			<action> C			</action> </item>
+		<item> Walk				<action> Shift		</action> </item>
+		<item> Dash				<action> Ctrl		</action> </item>
+		<item> Prev/Next Item	<action> Q/E		</action> </item>
+		<item> Drop Item		<action> X			</action> </item>
+		<item> Stow Sword		<action> 1/2/3		</action> </item>
+		<item> Exit Mode/Vehicle			<action> Esc	</action> </item>
+		<item> Next/Prev player model		<action> V/B	</action> </item>
+		<item> Random player model			<action> Ctrl+B	</action> </item>
+		<item> Random player customisation	<action> Ctrl+V </action> </item>
+		<item> </item>
+		<item> Gesture &amp; Interactive Controls </item>
+		<item> Paper/Scissors/Rock		<action> NumPad 7/8/9</action> </item>
+		<item> Perform Gesture			<action> NumPad 0-6	</action> </item>
+		<item> Shake hands with target	<action> NumPad .	</action> </item>
+	</category>
+
+
+	<category> Camera &amp; Mouse Controls
+		<item> Press Tab to cycle through the three camera modes:</item>
+		<item> *  Normal camera; </item>
+		<item> *  Orbit camera; </item>
+		<item> *  Free camera. </item>
+		<item> In Free camera mode use the Arrow keys to move </item>
+		<item> the camera. </item>
+		<item> </item>
+		<item> Things that you can interact with are indicated </item>
+		<item> with a title when targeted with the mouse cursor.</item>
+		<item> Left Click to "Use" the item (pick up item, attack </item>
+		<item> monster, etc). </item>
+		<item> </item>
+		<item> Hold down Right Mouse Button to point the camera. </item>
+		<item> Hold down Left Mouse Button to orbit the camera </item>
+		<item> around the player. </item>
+		<item> Hold down both Left and Right buttons to move the player. </item>
+		<item> Use the Mouse Wheel to zoom the camera in and out. </item>
+	</category>
+	
+
+	<category> General
+		<item> Toggle full-screen mode	<action> Alt+Enter	</action> </item>
+		<item> Change window size		<action> Capslock+F2</action> </item>
+		<item> Capture screen-shot to game directory <action> PrintScreen </action> </item>
+		<item> Teleport to locations 1-4<action> Ctrl+1-4 </action> </item>
+		<item> Quit						<action> Alt+F4		</action> </item>
+		<item> </item>
+		<item> Chat Window Controls </item>
+		<item> Open chat window	<action> Enter	</action> </item>
+		<item> Send chat message	<action> Type msg and press Enter</action> </item>
+		<item> Close chat window	<action> Enter/Esc </action> </item>
+		<item> Command help			<action> /help </action> </item>
+	</category>
+
+
+	<category> Console Controls
+		<item> Realtime Profiling Console </item>
+		<item> Prev/Next Profile		<action> PgUp/PgDn	</action> </item>
+		<item> Expand/Collapse Profile	<action> Enter		</action> </item>
+		<item> Graph current Profile	<action> G			</action> </item>
+		<item> 	</item>
+		<item> Debug (Watcher) Console </item>
+		<item> Enter watcher directory 	<action> Enter		</action> </item>
+		<item> Previous watcher directory <action> Backspace </action> </item>
+		<item> Prev/Next watcher		<action> PgUp/PgDn	</action> </item>
+		<item> Edit watcher value		<action> Enter		</action> </item>
+		<item> 	<action> </action> </item>
+		<item> All Consoles </item>
+		<item> Close console			<action> Esc		</action> </item>
+		<item> Toggle dark background	<action> CapsLock+F9 </action> </item>
+	</category>
+
+
+	<category> Debug Controls
+		<item> Float (debug)			<action> Space	</action> </item>
+		<item> Toggle Fly mode			<action> Ctrl+F	</action> </item>
+		<item> Toggle frame writer		<action> CapsLock+Shift+F3 </action> </item>
+		<item> Toggle sky components	<action> CapsLock+F6 </action> </item>
+		<item> Cycle wireframe modes	<action> CapsLock+F8 </action> </item>
+		<item> Reload scripts (while console active) <action> CapsLock+F11	</action> </item>
+		<item> Reload chunks			<action> CapsLock+F	</action> </item>
+		<item> Control with joystick	<action> CapsLock+J	</action> </item>
+		<item> Control with keyboard	<action> CapsLock+K	</action> </item>
+		<item> Toggle static sky dome	<action> CapsLock+L	</action> </item>
+		<item> Reload UI/strafe settings <action> CapsLock+Alt+L	</action> </item>
+		<item> Invert Mouse movement	<action> CapsLock+I	</action> </item>
+	</category>
+
+</help.xml>

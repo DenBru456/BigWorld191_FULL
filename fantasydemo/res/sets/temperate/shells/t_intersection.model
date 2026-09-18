@@ -1,0 +1,9 @@
+<t_intersection.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.000000 0.000000 -2.000000	</min>
+		<max>	2.000000 4.025500 2.000000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/shells/t_intersection	</nodelessVisual>
+	<extent>	100.000000	</extent>
+</t_intersection.model>

@@ -1,0 +1,8 @@
+<dungeon_tunnel_junction.model>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_junction	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.000074 -0.407477 -10.000361	</min>
+		<max>	14.999486 5.635984 0.467869	</max>
+	</visibilityBox>
+</dungeon_tunnel_junction.model>

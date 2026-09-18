@@ -1,0 +1,9 @@
+<sign_post.model>
+	<materialNames>	</materialNames>
+	<extent>	140.000000	</extent>
+	<visibilityBox>
+		<min>	-0.154926 -0.023706 -0.127094	</min>
+		<max>	0.143472 2.572503 0.099325	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/sign_post	</nodelessVisual>
+</sign_post.model>

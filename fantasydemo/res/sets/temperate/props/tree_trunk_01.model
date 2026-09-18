@@ -1,0 +1,9 @@
+<tree_trunk_01.model>
+	<materialNames>	</materialNames>
+	<extent>	90.000000	</extent>
+	<visibilityBox>
+		<min>	-1.003400 0.004100 -0.850200	</min>
+		<max>	0.540600 0.726000 0.919500	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/tree_trunk_01	</nodelessVisual>
+</tree_trunk_01.model>

@@ -1,0 +1,8 @@
+<dungeon_tunnel_corner_002.model>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_corner_002	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.003188 -0.432057 -10.009917	</min>
+		<max>	10.503928 5.681302 0.476200	</max>
+	</visibilityBox>
+</dungeon_tunnel_corner_002.model>

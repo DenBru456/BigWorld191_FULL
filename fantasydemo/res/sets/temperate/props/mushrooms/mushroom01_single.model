@@ -1,0 +1,9 @@
+<mushroom01_single.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.169932 0.000000 -0.169932	</min>
+		<max>	0.169932 0.377281 0.169932	</max>
+	</visibilityBox>
+	<extent>	57.000000	</extent>
+	<nodelessVisual>	sets/temperate/props/mushrooms/mushroom01_single	</nodelessVisual>
+</mushroom01_single.model>

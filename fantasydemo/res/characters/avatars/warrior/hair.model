@@ -1,0 +1,45 @@
+<root>
+	<nodefullVisual>	characters/avatars/warrior/hair	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<dye>
+		<matter>	hair_skinned	</matter>
+		<replaces>	hair_skinned	</replaces>
+		<tint>
+			<name>	redhead	</name>
+			<material>
+				<identifier>	hair_skinned	</identifier>
+				<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	specularMap
+					<Texture>	characters/avatars/warrior/1b_hair_s.tga	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	91	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	normalMap
+					<Texture>	characters/avatars/warrior/1b_hair_norms.tga	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	characters/avatars/warrior/1b_hair_redhead_d.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<visibilityBox>
+		<min>	-0.103877 1.632110 -0.179067	</min>
+		<max>	0.090552 1.826279 0.037545	</max>
+	</visibilityBox>
+</root>

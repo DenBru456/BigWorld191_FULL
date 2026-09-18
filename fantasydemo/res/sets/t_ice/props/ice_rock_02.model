@@ -1,0 +1,9 @@
+<ice_rock_02.model>
+	<nodelessVisual>	sets/t_ice/props/ice_rock_02	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-8.874500 -7.307301 -8.416701	</min>
+		<max>	7.600101 15.009302 7.427201	</max>
+	</visibilityBox>
+	<extent>	400.000000	</extent>
+</ice_rock_02.model>

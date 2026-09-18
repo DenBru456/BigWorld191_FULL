@@ -1,0 +1,864 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 -0.000000 -0.000001	</row2>
+				<row3>	0.000000 1.030404 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	1.000000 0.000001 0.000796	</row0>
+						<row1>	-0.000001 1.000000 0.000004	</row1>
+						<row2>	-0.000796 -0.000004 1.000000	</row2>
+						<row3>	0.102557 0.000000 -0.000115	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.144783 -0.000000 -0.000115	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Spine2	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 -0.000000 1.000000	</row2>
+								<row3>	0.144783 -0.000000 -0.000115	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Neck	</identifier>
+								<transform>
+									<row0>	0.927770 0.000001 0.373154	</row0>
+									<row1>	-0.000001 1.000000 -0.000000	</row1>
+									<row2>	-0.373154 -0.000000 0.927770	</row2>
+									<row3>	0.144808 -0.000000 -0.007976	</row3>
+								</transform>
+								<node>
+									<identifier>	biped Head	</identifier>
+									<transform>
+										<row0>	0.927472 -0.000001 -0.373894	</row0>
+										<row1>	0.000001 1.000000 -0.000000	</row1>
+										<row2>	0.373894 -0.000000 0.927472	</row2>
+										<row3>	0.082186 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	b_ear_l_1	</identifier>
+										<transform>
+											<row0>	0.294087 0.955779 -0.000001	</row0>
+											<row1>	-0.000002 0.000001 1.000000	</row1>
+											<row2>	0.955779 -0.294087 0.000002	</row2>
+											<row3>	0.092107 0.072625 -0.022752	</row3>
+										</transform>
+										<node>
+											<identifier>	b_ear_l_1BlendBonefd_c_orc_guard_lod3	</identifier>
+											<transform>
+												<row0>	-0.955779 0.000000 0.294087	</row0>
+												<row1>	0.294087 -0.000000 0.955779	</row1>
+												<row2>	0.000000 1.000000 0.000000	</row2>
+												<row3>	-0.579852 0.000001 -1.637562	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	b_ear_r_2	</identifier>
+										<transform>
+											<row0>	0.294086 -0.955779 0.000002	</row0>
+											<row1>	-0.000004 0.000001 1.000000	</row1>
+											<row2>	0.955779 0.294086 0.000003	</row2>
+											<row3>	0.092106 -0.062098 -0.022752	</row3>
+										</transform>
+										<node>
+											<identifier>	b_ear_r_2BlendBonefd_c_orc_guard_lod3	</identifier>
+											<transform>
+												<row0>	0.955779 0.000000 -0.294086	</row0>
+												<row1>	0.294086 -0.000002 0.955779	</row1>
+												<row2>	0.000000 1.000000 0.000002	</row2>
+												<row3>	-0.569789 0.000004 -1.640657	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped HeadBlendBonefd_c_orc_guard_lod3	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000001	</row0>
+											<row1>	1.000000 0.000000 0.000001	</row1>
+											<row2>	-0.000001 0.000001 1.000000	</row2>
+											<row3>	-1.643567 -0.000000 -0.022755	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped L Clavicle	</identifier>
+									<transform>
+										<row0>	-0.317214 0.939693 0.127876	</row0>
+										<row1>	0.871539 0.342019 -0.351345	</row1>
+										<row2>	-0.373892 -0.000003 -0.927472	</row2>
+										<row3>	0.024817 0.056805 -0.001405	</row3>
+									</transform>
+									<node>
+										<identifier>	biped L UpperArm	</identifier>
+										<transform>
+											<row0>	0.887966 -0.459859 0.006862	</row0>
+											<row1>	0.459363 0.886083 -0.061989	</row1>
+											<row2>	0.022425 0.058196 0.998053	</row2>
+											<row3>	0.153545 0.000000 -0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped L Forearm	</identifier>
+											<transform>
+												<row0>	0.927510 0.000000 -0.373798	</row0>
+												<row1>	0.000000 1.000000 -0.000000	</row1>
+												<row2>	0.373798 -0.000000 0.927510	</row2>
+												<row3>	0.329636 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped L Hand	</identifier>
+												<transform>
+													<row0>	0.999223 0.038557 -0.008236	</row0>
+													<row1>	-0.002507 0.270606 0.962687	</row1>
+													<row2>	0.039347 -0.961918 0.270492	</row2>
+													<row3>	0.272497 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	biped L Finger0	</identifier>
+													<transform>
+														<row0>	0.955337 -0.173893 0.238943	</row0>
+														<row1>	0.295520 0.562148 -0.772436	</row1>
+														<row2>	-0.000000 0.808549 0.588429	</row2>
+														<row3>	0.066584 -0.057354 0.021470	</row3>
+													</transform>
+													<node>
+														<identifier>	biped L Finger01	</identifier>
+														<transform>
+															<row0>	0.966656 -0.000000 0.256077	</row0>
+															<row1>	-0.000000 1.000000 0.000000	</row1>
+															<row2>	-0.256077 -0.000000 0.966656	</row2>
+															<row3>	0.032541 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	biped L Finger01BlendBonefd_c_orc_guard_lod3	</identifier>
+															<transform>
+																<row0>	-0.377479 -0.923506 0.068168	</row0>
+																<row1>	-0.904080 0.351608 -0.242924	</row1>
+																<row2>	0.200373 -0.153328 -0.967647	</row2>
+																<row3>	0.657387 -0.890457 0.464357	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	biped L Finger0BlendBonefd_c_orc_guard_lod3	</identifier>
+														<transform>
+															<row0>	-0.382349 -0.923506 -0.030769	</row0>
+															<row1>	-0.811727 0.351608 -0.466338	</row1>
+															<row2>	0.441484 -0.153328 -0.884071	</row2>
+															<row3>	0.549097 -0.890457 0.617215	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped L Finger1	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 0.000000	</row0>
+														<row1>	0.000000 1.000000 0.000796	</row1>
+														<row2>	0.000000 -0.000796 1.000000	</row2>
+														<row3>	0.103228 -0.044995 -0.000036	</row3>
+													</transform>
+													<node>
+														<identifier>	biped L Finger11	</identifier>
+														<transform>
+															<row0>	1.000000 0.000000 0.000000	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	-0.000000 0.000000 1.000000	</row2>
+															<row3>	0.053465 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	biped L Finger11BlendBonefd_c_orc_guard_lod3	</identifier>
+															<transform>
+																<row0>	-0.638186 -0.477056 0.604265	</row0>
+																<row1>	-0.671565 -0.038837 -0.739927	</row1>
+																<row2>	0.376455 -0.878014 -0.295589	</row2>
+																<row3>	0.171316 -0.108405 1.203804	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	biped L Finger1BlendBonefd_c_orc_guard_lod3	</identifier>
+														<transform>
+															<row0>	-0.638186 -0.477056 0.604265	</row0>
+															<row1>	-0.671565 -0.038837 -0.739927	</row1>
+															<row2>	0.376455 -0.878014 -0.295589	</row2>
+															<row3>	0.224781 -0.108405 1.203804	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped L Finger2	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 0.000000	</row0>
+														<row1>	0.000000 1.000000 0.000796	</row1>
+														<row2>	0.000000 -0.000796 1.000000	</row2>
+														<row3>	0.103228 0.008936 0.000007	</row3>
+													</transform>
+													<node>
+														<identifier>	biped L Finger21	</identifier>
+														<transform>
+															<row0>	1.000000 0.000000 0.000000	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	-0.000000 0.000000 1.000000	</row2>
+															<row3>	0.059591 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	biped L Finger21BlendBonefd_c_orc_guard_lod3	</identifier>
+															<transform>
+																<row0>	-0.638186 -0.477056 0.604265	</row0>
+																<row1>	-0.671565 -0.038837 -0.739927	</row1>
+																<row2>	0.376455 -0.878014 -0.295589	</row2>
+																<row3>	0.165190 -0.162336 1.203804	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	biped L Finger2BlendBonefd_c_orc_guard_lod3	</identifier>
+														<transform>
+															<row0>	-0.638186 -0.477056 0.604265	</row0>
+															<row1>	-0.671565 -0.038837 -0.739927	</row1>
+															<row2>	0.376455 -0.878014 -0.295589	</row2>
+															<row3>	0.224781 -0.162336 1.203804	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	HP_left_hand	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 -0.000000	</row0>
+														<row1>	0.000000 1.000000 0.000000	</row1>
+														<row2>	0.000000 0.000000 1.000000	</row2>
+														<row3>	0.090686 -0.070466 0.002531	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	biped L HandBlendBonefd_c_orc_guard_lod3	</identifier>
+													<transform>
+														<row0>	-0.638186 -0.477537 0.603884	</row0>
+														<row1>	-0.671565 -0.038248 -0.739958	</row1>
+														<row2>	0.376455 -0.877779 -0.296288	</row2>
+														<row3>	0.328009 -0.154358 1.203681	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	HP_shield_arm	</identifier>
+												<transform>
+													<row0>	1.000000 -0.000000 0.000000	</row0>
+													<row1>	0.000000 1.000000 0.000000	</row1>
+													<row2>	-0.000000 -0.000000 1.000000	</row2>
+													<row3>	0.154393 0.046994 -0.023021	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	biped L ForearmBlendBonefd_c_orc_guard_lod3	</identifier>
+												<transform>
+													<row0>	-0.612732 -0.734718 -0.291117	</row0>
+													<row1>	-0.700063 0.675534 -0.231443	</row1>
+													<row2>	0.366704 0.061987 -0.928270	</row2>
+													<row3>	0.647999 -1.186966 0.174286	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	biped L UpperArmBlendBonefd_c_orc_guard_lod3	</identifier>
+											<transform>
+												<row0>	-0.677134 -0.734718 -0.040976	</row0>
+												<row1>	-0.735828 0.675534 0.047016	</row1>
+												<row2>	-0.006863 0.061987 -0.998053	</row2>
+												<row3>	0.995810 -1.186966 -0.080569	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	HP_shield_back	</identifier>
+										<transform>
+											<row0>	1.000000 0.000000 0.000000	</row0>
+											<row1>	0.000000 1.000000 -0.000000	</row1>
+											<row2>	-0.000000 -0.000000 1.000000	</row2>
+											<row3>	0.148368 0.057826 0.215372	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	biped L ClavicleBlendBonefd_c_orc_guard_lod3	</identifier>
+										<transform>
+											<row0>	-0.939693 -0.342020 0.000001	</row0>
+											<row1>	-0.342020 0.939693 -0.000000	</row1>
+											<row2>	-0.000001 -0.000001 -1.000000	</row2>
+											<row3>	0.490735 -1.514371 0.000000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped R Clavicle	</identifier>
+									<transform>
+										<row0>	-0.317214 -0.939692 0.127881	</row0>
+										<row1>	-0.871539 0.342021 0.351343	</row1>
+										<row2>	-0.373892 -0.000003 -0.927472	</row2>
+										<row3>	0.024817 -0.056805 -0.001404	</row3>
+									</transform>
+									<node>
+										<identifier>	biped R UpperArm	</identifier>
+										<transform>
+											<row0>	0.887966 0.459859 0.006862	</row0>
+											<row1>	-0.459363 0.886083 0.061989	</row1>
+											<row2>	0.022425 -0.058196 0.998053	</row2>
+											<row3>	0.153545 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped R Forearm	</identifier>
+											<transform>
+												<row0>	0.927510 -0.000000 -0.373798	</row0>
+												<row1>	-0.000000 1.000000 -0.000000	</row1>
+												<row2>	0.373798 0.000000 0.927510	</row2>
+												<row3>	0.329636 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped R Hand	</identifier>
+												<transform>
+													<row0>	0.999222 -0.038557 -0.008236	</row0>
+													<row1>	0.002507 0.270606 -0.962687	</row1>
+													<row2>	0.039347 0.961918 0.270492	</row2>
+													<row3>	0.272497 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	biped R Finger0	</identifier>
+													<transform>
+														<row0>	0.955337 0.173893 0.238943	</row0>
+														<row1>	-0.295520 0.562148 0.772436	</row1>
+														<row2>	0.000000 -0.808549 0.588429	</row2>
+														<row3>	0.066584 0.057354 0.021470	</row3>
+													</transform>
+													<node>
+														<identifier>	biped R Finger01	</identifier>
+														<transform>
+															<row0>	0.966656 0.000000 0.256077	</row0>
+															<row1>	-0.000000 1.000000 0.000000	</row1>
+															<row2>	-0.256077 0.000000 0.966656	</row2>
+															<row3>	0.032541 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	biped R Finger01BlendBonefd_c_orc_guard_lod3	</identifier>
+															<transform>
+																<row0>	0.377479 -0.923506 -0.068165	</row0>
+																<row1>	-0.904080 -0.351608 -0.242924	</row1>
+																<row2>	0.200374 0.153326 -0.967647	</row2>
+																<row3>	0.657387 0.890457 0.464357	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	biped R Finger0BlendBonefd_c_orc_guard_lod3	</identifier>
+														<transform>
+															<row0>	0.382348 -0.923506 0.030771	</row0>
+															<row1>	-0.811727 -0.351608 -0.466338	</row1>
+															<row2>	0.441486 0.153326 -0.884071	</row2>
+															<row3>	0.549097 0.890457 0.617215	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped R Finger1	</identifier>
+													<transform>
+														<row0>	1.000000 0.000000 0.000000	</row0>
+														<row1>	-0.000000 1.000000 -0.000796	</row1>
+														<row2>	0.000000 0.000796 1.000000	</row2>
+														<row3>	0.103228 0.044995 -0.000036	</row3>
+													</transform>
+													<node>
+														<identifier>	biped R Finger11	</identifier>
+														<transform>
+															<row0>	1.000000 0.000000 -0.000000	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	0.000000 -0.000000 1.000000	</row2>
+															<row3>	0.053465 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	biped R Finger11BlendBonefd_c_orc_guard_lod3	</identifier>
+															<transform>
+																<row0>	0.638185 -0.477058 -0.604264	</row0>
+																<row1>	-0.671565 0.038837 -0.739927	</row1>
+																<row2>	0.376456 0.878013 -0.295590	</row2>
+																<row3>	0.171316 0.108405 1.203804	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	biped R Finger1BlendBonefd_c_orc_guard_lod3	</identifier>
+														<transform>
+															<row0>	0.638185 -0.477058 -0.604264	</row0>
+															<row1>	-0.671565 0.038837 -0.739927	</row1>
+															<row2>	0.376456 0.878013 -0.295590	</row2>
+															<row3>	0.224781 0.108405 1.203804	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped R Finger2	</identifier>
+													<transform>
+														<row0>	1.000000 0.000000 0.000000	</row0>
+														<row1>	-0.000000 1.000000 -0.000796	</row1>
+														<row2>	0.000000 0.000796 1.000000	</row2>
+														<row3>	0.103228 -0.008936 0.000007	</row3>
+													</transform>
+													<node>
+														<identifier>	biped R Finger21	</identifier>
+														<transform>
+															<row0>	1.000000 0.000000 -0.000000	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	0.000000 -0.000000 1.000000	</row2>
+															<row3>	0.059591 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	biped R Finger21BlendBonefd_c_orc_guard_lod3	</identifier>
+															<transform>
+																<row0>	0.638185 -0.477058 -0.604264	</row0>
+																<row1>	-0.671565 0.038837 -0.739927	</row1>
+																<row2>	0.376456 0.878013 -0.295590	</row2>
+																<row3>	0.165190 0.162336 1.203804	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	biped R Finger2BlendBonefd_c_orc_guard_lod3	</identifier>
+														<transform>
+															<row0>	0.638185 -0.477058 -0.604264	</row0>
+															<row1>	-0.671565 0.038837 -0.739927	</row1>
+															<row2>	0.376456 0.878013 -0.295590	</row2>
+															<row3>	0.224781 0.162336 1.203804	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	HP_right_hand	</identifier>
+													<transform>
+														<row0>	1.000000 0.000000 -0.000000	</row0>
+														<row1>	0.000000 1.000000 -0.000000	</row1>
+														<row2>	-0.000000 0.000000 1.000000	</row2>
+														<row3>	0.090487 0.058334 -0.003106	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	biped R HandBlendBonefd_c_orc_guard_lod3	</identifier>
+													<transform>
+														<row0>	0.638185 -0.477539 -0.603884	</row0>
+														<row1>	-0.671565 0.038248 -0.739958	</row1>
+														<row2>	0.376456 0.877777 -0.296289	</row2>
+														<row3>	0.328009 0.154358 1.203681	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	biped R ForearmBlendBonefd_c_orc_guard_lod3	</identifier>
+												<transform>
+													<row0>	0.612731 -0.734718 0.291119	</row0>
+													<row1>	-0.700063 -0.675534 -0.231443	</row1>
+													<row2>	0.366706 -0.061990 -0.928269	</row2>
+													<row3>	0.647999 1.186965 0.174286	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	biped R UpperArmBlendBonefd_c_orc_guard_lod3	</identifier>
+											<transform>
+												<row0>	0.677134 -0.734718 0.040979	</row0>
+												<row1>	-0.735828 -0.675534 0.047016	</row1>
+												<row2>	-0.006861 -0.061990 -0.998053	</row2>
+												<row3>	0.995810 1.186965 -0.080569	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped R ClavicleBlendBonefd_c_orc_guard_lod3	</identifier>
+										<transform>
+											<row0>	0.939693 -0.342020 0.000001	</row0>
+											<row1>	-0.342020 -0.939693 -0.000000	</row1>
+											<row2>	0.000001 -0.000000 -1.000000	</row2>
+											<row3>	0.490735 1.514371 0.000000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped NeckBlendBonefd_c_orc_guard_lod3	</identifier>
+									<transform>
+										<row0>	-0.000001 -1.000000 0.000001	</row0>
+										<row1>	0.927472 -0.000001 -0.373892	</row1>
+										<row2>	0.373892 0.000001 0.927472	</row2>
+										<row3>	-1.450683 0.000002 0.593415	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped Spine2BlendBonefd_c_orc_guard_lod3	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 0.000001	</row0>
+									<row1>	1.000000 -0.000000 -0.000796	</row1>
+									<row2>	0.000796 0.000001 1.000000	</row2>
+									<row3>	-1.422527 0.000000 0.001248	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	HP_shoulder	</identifier>
+							<transform>
+								<row0>	1.000000 -0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 -0.000000 1.000000	</row2>
+								<row3>	0.216163 -0.062172 -0.213916	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	biped Spine1BlendBonefd_c_orc_guard_lod3	</identifier>
+							<transform>
+								<row0>	-0.000000 -1.000000 0.000001	</row0>
+								<row1>	1.000000 -0.000000 -0.000796	</row1>
+								<row2>	0.000796 0.000001 1.000000	</row2>
+								<row3>	-1.277744 0.000000 0.001133	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped SpineBlendBonefd_c_orc_guard_lod3	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 0.000001	</row0>
+							<row1>	1.000000 -0.000000 -0.000796	</row1>
+							<row2>	0.000796 0.000001 1.000000	</row2>
+							<row3>	-1.132961 0.000000 0.001017	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped L Thigh	</identifier>
+					<transform>
+						<row0>	-0.997481 0.070045 -0.011241	</row0>
+						<row1>	-0.070089 -0.997534 0.003566	</row1>
+						<row2>	-0.010963 0.004345 0.999930	</row2>
+						<row3>	-0.000000 0.124309 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped L Calf	</identifier>
+						<transform>
+							<row0>	0.986453 -0.000000 -0.164042	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.164042 -0.000000 0.986453	</row2>
+							<row3>	0.445901 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped L Foot	</identifier>
+							<transform>
+								<row0>	0.982170 0.070090 0.174443	</row0>
+								<row1>	-0.068384 0.997534 -0.015778	</row1>
+								<row2>	-0.175119 0.003568 0.984541	</row2>
+								<row3>	0.445901 -0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped L Toe0	</identifier>
+								<transform>
+									<row0>	0.000000 0.000000 1.000000	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	-1.000000 -0.000000 0.000000	</row2>
+									<row3>	0.138348 0.000000 0.115082	</row3>
+								</transform>
+								<node>
+									<identifier>	biped L Toe0BlendBonefd_c_orc_guard_lod3	</identifier>
+									<transform>
+										<row0>	-0.000001 1.000000 -0.000000	</row0>
+										<row1>	0.000000 0.000000 1.000000	</row1>
+										<row2>	1.000000 0.000001 -0.000000	</row2>
+										<row3>	-0.031984 0.186035 -0.009330	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped L FootBlendBonefd_c_orc_guard_lod3	</identifier>
+								<transform>
+									<row0>	0.000000 1.000000 -0.000001	</row0>
+									<row1>	-1.000000 0.000000 0.000000	</row1>
+									<row2>	0.000000 0.000001 1.000000	</row2>
+									<row3>	0.147677 0.186035 0.083098	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped L CalfBlendBonefd_c_orc_guard_lod3	</identifier>
+							<transform>
+								<row0>	-0.068384 0.997534 -0.015780	</row0>
+								<row1>	-0.982170 -0.070090 -0.174443	</row1>
+								<row2>	-0.175119 0.003569 0.984541	</row2>
+								<row3>	0.563671 0.196224 0.104639	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped L ThighBlendBonefd_c_orc_guard_lod3	</identifier>
+						<transform>
+							<row0>	-0.070046 0.997534 -0.004348	</row0>
+							<row1>	-0.997480 -0.070090 -0.010963	</row1>
+							<row2>	-0.011241 0.003569 0.999930	</row2>
+							<row3>	1.019101 0.196224 0.010756	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped R Thigh	</identifier>
+					<transform>
+						<row0>	-0.997480 -0.070048 -0.011241	</row0>
+						<row1>	0.070092 -0.997534 -0.003569	</row1>
+						<row2>	-0.010963 -0.004348 0.999930	</row2>
+						<row3>	0.000000 -0.124309 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped R Calf	</identifier>
+						<transform>
+							<row0>	0.986453 0.000000 -0.164042	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.164042 -0.000000 0.986453	</row2>
+							<row3>	0.445901 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped R Foot	</identifier>
+							<transform>
+								<row0>	0.982170 -0.070090 0.174443	</row0>
+								<row1>	0.068384 0.997534 0.015778	</row1>
+								<row2>	-0.175119 -0.003568 0.984541	</row2>
+								<row3>	0.445901 -0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped R Toe0	</identifier>
+								<transform>
+									<row0>	0.000000 0.000000 1.000000	</row0>
+									<row1>	0.000000 1.000000 -0.000000	</row1>
+									<row2>	-1.000000 0.000000 0.000000	</row2>
+									<row3>	0.138348 0.000000 0.115082	</row3>
+								</transform>
+								<node>
+									<identifier>	biped R Toe0BlendBonefd_c_orc_guard_lod3	</identifier>
+									<transform>
+										<row0>	-0.000001 1.000000 0.000000	</row0>
+										<row1>	0.000000 -0.000000 1.000000	</row1>
+										<row2>	1.000000 0.000001 -0.000000	</row2>
+										<row3>	-0.031984 -0.186035 -0.009330	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped R FootBlendBonefd_c_orc_guard_lod3	</identifier>
+								<transform>
+									<row0>	0.000000 1.000000 -0.000001	</row0>
+									<row1>	-1.000000 0.000000 0.000000	</row1>
+									<row2>	0.000000 0.000001 1.000000	</row2>
+									<row3>	0.147677 -0.186035 0.083098	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped R CalfBlendBonefd_c_orc_guard_lod3	</identifier>
+							<transform>
+								<row0>	0.068384 0.997534 0.015777	</row0>
+								<row1>	-0.982169 0.070090 -0.174443	</row1>
+								<row2>	-0.175119 -0.003566 0.984541	</row2>
+								<row3>	0.563671 -0.196224 0.104639	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped R ThighBlendBonefd_c_orc_guard_lod3	</identifier>
+						<transform>
+							<row0>	0.070046 0.997534 0.004345	</row0>
+							<row1>	-0.997480 0.070090 -0.010963	</row1>
+							<row2>	-0.011241 -0.003566 0.999930	</row2>
+							<row3>	1.019101 -0.196224 0.010756	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	HP_mount	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	-0.000000 -0.000000 1.000000	</row2>
+						<row3>	-0.131714 -0.000000 -0.000212	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_left_hip	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	-0.000000 -0.000000 1.000000	</row2>
+						<row3>	0.099133 0.168993 0.070414	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_right_hip	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	-0.000000 -0.000000 1.000000	</row2>
+						<row3>	0.099134 -0.178268 0.070413	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	biped PelvisBlendBonefd_c_orc_guard_lod3	</identifier>
+					<transform>
+						<row0>	0.000001 -1.000000 -0.000003	</row0>
+						<row1>	1.000000 0.000001 0.000000	</row1>
+						<row2>	0.000000 -0.000003 1.000000	</row2>
+						<row3>	-1.030404 -0.000001 -0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped HeadBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped NeckBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped Spine2BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	b_ear_l_1BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	b_ear_r_2BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R ClavicleBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped Spine1BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R UpperArmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L UpperArmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped SpineBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R ForearmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L ClavicleBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L ForearmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped PelvisBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R ThighBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L ThighBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R CalfBlendBonefd_c_orc_guard_lod3	</node>
+		<geometry>
+			<vertices>	fd_c_orc_guard_lod30a.vertices	</vertices>
+			<primitive>	fd_c_orc_guard_lod30a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	guard_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/fd_orc_guard/orc_guard.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped L HandBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L ForearmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Finger2BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Finger1BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Finger21BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Finger11BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L UpperArmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Finger0BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Finger01BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R CalfBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R ThighBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R FootBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Toe0BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped PelvisBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L ThighBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L CalfBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped SpineBlendBonefd_c_orc_guard_lod3	</node>
+		<geometry>
+			<vertices>	fd_c_orc_guard_lod30b.vertices	</vertices>
+			<primitive>	fd_c_orc_guard_lod30b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	guard_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/fd_orc_guard/orc_guard.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped L FootBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L CalfBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L Toe0BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped L ThighBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R ForearmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R UpperArmBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R HandBlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Finger0BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Finger01BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Finger1BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Finger2BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Finger11BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	biped R Finger21BlendBonefd_c_orc_guard_lod3	</node>
+		<node>	b_ear_r_2BlendBonefd_c_orc_guard_lod3	</node>
+		<geometry>
+			<vertices>	fd_c_orc_guard_lod30c.vertices	</vertices>
+			<primitive>	fd_c_orc_guard_lod30c.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	guard_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/fd_orc_guard/orc_guard.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.761146 0.007431 -0.259567	</min>
+		<max>	0.760391 1.838607 0.233631	</max>
+	</boundingBox>
+</root>

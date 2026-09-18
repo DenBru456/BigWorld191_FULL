@@ -1,0 +1,41 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/cor_4m.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/cor_4m-0	</lighting>
+	</shell>
+	<shell>
+		<resource>	sets/temperate/shells/cor_4m.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/cor_4m-1	</lighting>
+	</shell>
+	<ambientLight>
+		<colour>	20.000000 30.000004 40.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<transform>
+		<row0>	0.999999 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 0.999999	</row2>
+		<row3>	536.369995 156.379990 -91.779999	</row3>
+	</transform>
+	<boundingBox>
+		<min>	534.369934 156.333969 -93.779991	</min>
+		<max>	538.369934 160.879974 -89.779999	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am000ai.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

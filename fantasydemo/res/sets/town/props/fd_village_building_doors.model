@@ -1,0 +1,9 @@
+<fd_village_building_doors.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-6.095700 0.375100 2.626600	</min>
+		<max>	-3.187699 3.356200 4.019799	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/fd_village_building_doors	</nodelessVisual>
+	<extent>	150.000000	</extent>
+</fd_village_building_doors.model>

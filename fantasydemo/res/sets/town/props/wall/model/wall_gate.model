@@ -1,0 +1,8 @@
+<wall_gate.model>
+	<nodelessVisual>	sets/town/props/wall/model/wall_gate	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-5.010957 -2.392628 -7.177609	</min>
+		<max>	39.998741 21.041252 2.931449	</max>
+	</visibilityBox>
+</wall_gate.model>

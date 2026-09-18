@@ -1,0 +1,12 @@
+<pot.mfm>
+	<property>	diffuseMap
+		<Texture>	sets/town/props/pot/maps/pot_d.bmp	</Texture>
+	</property>
+	<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+	<property>	normalMap
+		<Texture>	sets/town/props/pot/maps/pot_norms.tga	</Texture>
+	</property>
+	<property>	specularMap
+		<Texture>	sets/town/props/pot/maps/pot_s.bmp	</Texture>
+	</property>
+</pot.mfm>

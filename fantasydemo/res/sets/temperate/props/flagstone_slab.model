@@ -1,0 +1,10 @@
+<root>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/temperate/props/flagstone_slab.static	</nodelessVisual>
+	<extent>	304.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.000000 0.003000 -2.000000	</min>
+		<max>	2.000000 0.503000 2.000000	</max>
+	</visibilityBox>
+</root>

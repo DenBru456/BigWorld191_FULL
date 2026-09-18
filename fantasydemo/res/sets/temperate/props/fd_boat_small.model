@@ -1,0 +1,9 @@
+<fd_boat_small.model>
+	<nodelessVisual>	sets/temperate/props/fd_boat_small	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.774200 0.014700 -1.189600	</min>
+		<max>	2.731200 1.261200 1.057100	</max>
+	</visibilityBox>
+	<extent>	120.000000	</extent>
+</fd_boat_small.model>

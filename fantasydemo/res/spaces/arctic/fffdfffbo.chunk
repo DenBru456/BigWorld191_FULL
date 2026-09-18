@@ -1,0 +1,12 @@
+<fffdfffbo.chunk>
+	<navmesh>
+		<resource>	fffdfffbo.cdata/navmesh	</resource>
+	</navmesh>
+	<waypointGenerationTime>
+		<hi>	29734738	</hi>
+		<lo>	-1055720744	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<resource>	fffdfffbo.cdata/terrain	</resource>
+	</terrain>
+</fffdfffbo.chunk>

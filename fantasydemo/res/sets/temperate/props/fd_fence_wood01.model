@@ -1,0 +1,9 @@
+<fd_fence_wood01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.423000 -0.095300 -0.839100	</min>
+		<max>	3.239100 1.770300 0.657700	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/fd_fence_wood01	</nodelessVisual>
+	<extent>	110.000000	</extent>
+</fd_fence_wood01.model>

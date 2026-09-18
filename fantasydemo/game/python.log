@@ -1,0 +1,215 @@
+
+/------------------------------------------------------------------------------\
+BigWorld Hybrid Client (compiled at 12:51:13 Nov  5 2008) starting on Fri Nov 28 15:43:24 2008
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+fantasydemo personality selected.
+Entering space: spaces/arctic (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+Traceback (most recent call last):
+  File "scripts/client/Avatar.py", line 5291, in handleKeyEvent
+    FantasyDemo.rds.keyBindings.callActionForKeyState( key )
+  File "scripts/client/Helpers/BWKeyBindings.py", line 261, in callActionForKeyState
+    ret = entity.actionFunctions[ actionName ]( okayToGo )
+  File "scripts/client/Avatar.py", line 4791, in moveForward
+    self._enterMouseMove()
+  File "scripts/client/Avatar.py", line 3235, in _enterMouseMove
+    turningHalfLife = BigWorld.camera().turningHalfLife
+AttributeError: 'FreeCamera' object has no attribute 'turningHalfLife'
+Traceback (most recent call last):
+  File "scripts/client/Avatar.py", line 5291, in handleKeyEvent
+    FantasyDemo.rds.keyBindings.callActionForKeyState( key )
+  File "scripts/client/Helpers/BWKeyBindings.py", line 261, in callActionForKeyState
+    ret = entity.actionFunctions[ actionName ]( okayToGo )
+  File "scripts/client/Avatar.py", line 4791, in moveForward
+    self._enterMouseMove()
+  File "scripts/client/Avatar.py", line 3235, in _enterMouseMove
+    turningHalfLife = BigWorld.camera().turningHalfLife
+AttributeError: 'FreeCamera' object has no attribute 'turningHalfLife'
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Hybrid Client (compiled at 12:51:13 Nov  5 2008) starting on Fri Nov 28 15:50:26 2008
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+fantasydemo personality selected.
+Entering space: spaces/desert (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+Entering space: spaces/eval_empty (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+  File "<string>", line 1
+    help?
+        ^
+SyntaxError: invalid syntax
+<built-in function dir>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'cls' is not defined
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'clear' is not defined
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'quit' is not defined
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'exit' is not defined
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Hybrid Client (compiled at 12:51:13 Nov  5 2008) starting on Sun Apr 26 21:55:42 2009
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+fantasydemo personality selected.
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Hybrid Client (compiled at 12:51:13 Nov  5 2008) starting on Mon Apr 27 20:21:19 2009
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+fantasydemo personality selected.
+Entering space: spaces/highlands (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Hybrid Client (compiled at 12:51:13 Nov  5 2008) starting on Sun Apr 27 23:39:41 2008
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+fantasydemo personality selected.
+Entering space: spaces/menu_space (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Hybrid Client (compiled at 12:51:13 Nov  5 2008) starting on Sat Sep 12 03:05:17 2026
+Loading AvatarModelData for: ''
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_body.model'
+Loading AvatarModelData for: 'characters/avatars/ranger/ranger_head.model'
+Loading AvatarModelData for: 'characters/npc/fd_orc_guard/orc.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/warrior.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/hair00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_legs_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_legs_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_01.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_02.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_arms_03.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1a_arms_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_00.model'
+Loading AvatarModelData for: 'characters/avatars/warrior/1b_chest_01.model'
+Loading PlayerModel info: 'Ranger'
+Loading PlayerModel info: 'Warrior'
+fantasydemo personality selected.
+Entering space: spaces/arctic (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+Entering space: spaces/highlands (server: offline)
+PlayerAvatar::onBecomePlayer
+PlayerAvatar::onEnterWorld: begin
+PlayerAvatar::onEnterWorld: end
+\--------------------------------------------------------------------------------/

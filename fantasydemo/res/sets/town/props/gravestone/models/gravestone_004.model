@@ -1,0 +1,9 @@
+<gravestone_004.model>
+	<nodelessVisual>	sets/town/props/gravestone/models/gravestone_004	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	90.000000	</extent>
+	<visibilityBox>
+		<min>	-0.476469 0.000000 -0.480243	</min>
+		<max>	0.475970 2.313458 0.480186	</max>
+	</visibilityBox>
+</gravestone_004.model>

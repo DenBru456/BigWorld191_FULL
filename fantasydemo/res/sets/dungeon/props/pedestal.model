@@ -1,0 +1,9 @@
+<pedestal.model>
+	<nodelessVisual>	sets/dungeon/props/pedestal	</nodelessVisual>
+	<extent>	150.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.087000 -0.027400 -3.074300	</min>
+		<max>	2.131900 8.176600 0.956300	</max>
+	</visibilityBox>
+</pedestal.model>

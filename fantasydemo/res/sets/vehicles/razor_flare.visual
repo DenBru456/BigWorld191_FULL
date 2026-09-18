@@ -1,0 +1,59 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_flare	</identifier>
+			<transform>
+				<row0>	0.0000 -0.0000 -1.000	</row0>
+				<row1>	1.000 0.0000 -0.0000	</row1>
+				<row2>	0.0000 -1.000 0.0000	</row2>
+				<row3>	0.0003 1.5587 -1.2003	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	flare	</identifier>
+			<transform>
+				<row0>	0.0000 -0.0000 -1.0000	</row0>
+				<row1>	1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 -1.0000 0.0000	</row2>
+				<row3>	0.0003 1.5587 -1.3385	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	flare	</node>
+		<geometry>
+			<vertices>	sets/vehicles/razor_flare.flare.vertices	</vertices>
+			<primitive>	sets/vehicles/razor_flare.flare.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<mfm>	sets/vehicles/razor3_flare.mfm	</mfm>
+					<identifier>	AFX_razflare	</identifier>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<mfm>	sets/vehicles/razor3_jet.mfm	</mfm>
+					<identifier>	AFX_razglow	</identifier>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<mfm>	sets/vehicles/razor3_flare.mfm	</mfm>
+					<identifier>	razflare_glow	</identifier>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.18 0.27 -2.59	</min>
+		<max>	1.17 2.61 -1.22	</max>
+	</boundingBox>
+</root>

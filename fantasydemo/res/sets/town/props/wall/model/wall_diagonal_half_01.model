@@ -1,0 +1,8 @@
+<wall_diagonal_half_01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.002897 -2.007162 -13.499176	</min>
+		<max>	20.000257 10.000795 -0.071197	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_diagonal_half_01	</nodelessVisual>
+</wall_diagonal_half_01.model>

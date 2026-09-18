@@ -1,0 +1,8 @@
+<root>
+	<nodefullVisual>	characters/avatars/warrior/1a_chest_00	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.154875 1.189019 -0.173323	</min>
+		<max>	0.154875 1.630763 0.115643	</max>
+	</visibilityBox>
+</root>

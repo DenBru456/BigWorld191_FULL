@@ -1,0 +1,9 @@
+<tower_door.model>
+	<nodelessVisual>	sets/town/props/tower_door	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.037600 0.000000 -4.970500	</min>
+		<max>	0.973500 4.487400 -4.636799	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+</tower_door.model>

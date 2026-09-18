@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	characters/npc/beast/beast_collision_geometry	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.276400 0.000000 -0.087800	</min>
+		<max>	-0.076400 0.200000 0.112200	</max>
+	</visibilityBox>
+</root>

@@ -1,0 +1,8 @@
+<wall_straight.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.000264 -0.012235 -3.583405	</min>
+		<max>	20.002800 12.000796 -0.000711	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_straight	</nodelessVisual>
+</wall_straight.model>

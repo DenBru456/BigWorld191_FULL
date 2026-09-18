@@ -1,0 +1,8 @@
+<root>
+	<terrain>
+		<resource>	0003000eo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0003000eo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

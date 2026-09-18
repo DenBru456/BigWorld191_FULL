@@ -1,0 +1,175 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29816850	</hi>
+		<lo>	1688231150	</lo>
+	</waypointGenerationTime>
+	<shell>
+		<resource>	sets/dungeon/shells/dun_highpassage_4x.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/dun_highpassage_4x-0	</lighting>
+	</shell>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000000 0.000000 0.000000	</row2>
+			<row3>	0.910004 -0.230000 8.110001	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-0	</lighting>
+	</model>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.880951 2.834806 4.189936	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<ambientLight>
+		<colour>	42.000000 49.000015 69.000000	</colour>
+		<multiplier>	1.200000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/dungeon/props/web01.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000000	</row0>
+			<row1>	-1.000000 -0.000000 0.000000	</row1>
+			<row2>	0.000000 -1.000000 0.000000	</row2>
+			<row3>	4.000000 4.784637 0.567688	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/web01-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.511435	</row0>
+			<row1>	0.000000 0.511435 0.000000	</row1>
+			<row2>	-0.511435 0.000000 0.000000	</row2>
+			<row3>	3.536919 2.609497 4.928589	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000000 0.000000 0.000000	</row2>
+			<row3>	3.571533 2.631973 4.977783	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.000375 0.000000 -0.999999	</row0>
+			<row1>	-0.064117 0.997942 -0.000024	</row1>
+			<row2>	0.997941 0.064117 0.000375	</row2>
+			<row3>	3.850037 1.320348 4.966778	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<shell>
+		<resource>	sets/dungeon/shells/dun_highpassage_4x.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/dun_highpassage_4x-1	</lighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am005ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.567543 2.709549 4.994812	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<entity>
+		<guid>	6A3BB404.422ED458.012936B7.1A7C812A	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	2.000000 0.000000 7.000000	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Note that if you turn around you can see behind you into the outside world.  Seamless indoor and outdoor integration for a more lifelike world.	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<modelType>	1	</modelType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	-0.003261 -0.000001 0.999994	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999994 0.000000 -0.003261	</row2>
+			<row3>	2.084160 0.000000 3.838989	</row3>
+		</transform>
+		<guid>	DE483A44.4D7ED63C.C603A992.ECF4C4B8	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	F325A66D.49EB40CE.9AD04E8B.34361500	</guid>
+					<chunkId>	0004fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	2F819522.4111CA97.F91C6FB3.28ADD9D1	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	418.619781 156.382736 -121.749939	</row3>
+	</transform>
+	<boundingBox>
+		<min>	418.075348 156.045517 -126.113426	</min>
+		<max>	435.164154 324.844055 -121.386429	</max>
+	</boundingBox>
+</root>

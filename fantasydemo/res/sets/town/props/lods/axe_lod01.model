@@ -1,0 +1,9 @@
+<axe_lod01.model>
+	<extent>	30.000000	</extent>
+	<nodefullVisual>	sets/town/props/lods/axe_lod01	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.229500 -0.001400 -0.001400	</min>
+		<max>	0.144400 1.033000 0.179000	</max>
+	</visibilityBox>
+</axe_lod01.model>

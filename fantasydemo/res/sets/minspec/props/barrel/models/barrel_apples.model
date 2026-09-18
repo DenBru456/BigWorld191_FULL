@@ -1,0 +1,9 @@
+<barrel_apples.model>
+	<nodelessVisual>	sets/minspec/props/barrel/models/barrel_apples	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	100.000000	</extent>
+	<visibilityBox>
+		<min>	-0.417545 0.002069 -0.435774	</min>
+		<max>	0.417546 0.823340 0.417545	</max>
+	</visibilityBox>
+</barrel_apples.model>

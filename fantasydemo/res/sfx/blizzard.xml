@@ -1,0 +1,20 @@
+<beast_stomp.xml>
+	<Actor> particles
+		<ParticleSystem>	particles/blizzard.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<DummyModel/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	
+	<Event> particles
+		<RampTimeTriggeredParticles>
+			<fadeTime>	2.0	</fadeTime>
+		</RampTimeTriggeredParticles>
+	</Event>
+
+</beast_stomp.xml>

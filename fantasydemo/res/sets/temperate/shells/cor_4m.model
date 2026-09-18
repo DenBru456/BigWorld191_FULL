@@ -1,0 +1,9 @@
+<cor_4m.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.000000 0.000000 -1.647800	</min>
+		<max>	2.000000 4.025500 1.647500	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/shells/cor_4m	</nodelessVisual>
+	<extent>	100.000000	</extent>
+</cor_4m.model>

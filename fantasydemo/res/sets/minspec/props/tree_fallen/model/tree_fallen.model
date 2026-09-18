@@ -1,0 +1,9 @@
+<tree_fallen.model>
+	<nodelessVisual>	sets/minspec/props/tree_fallen/model/tree_fallen	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	290.000000	</extent>
+	<visibilityBox>
+		<min>	-1.668166 -0.012725 -3.021951	</min>
+		<max>	1.186825 1.662025 2.598892	</max>
+	</visibilityBox>
+</tree_fallen.model>

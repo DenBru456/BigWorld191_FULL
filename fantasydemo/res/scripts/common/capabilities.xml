@@ -1,0 +1,23 @@
+<capabilities.xml>
+
+	<state>	0
+		<name>	HoldingStaff </name>
+		<id> STAFF </id>
+	</state>
+	
+	<state> 2
+		<name> OnLand </name>
+		<id> ONLAND </id>
+	</state>
+
+	<state>	8
+		<name>	CloseCombat </name>
+		<id> CLOSE_COMBAT </id>
+	</state>
+
+	<state>	16
+		<name>	Swimming </name>
+		<id> SWIMMING </id>
+	</state>
+	
+</capabilities.xml>

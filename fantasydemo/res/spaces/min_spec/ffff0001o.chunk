@@ -1,0 +1,61 @@
+<ffff0001o.chunk>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.425806 -0.000000 -0.652857	</row0>
+			<row1>	-0.000000 0.779445 -0.000000	</row1>
+			<row2>	0.652857 0.000000 0.425806	</row2>
+			<row3>	5.616714 116.190285 37.712219	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.652822 0.000000 -0.244406	</row0>
+			<row1>	0.000000 0.697073 0.000000	</row1>
+			<row2>	0.244406 0.000000 0.652822	</row2>
+			<row3>	13.116234 113.365112 36.142853	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.409304 0.000000 -0.698403	</row0>
+			<row1>	0.000000 0.809505 0.000000	</row1>
+			<row2>	0.698403 0.000000 -0.409304	</row2>
+			<row3>	4.068054 120.300682 49.184509	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.676719 0.000000 0.255839	</row0>
+			<row1>	0.000000 0.723466 0.000000	</row1>
+			<row2>	-0.255839 0.000000 -0.676719	</row2>
+			<row3>	7.678329 122.443794 55.825806	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	ffff0001o.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</ffff0001o.chunk>

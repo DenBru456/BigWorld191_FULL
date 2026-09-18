@@ -1,0 +1,48 @@
+<root>
+	<entity>
+		<type> WeatherSystem </type>
+		<transform>
+			<row0> 1.000000 0.000000 0.000000 </row0>
+			<row1> 0.000000 1.000000 0.000000 </row1>
+			<row2> 0.000000 0.000000 1.000000 </row2>
+			<row3> 0.000000 0.000000 0.000000 </row3>
+		</transform>
+		<properties>
+			<name>
+							RAIN	
+			</name>
+			<propensity>
+					4		
+			</propensity>
+			<arg0>
+							1		
+			</arg0>
+			<arg1>
+							1		
+			</arg1>
+		</properties>
+	</entity>
+	<entity>
+		<type> WeatherSystem </type>
+		<transform>
+			<row0> 1.000000 0.000000 0.000000 </row0>
+			<row1> 0.000000 1.000000 0.000000 </row1>
+			<row2> 0.000000 0.000000 1.000000 </row2>
+			<row3> 0.000000 0.000000 0.000000 </row3>
+		</transform>
+		<properties>
+			<name>
+							STORM	
+			</name>
+			<propensity>
+					1		
+			</propensity>
+			<arg0>
+							1		
+			</arg0>
+			<arg1>
+							1		
+			</arg1>
+		</properties>
+	</entity>
+</root>

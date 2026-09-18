@@ -1,0 +1,16 @@
+<root>
+	<batched>	true	</batched>
+	<animation>
+		<name>	pine_snow01_lod1	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/t_ice/props/animations/pine_snow01_lod1	</nodes>
+	</animation>
+	<parent>	sets/t_ice/props/lods/pine_snow01_lod2	</parent>
+	<extent>	150.000000	</extent>
+	<nodefullVisual>	sets/t_ice/props/lods/pine_snow01_lod1	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.521179 -0.099705 -2.688298	</min>
+		<max>	2.312586 8.981997 2.571031	</max>
+	</visibilityBox>
+</root>

@@ -1,0 +1,41 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<!-- Cell properties -->
+		<geometry>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE 	</Flags>
+			<Persistent>	true			</Persistent>
+		</geometry>
+
+		<!-- Base properties -->			
+		<spaceDir>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+		</spaceDir>
+		
+		<spaceLabel>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</spaceLabel>
+		
+		<isDefault>
+			<Type>			INT8			</Type>
+			<Flags>			BASE			</Flags>
+		</isDefault>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>	
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

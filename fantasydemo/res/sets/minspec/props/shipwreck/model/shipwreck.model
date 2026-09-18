@@ -1,0 +1,8 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-7.091568 -0.217527 -37.283146	</min>
+		<max>	7.616802 39.691277 17.032150	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/props/shipwreck/model/shipwreck	</nodelessVisual>
+</root>

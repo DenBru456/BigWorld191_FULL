@@ -1,0 +1,1289 @@
+<window.gui>
+	<WindowGUIComponent>	80399024
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	1.500000	</height>
+		<colour>	128.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Test.TestWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+			<button1>	78294016	</button1>
+			<button2>	79508544	</button2>
+			<statusLabel>	79506448	</statusLabel>
+			<draggable>	56965200	</draggable>
+			<draggableStatus>	79991360	</draggableStatus>
+			<checkbox>	128856240	</checkbox>
+			<radio1>	80446896	</radio1>
+			<radio2>	128933904	</radio2>
+			<radio3>	128852256	</radio3>
+			<radio4>	78561888	</radio4>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	78294016
+		<position>	0.000000 0.900000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.500000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	28.800001	</height>
+		<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<label>	79994464	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	79508544
+		<position>	0.000000 0.550000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.500000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	28.800001	</height>
+		<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<label>	79922176	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	79506448
+		<position>	0.000000 0.300000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 128.000000 100.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_15.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	default_small.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	56965200
+		<position>	0.000000 -0.650000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	0.300000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	0.150000	</height>
+		<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	4	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.DraggableWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	false	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	79991360
+		<position>	0.000000 -0.950000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	28.000000 110.000000 114.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_15.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	default_small.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	128856240
+		<position>	0.000000 0.150000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	128.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	43.200001	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.CheckBox&quot;
+			<buttonStyle>	checkbox	</buttonStyle>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<box>	79992672	</box>
+			<label>	80630608	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	80446896
+		<position>	-0.500000 -0.150000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	100.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	43.200001	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.RadioButton&quot;
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	pieradio	</groupName>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<box>	80630112	</box>
+			<label>	80496864	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	128933904
+		<position>	0.500000 -0.150000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	100.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	43.200001	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.RadioButton&quot;
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	pieradio	</groupName>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<box>	80545040	</box>
+			<label>	80501888	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	128852256
+		<position>	-0.500000 -0.350000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	100.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	43.200001	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.RadioButton&quot;
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	pieradio	</groupName>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<box>	79141136	</box>
+			<label>	79143040	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	78561888
+		<position>	0.500000 -0.350000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	100.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	43.200001	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.RadioButton&quot;
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	pieradio	</groupName>
+			<visualStates> &quot;PyGUI.ButtonVisualState&quot;
+				<normal>
+					<textStyle> ButtonNormal </textStyle>
+					<icon>
+						<textureName>	system/maps/col_white.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<active>
+					<textStyle> ButtonActive </textStyle>
+					<icon>
+						<textureName>	system/maps/col_red.dds	</textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+						<colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </active>
+               <hover>
+                   <textStyle> ButtonHover </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_yellow.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    255.000000 255.000000 255.000000 255.000000    </colour>
+                   </icon>
+               </hover>
+               <pressed>
+                   <textStyle> ButtonPressed </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_red.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </pressed>
+               <disabled>
+                   <textStyle> ButtonDisabled </textStyle>
+                   <icon>
+                       <textureName>    system/maps/col_white.dds    </textureName>
+					   <mapping>
+						   <coords0>    0.000000 0.000000    </coords0>
+						   <coords1>    0.000000 1.000000    </coords1>
+						   <coords2>    1.000000 1.000000    </coords2>
+						   <coords3>    1.000000 0.000000    </coords3>
+					   </mapping>
+                       <colour>    125.000000 125.000000 125.000000 255.000000    </colour>
+                   </icon>
+               </disabled>
+			</visualStates>
+		</script>
+		<children>
+			<box>	49964640	</box>
+			<label>	78549504	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	79994464
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	0.123047	</width>
+		<heightMode>	0	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	QgB1AHQAdABvAG4AIQA=	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	79922176
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	0.248047	</width>
+		<heightMode>	0	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	VABvAGcAZwBsAGUAIABCAHUAdAB0AG8AbgAhAA==	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	79992672
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	20.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	20.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	80630608
+		<position>	1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.193359	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	128.000000 128.000000 128.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	QwBoAGUAYwBrACAAQgBvAHgAIQA=	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	80630112
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	20.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	20.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	80496864
+		<position>	1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.123047	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	128.000000 128.000000 128.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	UgBhAGQAaQBvADEA	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	80545040
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	20.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	20.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	80501888
+		<position>	1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.123047	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	128.000000 128.000000 128.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	UgBhAGQAaQBvADIA	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	79141136
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	20.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	20.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	79143040
+		<position>	1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.123047	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	128.000000 128.000000 128.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	UgBhAGQAaQBvADMA	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	49964640
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	20.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	20.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	78549504
+		<position>	1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.123047	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	128.000000 128.000000 128.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	UgBhAGQAaQBvADQA	</label>
+		<font>	default_medium.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+</window.gui>

@@ -1,0 +1,10 @@
+<gravestone.model>
+	<extent>	90.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/town/props/gravestone.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.563131 -0.084634 -1.068321	</min>
+		<max>	0.551785 1.070131 1.031958	</max>
+	</visibilityBox>
+</gravestone.model>

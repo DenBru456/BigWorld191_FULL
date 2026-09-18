@@ -1,0 +1,57 @@
+<t_steps.static.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_steps.static.vertices	</vertices>
+			<primitive>	sets/town/props/t_steps.static.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	t_drystone_step	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/t_drystone_step.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	tow_darkflagstn	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/tow_darkflagstn.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	sides	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/tow_darkflagstn.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.088402 -0.832695 0.499991	</min>
+		<max>	2.729968 0.055541 1.993139	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</t_steps.static.visual>

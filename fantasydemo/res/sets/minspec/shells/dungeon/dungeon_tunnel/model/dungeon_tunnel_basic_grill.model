@@ -1,0 +1,8 @@
+<dungeon_tunnel_basic_grill.model>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_basic_grill	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000043 -0.393977 -6.368923	</min>
+		<max>	15.000116 5.536579 1.383869	</max>
+	</visibilityBox>
+</dungeon_tunnel_basic_grill.model>

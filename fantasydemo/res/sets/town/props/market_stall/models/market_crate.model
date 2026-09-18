@@ -1,0 +1,9 @@
+<market_crate.model>
+	<nodelessVisual>	sets/town/props/market_stall/models/market_crate	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	50.000000	</extent>
+	<visibilityBox>
+		<min>	-0.372277 -0.000244 -0.367037	</min>
+		<max>	0.372278 0.390961 0.367037	</max>
+	</visibilityBox>
+</market_crate.model>

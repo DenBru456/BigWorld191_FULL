@@ -1,0 +1,145 @@
+<root>
+	<model>
+		<resource>	sets/dungeon/shells/dun_highpassage_4x.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<lighting>	lighting/dun_highpassage_4x-1	</lighting>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29728290	</hi>
+		<lo>	-319096136	</lo>
+	</waypointGenerationTime>
+	<ambientLight>
+		<colour>	54.000004 37.000000 30.000002	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	0.164112 3.101687 1.663010	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	0.382496 3.063666 1.651871	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	0.332390 3.105648 1.610016	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.073358 0.000000 0.997306	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.997306 0.000000 -0.073358	</row2>
+			<row3>	0.181587 1.582894 1.655899	</row3>
+		</transform>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.605936 0.000000 -0.044570	</row0>
+			<row1>	0.000000 0.607573 0.000000	</row1>
+			<row2>	0.044570 0.000000 -0.605936	</row2>
+			<row3>	0.419533 2.844776 1.667236	</row3>
+		</transform>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	-0.997306 0.000000 -0.073358	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.073358 0.000000 -0.997306	</row2>
+			<row3>	0.427116 2.955041 1.672958	</row3>
+		</transform>
+	</particles>
+	<pulseLight>
+		<colour>	255.000000 154.000000 74.000000	</colour>
+		<position>	0.721447 3.182893 0.875244	</position>
+		<innerRadius>	2.000000	</innerRadius>
+		<outerRadius>	6.000000	</outerRadius>
+		<multiplier>	2.500000	</multiplier>
+	</pulseLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.670223 3.175505 14.343948	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<navmesh>
+		<resource>	00am0003i.cdata/navmesh	</resource>
+	</navmesh>
+	<pulseLight>
+		<colour>	255.000000 154.000000 74.000000	</colour>
+		<position>	2.283947 3.294731 11.309563	</position>
+		<innerRadius>	2.000000	</innerRadius>
+		<outerRadius>	4.632353	</outerRadius>
+		<multiplier>	2.500000	</multiplier>
+	</pulseLight>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.068385 0.000000 -0.997659	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.997659 0.000000 0.068385	</row2>
+			<row3>	3.791679 1.694733 11.162170	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-2	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.997659 0.000000 0.068385	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.068385 0.000000 0.997659	</row2>
+			<row3>	3.546066 3.066881 11.146332	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.606151 0.000000 0.041549	</row0>
+			<row1>	0.000000 0.607573 0.000000	</row1>
+			<row2>	-0.041549 0.000000 0.606151	</row2>
+			<row3>	3.553680 2.956615 11.152016	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-2	</lighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.451839 3.213527 11.151161	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.620117 3.217487 11.098167	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	-52.000000 10.000000 -122.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-52.363495 9.662799 -122.544395	</min>
+		<max>	-47.636494 19.000000 -105.455597	</max>
+	</boundingBox>
+</root>

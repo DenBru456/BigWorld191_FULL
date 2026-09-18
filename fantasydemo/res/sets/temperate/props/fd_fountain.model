@@ -1,0 +1,9 @@
+<fd_fountain.model>
+	<nodelessVisual>	sets/temperate/props/fd_fountain	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.632500 -0.017500 -1.441600	</min>
+		<max>	1.632500 5.819800 1.450400	</max>
+	</visibilityBox>
+	<extent>	116.000000	</extent>
+</fd_fountain.model>

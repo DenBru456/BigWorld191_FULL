@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	flora/fern02	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.272200 -0.171700 -1.458800	</min>
+		<max>	1.718900 0.723000 1.835300	</max>
+	</visibilityBox>
+</root>

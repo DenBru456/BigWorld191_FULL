@@ -1,0 +1,489 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29753229	</hi>
+		<lo>	1015694966	</lo>
+	</waypointGenerationTime>
+	<navmesh>
+		<resource>	00am0002i.cdata/navmesh	</resource>
+	</navmesh>
+	<model>
+		<resource>	sets/dungeon/shells/dun_highroom_big.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<lighting>	lighting/dun_highroom_big-0	</lighting>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.230003 3.930000 1.079987	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.989998 4.000000 19.029999	</position>
+		<colour>	224.000000 147.000000 31.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/dungeon_plug_dead.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	-16.000000 0.000000 8.000000	</row3>
+		</transform>
+		<lighting>	lighting/dungeon_plug_dead-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	1.959999 2.360000 19.250000	</row3>
+		</transform>
+		<lighting>	lighting/torch-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	2.230003 2.300000 0.809998	</row3>
+		</transform>
+		<lighting>	lighting/torch-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.871171 0.007605 0.490922	</row0>
+			<row1>	0.021366 0.999520 0.022432	</row1>
+			<row2>	-0.490515 0.030032 -0.870915	</row2>
+			<row3>	-3.070000 0.420000 11.619995	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-20	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-3.519997 0.420000 11.209991	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.410578 -0.031444 0.911283	</row0>
+			<row1>	0.012917 0.999505 0.028669	</row1>
+			<row2>	-0.911734 0.000000 0.410781	</row2>
+			<row3>	-3.529999 0.420000 9.940002	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.410578 -0.031444 0.911283	</row0>
+			<row1>	0.012917 0.999505 0.028669	</row1>
+			<row2>	-0.911734 0.000000 0.410781	</row2>
+			<row3>	-3.709999 0.420000 9.220001	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.089638 0.000000 0.995974	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.995974 0.000000 -0.089638	</row2>
+			<row3>	-3.129997 0.420000 8.720001	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.410578 -0.031444 0.911283	</row0>
+			<row1>	0.012917 0.999505 0.028669	</row1>
+			<row2>	-0.911734 0.000000 0.410781	</row2>
+			<row3>	-2.830002 0.420000 9.519989	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.791505 0.000000 0.611162	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.611162 0.000000 0.791505	</row2>
+			<row3>	-3.419998 0.420000 9.420013	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.414015 -0.870485 0.266174	</row0>
+			<row1>	0.018062 0.300210 0.953702	</row1>
+			<row2>	-0.910091 -0.390039 0.140014	</row2>
+			<row3>	-3.320000 0.420000 10.559998	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-6	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.089638 0.000000 0.995974	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.995974 0.000000 -0.089638	</row2>
+			<row3>	-3.809998 0.420000 10.899994	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-7	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.091787 0.742613 0.663401	</row0>
+			<row1>	-0.001873 0.666083 -0.745875	</row1>
+			<row2>	-0.995777 -0.069704 -0.059747	</row2>
+			<row3>	-2.639999 0.420000 11.549988	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-8	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.871171 0.007605 0.490922	</row0>
+			<row1>	0.021366 0.999520 0.022432	</row1>
+			<row2>	-0.490515 0.030032 -0.870915	</row2>
+			<row3>	-3.660004 0.420000 12.299988	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-9	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-3.279999 0.420000 12.670013	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-10	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.529101 0.000000 0.848559	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.848559 0.000000 -0.529101	</row2>
+			<row3>	-2.559998 0.420000 13.489990	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-11	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-2.250000 0.420000 13.380005	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-12	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.529101 0.000000 0.848559	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.848559 0.000000 -0.529101	</row2>
+			<row3>	-2.019997 0.420000 12.000000	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-13	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.529101 0.000000 0.848559	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.848559 0.000000 -0.529101	</row2>
+			<row3>	-2.820000 0.420000 8.269989	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-14	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.258902 0.000000 0.965904	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965904 0.000000 -0.258902	</row2>
+			<row3>	-4.440002 0.420000 8.480011	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-15	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-3.870003 0.420000 8.779999	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-16	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.258902 0.000000 0.965904	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965904 0.000000 -0.258902	</row2>
+			<row3>	-3.769997 0.420000 8.480011	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-17	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.258902 0.000000 0.965904	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965904 0.000000 -0.258902	</row2>
+			<row3>	-4.190002 0.420000 8.179993	</row3>
+		</transform>
+		<lighting>	lighting/upperskull-18	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.602326	</row0>
+			<row1>	0.000000 0.602326 0.000000	</row1>
+			<row2>	0.602326 0.000000 0.000000	</row2>
+			<row3>	1.980820 3.672751 19.039476	</row3>
+		</transform>
+		<lighting>	lighting/flameplane-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.602326	</row0>
+			<row1>	0.000000 0.602326 0.000000	</row1>
+			<row2>	0.602326 0.000000 0.000000	</row2>
+			<row3>	2.224136 3.601169 1.028316	</row3>
+		</transform>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/dungeon_plug_arch1.model	</resource>
+		<transform>
+			<row0>	-0.002221 0.000000 -1.145087	</row0>
+			<row1>	0.000000 0.910684 0.000000	</row1>
+			<row2>	1.000158 0.000000 -0.001940	</row2>
+			<row3>	19.143204 -0.000002 7.740435	</row3>
+		</transform>
+		<lighting>	lighting/dungeon_plug_arch1-1	</lighting>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/dungeon_plug_arch1.model	</resource>
+		<transform>
+			<row0>	-0.056256 0.000000 1.121382	</row0>
+			<row1>	0.000000 0.898565 0.000000	</row1>
+			<row2>	-0.992511 0.000000 -0.049791	</row2>
+			<row3>	19.480743 -0.000003 12.278208	</row3>
+		</transform>
+		<lighting>	lighting/dungeon_plug_arch1-2	</lighting>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	2.005264 3.766399 19.027596	</row3>
+		</transform>
+	</particles>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	2.206100 3.719215 1.007969	</row3>
+		</transform>
+	</particles>
+	<omniLight>
+		<colour>	48.000011 95.000000 160.000000	</colour>
+		<position>	-5.500000 7.770000 9.761433	</position>
+		<innerRadius>	4.317484	</innerRadius>
+		<outerRadius>	9.900000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.200000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/dungeon/props/dungeon_plug_dead.model	</resource>
+		<transform>
+			<row0>	1.079571 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.131790 0.000000 0.000000	</row3>
+		</transform>
+		<lighting>	lighting/dungeon_plug_dead-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/dungeon_plug_dead.model	</resource>
+		<transform>
+			<row0>	-1.102814 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-0.162613 0.000000 20.000000	</row3>
+		</transform>
+		<lighting>	lighting/dungeon_plug_dead-3	</lighting>
+	</model>
+	<ambientLight>
+		<colour>	38.000000 41.000000 56.000015	</colour>
+		<multiplier>	0.500000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-3.220261 -0.127934 12.746933	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flagstone_slab-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-3.220261 -0.127934 8.746933	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flagstone_slab-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_magic_shrine.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 2.585177	</row0>
+			<row1>	0.000000 2.585180 0.000000	</row1>
+			<row2>	-2.585177 0.000000 -0.000000	</row2>
+			<row3>	-5.251801 0.375071 10.284187	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/fd_magic_shrine-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-7.260254 -0.127934 8.736923	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flagstone_slab-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-7.340240 -0.137935 12.756912	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flagstone_slab-1	</lighting>
+	</model>
+	<omniLight>
+		<colour>	180.000000 125.000015 83.000000	</colour>
+		<position>	9.020020 5.241702 8.080242	</position>
+		<innerRadius>	3.301238	</innerRadius>
+		<outerRadius>	21.263409	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	0.600000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	226.000015 187.000000 137.000000	</colour>
+		<position>	4.412369 1.450953 12.400501	</position>
+		<innerRadius>	3.424390	</innerRadius>
+		<outerRadius>	16.481674	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	0.600000	</multiplier>
+	</omniLight>
+	<entity>
+		<guid>	3238D895.46C16A48.0517A1A9.FDEAA941	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	5.938553 0.000000 10.178776	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	Dungeon	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	CF614EE3.4C7129B0.48388096.DD08064A	</guid>
+		<type>	TeleportSource	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	7.375488 -0.000001 10.183826	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spaceLabel>	spaces/arctic	</spaceLabel>
+			<destination>	Dungeon	</destination>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<guid>	C1B4C2B1.4A3959E6.ACD9E4A0.EF1D1FB9	</guid>
+		<type>	TeleportSource	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	4.648575 0.000001 10.282547	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spaceLabel>	spaces/highlands	</spaceLabel>
+			<destination>	Dungeon	</destination>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	-40.000000 10.000000 -142.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-60.537201 9.595599 -158.546982	</min>
+		<max>	-39.451797 25.000000 -121.460381	</max>
+	</boundingBox>
+</root>

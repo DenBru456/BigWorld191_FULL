@@ -1,0 +1,52 @@
+<menu_item.gui>
+	<WindowGUIComponent>	55960288
+		<position>	0.000000 0.000000 0.950000	</position>
+		<width>	1.20000	</width>
+		<height>	0.070000	</height>
+		<colour>	0.000000 0.000000 0.000000 128.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;MainMenuGUI.MenuItem&quot;
+			<scroll>	0.000000 0.000000	</scroll>
+			<minScroll>	0.000000 0.000000	</minScroll>
+			<maxScroll>	0.000000 0.000000	</maxScroll>
+			<smallFont>	verdana_small.font	</smallFont>
+			<bigFont>	verdana_medium.font	</bigFont>
+		</script>
+		<children>
+			<name>	56230000	</name>
+		</children>
+		<widthRelative>	2	</widthRelative>
+		<heightRelative>	2	</heightRelative>
+		<filterType>	2	</filterType>
+	</WindowGUIComponent>
+	<TextGUIComponent>	56230000
+		<position>	-0.55 0.00000 0.850000	</position>
+		<width>	0.315625	</width>
+		<height>	0.100000	</height>
+		<colour>	0.00 0.00 0.00 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<label>	!Generic Menu Item	</label>
+		<pixelSnap>	true	</pixelSnap>
+		<widthRelative>	2	</widthRelative>
+		<heightRelative>	2	</heightRelative>
+		<filterType>	2	</filterType>
+		<pixelSnap>		true	</pixelSnap>
+	</TextGUIComponent>
+</menu_item.gui>

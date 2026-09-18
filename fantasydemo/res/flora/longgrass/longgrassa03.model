@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	flora/longgrass/longgrassa03	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.493000 -0.066400 -0.463200	</min>
+		<max>	0.523200 1.334900 0.487800	</max>
+	</visibilityBox>
+</root>

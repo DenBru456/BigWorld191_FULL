@@ -1,0 +1,23 @@
+<barrel_d_2sided.mfm>
+	<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	specularMap
+		<Texture>	sets/town/props/barrels/maps/barrel_s.bmp	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	sets/town/props/barrels/maps/barrel_norms.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	sets/town/props/barrels/maps/barrel_d.tga	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	160	</Int>
+	</property>
+</barrel_d_2sided.mfm>

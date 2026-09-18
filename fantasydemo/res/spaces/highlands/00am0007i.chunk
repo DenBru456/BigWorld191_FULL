@@ -1,0 +1,211 @@
+<root>
+	<ambientLight>
+		<colour>	0.000000 2.000000 17.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.268975 0.013836 0.434770	</row0>
+			<row1>	-0.013803 0.511188 -0.007728	</row1>
+			<row2>	-0.434772 -0.007670 0.269219	</row2>
+			<row3>	-2.187042 3.693573 1.451935	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	0.782494 0.000000 -0.209291	</row0>
+			<row1>	0.000000 0.989999 0.000000	</row1>
+			<row2>	0.209291 0.000000 0.782494	</row2>
+			<row3>	2.514282 0.705826 -0.075050	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	0.151597 0.000000 0.795687	</row0>
+			<row1>	0.000000 0.989999 0.000000	</row1>
+			<row2>	-0.795687 0.000000 0.151597	</row2>
+			<row3>	2.267441 0.705841 0.965088	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	1.434200 0.000001 -0.273249	</row0>
+			<row1>	-0.000001 1.579999 0.000000	</row1>
+			<row2>	0.273249 0.000000 1.434200	</row2>
+			<row3>	2.612747 0.705841 0.960358	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.331924 1.373795 0.235329	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.524582 1.087997 -0.100945	</position>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-2.095078 4.139618 1.426125	</position>
+		<innerRadius>	1.512482	</innerRadius>
+		<outerRadius>	3.594841	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.182323 0.000368 -0.681668	</row0>
+			<row1>	0.001343 0.763626 0.000054	</row1>
+			<row2>	0.681667 -0.001187 -0.182324	</row2>
+			<row3>	2.283890 0.708221 -0.250763	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.299881 0.978317 -0.245392	</position>
+	</flare>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.000000 -1.000000	</row2>
+			<row3>	0.366699 -0.001648 2.324570	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.000000 -0.000168 1.000000	</row0>
+			<row1>	-0.000359 1.000000 0.000168	</row1>
+			<row2>	-1.000000 -0.000359 -0.000000	</row2>
+			<row3>	1.054459 -0.001572 2.342682	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.866025 0.000086 0.500000	</row0>
+			<row1>	0.000017 1.000000 -0.000201	</row1>
+			<row2>	-0.500000 0.000183 0.866025	</row2>
+			<row3>	-0.092163 -0.001648 1.460617	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.549141 -0.005977 0.835705	</row0>
+			<row1>	0.017600 0.999833 -0.004415	</row1>
+			<row2>	-0.835541 0.017133 0.549155	</row2>
+			<row3>	-2.460846 2.343826 1.563835	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<shell>
+		<resource>	sets/town/shells/tower_room01.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tower_room01-1	</lighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am0007i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<resource>	sets/town/props/t_table.model	</resource>
+		<transform>
+			<row0>	-0.010524 -0.000000 0.737253	</row0>
+			<row1>	-0.000000 0.999998 -0.000000	</row1>
+			<row2>	-0.679115 -0.000000 -0.052510	</row2>
+			<row3>	2.483459 -0.000015 0.037376	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/t_table-1	</lighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.631927 1.216232 0.956642	</position>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.295578 1.028824 0.959953	</position>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-2.188934 3.822586 1.452553	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 212.000000 98.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	208.635910 211.645706 94.437195	</min>
+		<max>	215.364059 499.204163 101.312958	</max>
+	</boundingBox>
+</root>

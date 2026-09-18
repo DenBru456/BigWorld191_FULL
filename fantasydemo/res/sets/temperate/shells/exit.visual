@@ -1,0 +1,96 @@
+<exit.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	wall	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/map/large_brick_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	floor	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/map/cobble_stone_path.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	brick_damaged	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/map/large_brick_damage.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-6.000000 -0.047000 -2.000000	</min>
+		<max>	6.000000 4.500000 2.000000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 0.000000	</normal>
+		<d>	-4.500000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-2.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-6.000000	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 1.800000 -0.000001	</point>
+			<point>	4.200000 1.800000 -0.000001	</point>
+			<point>	4.200000 -1.800000 -0.000001	</point>
+			<point>	0.000000 -1.800000 -0.000001	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-2.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-6.000000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 1.800000 -0.000001	</point>
+			<point>	4.200000 1.800000 -0.000001	</point>
+			<point>	4.200000 -1.800000 -0.000001	</point>
+			<point>	0.000000 -1.800000 -0.000001	</point>
+		</portal>
+	</boundary>
+	<customHull>	true	</customHull>
+</exit.visual>

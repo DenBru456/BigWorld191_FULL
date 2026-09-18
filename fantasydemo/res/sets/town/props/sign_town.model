@@ -1,0 +1,9 @@
+<sign_town.model>
+	<nodelessVisual>	sets/town/props/sign_town	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	50.000000	</extent>
+	<visibilityBox>
+		<min>	-0.142047 -0.000000 -0.017263	</min>
+		<max>	0.142048 1.267154 0.017262	</max>
+	</visibilityBox>
+</sign_town.model>

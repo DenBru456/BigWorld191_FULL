@@ -1,0 +1,8 @@
+<fff4000eo.chunk>
+	<terrain>
+		<resource>	fff4000eo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fff4000eo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fff4000eo.chunk>

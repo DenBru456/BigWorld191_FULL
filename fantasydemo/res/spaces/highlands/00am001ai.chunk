@@ -1,0 +1,33 @@
+<root>
+	<ambientLight>
+		<colour>	20.000000 30.000031 40.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<shell>
+		<resource>	sets/temperate/shells/corridor_transition.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/corridor_transition-0	</lighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am001ai.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	570.619324 156.382629 -103.749863	</row3>
+	</transform>
+	<boundingBox>
+		<min>	554.078857 156.043915 -106.107552	</min>
+		<max>	570.823364 191.895523 -101.380554	</max>
+	</boundingBox>
+</root>

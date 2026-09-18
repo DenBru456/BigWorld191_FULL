@@ -1,0 +1,30 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29728290	</hi>
+		<lo>	-1518471136	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/heat_shimmer.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	91.915810 44.458748 91.417053	</row3>
+		</transform>
+	</particles>
+	<particles>
+		<resource>	sets/desert/particles/heat_shimmer.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	76.900017 30.401379 50.650833	</row3>
+		</transform>
+	</particles>
+	<navmesh>
+		<resource>	0000fffeo.cdata/navmesh	</resource>
+	</navmesh>
+	<terrain>
+		<resource>	0000fffeo.cdata/terrain	</resource>
+	</terrain>
+</root>

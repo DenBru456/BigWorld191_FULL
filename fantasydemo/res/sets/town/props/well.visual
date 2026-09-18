@@ -1,0 +1,40 @@
+<well.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	wood	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	materialSpecular
+						<Vector4>	0.717647 0.717647 0.717647 1.000000	</Vector4>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/well01_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/well01.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.236500 -2.311100 -1.236100	</min>
+		<max>	1.235300 2.721700 1.236000	</max>
+	</boundingBox>
+</well.visual>

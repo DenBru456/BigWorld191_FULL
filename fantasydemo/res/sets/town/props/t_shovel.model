@@ -1,0 +1,9 @@
+<t_shovel.static.model>
+	<nodelessVisual>	sets/town/props/t_shovel.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	30.000000	</extent>
+	<visibilityBox>
+		<min>	-0.199981 -0.001546 -0.194542	</min>
+		<max>	0.199981 1.903030 0.194542	</max>
+	</visibilityBox>
+</t_shovel.static.model>

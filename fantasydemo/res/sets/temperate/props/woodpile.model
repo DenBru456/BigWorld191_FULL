@@ -1,0 +1,9 @@
+<woodpile.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.012500 -0.022300 -0.919300	</min>
+		<max>	1.566100 1.455200 0.362700	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/woodpile	</nodelessVisual>
+	<extent>	95.000000	</extent>
+</woodpile.model>

@@ -1,0 +1,9 @@
+<beast_room.model>
+	<nodelessVisual>	sets/temperate/shells/beast_room	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	100.000000	</extent>
+	<visibilityBox>
+		<min>	-28.699997 -0.004600 -28.699997	</min>
+		<max>	28.700001 35.512901 28.700001	</max>
+	</visibilityBox>
+</beast_room.model>

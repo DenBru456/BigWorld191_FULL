@@ -1,0 +1,19 @@
+<root>
+	<animation>
+		<name>	fx_shieldhit_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	objects/models/fx/fx_shieldhit_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Go	</name>
+		<animation>	fx_shieldhit_anim	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<nodefullVisual>	objects/models/fx/fx_shieldhit	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.195855 -0.943643 1.436495	</min>
+		<max>	1.195855 1.086618 2.859591	</max>
+	</visibilityBox>
+</root>

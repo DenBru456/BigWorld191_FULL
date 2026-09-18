@@ -1,0 +1,25 @@
+<dun_exit.model>
+	<batched>	false	</batched>
+	<dye>
+		<matter>	Legacy-1	</matter>
+		<replaces>	dun_exitfloor	</replaces>
+		<tint>
+			<name>	MFO	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/shells/dun_exit_mudblend.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodelessVisual>	sets/dungeon/shells/dun_exit.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.491035 -0.000000 -6.953042	</min>
+		<max>	4.491035 8.999999 0.000000	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+</dun_exit.model>

@@ -1,0 +1,8 @@
+<wall_snake_01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.003843 -2.007154 -13.499342	</min>
+		<max>	20.005398 10.000793 -0.037160	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_snake_01	</nodelessVisual>
+</wall_snake_01.model>

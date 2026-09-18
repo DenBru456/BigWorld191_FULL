@@ -1,0 +1,110 @@
+<exporter_009_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	tunnel_002	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/shells/dungeon/dungeon_tunnel/maps/tunnel_002.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	tunnel_001	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/shells/dungeon/dungeon_tunnel/maps/tunnel_001.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.000043 -0.421130 -5.457186	</min>
+		<max>	15.000119 5.653545 0.498371	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	-0.000000 1.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.000000 -1.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	-0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000001 -0.000010 0.000001	</point>
+			<point>	5.000000 -0.000010 0.000001	</point>
+			<point>	5.000000 -5.000010 -0.000000	</point>
+			<point>	0.000001 -5.000010 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-5.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 0.000000	</normal>
+		<d>	-5.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-15.000000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 5.000010 -0.000001	</point>
+			<point>	5.000001 5.000010 -0.000001	</point>
+			<point>	5.000000 0.000010 0.000000	</point>
+			<point>	-0.000000 0.000010 0.000000	</point>
+		</portal>
+	</boundary>
+	<customHull>	true	</customHull>
+</exporter_009_temp.visual>

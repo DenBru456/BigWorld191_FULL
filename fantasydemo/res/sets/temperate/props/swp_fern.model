@@ -1,0 +1,9 @@
+<root>
+	<nodelessVisual>	sets/temperate/props/swp_fern	</nodelessVisual>
+	<extent>	80.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.155600 -0.490300 -2.717000	</min>
+		<max>	2.318100 1.430600 2.371900	</max>
+	</visibilityBox>
+</root>

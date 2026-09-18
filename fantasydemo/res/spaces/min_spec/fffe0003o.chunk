@@ -1,0 +1,22 @@
+<fffe0003o.chunk>
+	<terrain>
+		<resource>	fffe0003o.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.811512 0.000000 1.271967	</row0>
+			<row1>	0.000000 1.508791 0.000000	</row1>
+			<row2>	-1.271967 0.000000 0.811512	</row2>
+			<row3>	4.073090 105.048805 89.902771	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+</fffe0003o.chunk>

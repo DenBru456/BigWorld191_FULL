@@ -1,0 +1,25 @@
+<dun_tavern.model.template>
+	<omniLight>
+		<colour>	221.000092 130.000000 38.000000	</colour>
+		<position>	-2.351120 2.940000 2.928391	</position>
+		<innerRadius>	2.400000	</innerRadius>
+		<outerRadius>	6.100000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	221.000107 130.000000 38.000000	</colour>
+		<position>	5.140457 2.940000 11.448761	</position>
+		<innerRadius>	2.400000	</innerRadius>
+		<outerRadius>	7.748677	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.500000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	20.000000 30.000010 40.000000	</colour>
+	</ambientLight>
+</dun_tavern.model.template>

@@ -1,0 +1,10 @@
+<dun_highpassage_liftup.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/shells/dun_highpassage_liftup.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.893900 -5.040000 0.000000	</min>
+		<max>	5.297800 9.000000 8.000000	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+</dun_highpassage_liftup.model>

@@ -1,0 +1,8 @@
+<hair00.model>
+	<nodefullVisual>	characters/avatars/warrior/hair00	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.077979 1.498879 -0.305754	</min>
+		<max>	0.078601 1.826044 0.046224	</max>
+	</visibilityBox>
+</hair00.model>

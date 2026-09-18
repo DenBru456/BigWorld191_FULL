@@ -1,0 +1,52 @@
+<fd_wall_stonea.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	14 - Default	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.020000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_wall_stone_a_spec.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_wall_stone_a_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_wall_stone_a_dif.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-3.201200 -0.167600 -1.013800	</min>
+		<max>	2.910900 5.868400 1.514300	</max>
+	</boundingBox>
+</fd_wall_stonea.visual>

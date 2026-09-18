@@ -1,0 +1,8 @@
+<wall_diagonal_tower_cut.model>
+	<nodelessVisual>	sets/town/props/wall/model/wall_diagonal_tower_cut	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.014411 -2.007154 -16.552343	</min>
+		<max>	14.842370 10.000793 -0.083126	</max>
+	</visibilityBox>
+</wall_diagonal_tower_cut.model>

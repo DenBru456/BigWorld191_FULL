@@ -1,0 +1,9 @@
+<root>
+	<terrain>
+		<resource>	0003fffco.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</root>

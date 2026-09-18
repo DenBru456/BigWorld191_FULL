@@ -1,0 +1,26 @@
+<root>
+	<itemType id="2" name="snake_staff" title="Staff of Serpents">
+		<description>Staff imbued with the spirit of the snake.</description>
+	</itemType>
+	<itemType id="3" name="lightning_staff" title="Staff of Lightning">
+		<description>Staff imbued with the electrical essence.</description>
+	</itemType>
+	<itemType id="4" name="drumstick" title="Drumstick">
+		<description>Increases health.</description>
+	</itemType>
+	<itemType id="5" name="spiderleg" title="Spider leg">
+		<description>A leg from a giant spider.</description>
+	</itemType>
+	<itemType id="6" name="binoculars1" title="Binoculars">
+		<description>Allows you to see into the distance.</description>
+	</itemType>
+	<itemType id="7" name="sword2" title="Sword">
+		<description>An elegant weapon for a civilised age. Perfect for dueling mercenaries.</description>
+	</itemType>
+	<itemType id="9" name="sword3" title="Bastard Sword">
+		<description>A (slightly larger) elegant weapon for a civilised age. Perfect for dueling mercenaries.</description>
+	</itemType>
+	<itemType id="17" name="goblet2" title="Goblet">
+		<description>Healing water.</description>
+	</itemType>
+</root>

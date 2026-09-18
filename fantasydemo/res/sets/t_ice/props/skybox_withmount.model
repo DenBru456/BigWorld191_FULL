@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	sets/t_ice/props/skybox_withmount	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-25.108702 -25.108702 -25.108702	</min>
+		<max>	25.108702 25.108702 25.108702	</max>
+	</visibilityBox>
+</root>

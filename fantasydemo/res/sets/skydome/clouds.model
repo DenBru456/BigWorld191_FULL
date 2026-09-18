@@ -1,0 +1,8 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-20.000002 -2.719500 -20.000002	</min>
+		<max>	20.000002 20.000002 20.000002	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/skydome/clouds	</nodelessVisual>
+</root>

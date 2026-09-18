@@ -1,0 +1,10 @@
+<torch.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/props/torch.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.215200 0.371200 -0.419700	</min>
+		<max>	0.237500 1.487300 0.275800	</max>
+	</visibilityBox>
+	<extent>	47.000000	</extent>
+</torch.model>

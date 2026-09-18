@@ -1,0 +1,15 @@
+<dun_highpassage_ramp.model.template>
+	<omniLight>
+		<colour>	169.000000 100.000015 24.000004	</colour>
+		<position>	2.829300 2.037827 3.844584	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	12.000000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	48.000004 56.000004 61.000004	</colour>
+	</ambientLight>
+</dun_highpassage_ramp.model.template>

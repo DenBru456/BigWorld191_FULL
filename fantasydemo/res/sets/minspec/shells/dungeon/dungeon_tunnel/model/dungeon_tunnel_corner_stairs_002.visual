@@ -1,0 +1,88 @@
+<dungeon_tunnel_corner_stairs_002.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/shells/dungeon/dungeon_tunnel/maps/tunnel_001.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-10.501556 -3.450655 -10.000358	</min>
+		<max>	-0.000058 5.658401 0.485760	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000001	</normal>
+		<d>	-3.000002	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	0.000058	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	-0.000002 4.999999 0.000002	</point>
+			<point>	4.999998 4.999999 0.000002	</point>
+			<point>	4.999999 -0.000000 -0.000000	</point>
+			<point>	-0.000002 -0.000001 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-10.000057	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.000000 1.000000	</normal>
+		<d>	-10.000001	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-10.000060 2.000005 0.000002	</point>
+			<point>	-5.000060 2.000005 0.000002	</point>
+			<point>	-5.000060 -2.999995 0.000001	</point>
+			<point>	-10.000059 -2.999995 0.000001	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 -0.000001	</normal>
+		<d>	-4.999998	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+</dungeon_tunnel_corner_stairs_002.visual>

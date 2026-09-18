@@ -1,0 +1,32 @@
+<root>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	4	</materialKind>
+	<property>	reflectionMap
+		<Texture>	system/maps/ref_bwclouds.bmp	</Texture>
+	</property>
+	<property>	glowMap
+		<Texture>	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	characters/npc/beziel/maps/beziel_modelsheet_zhuangbei_normal.bmp	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	characters/npc/beziel/maps/beziel_modelsheet_zhuangbei_color.bmp	</Texture>
+	</property>
+	<property>	materialSpecular
+		<Vector4>	0.950000 0.970000 0.910000 1.000000	</Vector4>
+	</property>
+	<property>	glowFactor
+		<Float>	0.200000	</Float>
+	</property>
+	<property>	reflectionAmount
+		<Float>	0.800000	</Float>
+	</property>
+	<property>	fresnelConstant
+		<Float>	0.310900	</Float>
+	</property>
+	<property>	fresnelExp
+		<Float>	4.210000	</Float>
+	</property>
+	<fx>	shaders/std_effects/normalmap_chrome_glow_skinned.fx	</fx>
+</root>

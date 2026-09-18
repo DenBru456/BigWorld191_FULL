@@ -1,0 +1,8 @@
+<wall_bend_tower.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.001350 -2.007154 -19.999826	</min>
+		<max>	20.086245 10.000794 0.002289	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_bend_tower	</nodelessVisual>
+</wall_bend_tower.model>

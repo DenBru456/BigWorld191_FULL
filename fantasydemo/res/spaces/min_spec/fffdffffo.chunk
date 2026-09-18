@@ -1,0 +1,126 @@
+<fffdffffo.chunk>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	48.576050 228.634796 27.244102	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	0.996124 0.000000 0.087957	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.087957 0.000000 0.996124	</row2>
+			<row3>	25.584259 197.363785 69.908005	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-0.638007 0.551639 -0.846482	</row0>
+			<row1>	0.365200 1.059345 0.415102	</row1>
+			<row2>	0.942055 -0.037071 -0.734200	</row2>
+			<row3>	88.102829 194.972565 64.644623	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.873754 0.000000 0.486369	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.486369 0.000000 0.873754	</row2>
+			<row3>	31.088684 196.939774 67.907700	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.175242 0.000000 -0.761066	</row0>
+			<row1>	0.000000 0.780981 0.000000	</row1>
+			<row2>	0.761066 0.000000 0.175242	</row2>
+			<row3>	28.070648 196.689941 72.652832	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	1.751789 0.000000 0.947598	</row0>
+			<row1>	0.000000 1.991660 0.000000	</row1>
+			<row2>	-0.947598 0.000000 1.751789	</row2>
+			<row3>	26.208740 197.021332 85.407082	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	0.145191 0.000000 0.710392	</row0>
+			<row1>	0.000000 0.725078 0.000000	</row1>
+			<row2>	-0.710392 0.000000 0.145191	</row2>
+			<row3>	32.870911 196.982483 63.605724	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-0.168581 0.266997 -1.461604	</row0>
+			<row1>	0.030591 1.471294 0.265239	</row1>
+			<row2>	1.485475 0.000001 -0.171334	</row2>
+			<row3>	84.056335 195.914154 62.610161	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-1.043689 0.000001 -0.088656	</row0>
+			<row1>	0.000001 1.047448 -0.000002	</row1>
+			<row2>	0.088656 -0.000002 -1.043689	</row2>
+			<row3>	88.195587 194.890610 58.121700	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	fffdffffo.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</fffdffffo.chunk>

@@ -1,0 +1,8 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000043 -0.421127 -5.457186	</min>
+		<max>	15.000116 5.623226 0.498370	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_basic_damaged	</nodelessVisual>
+</root>

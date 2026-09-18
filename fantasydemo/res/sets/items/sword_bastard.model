@@ -1,0 +1,9 @@
+<sword_bastard.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.098514 -0.244668 -0.029465	</min>
+		<max>	0.359027 0.969267 0.028803	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/items/sword_bastard	</nodefullVisual>
+	<extent>	55.000000	</extent>
+</sword_bastard.model>

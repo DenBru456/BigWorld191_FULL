@@ -1,0 +1,26 @@
+<root>
+	<water>
+		<position>	-69.300003 1.800000 17.300001	</position>
+		<orientation>	0.000000	</orientation>
+		<size>	120.000000 0.000000 120.000000	</size>
+		<fresnelConstant>	0.300000	</fresnelConstant>
+		<fresnelExponent>	5.000000	</fresnelExponent>
+		<reflectionTint>	1.000000 1.000000 1.000000 1.000000	</reflectionTint>
+		<reflectionStrength>	0.040000	</reflectionStrength>
+		<refractionTint>	1.000000 1.000000 1.000000 1.000000	</refractionTint>
+		<refractionStrength>	0.040000	</refractionStrength>
+		<tessellation>	10.000000	</tessellation>
+		<consistency>	0.950000	</consistency>
+		<textureTessellation>	10.000000	</textureTessellation>
+		<scrollSpeed1>	-1.000000 0.500000	</scrollSpeed1>
+		<scrollSpeed2>	1.000000 0.000000	</scrollSpeed2>
+		<waveScale>	1.000000 0.750000	</waveScale>
+		<windVelocity>	0.020000	</windVelocity>
+		<sunPower>	32.000000	</sunPower>
+		<waveTexture>	system/maps/waves2.dds	</waveTexture>
+		<cellsize>	100.000000	</cellsize>
+		<smoothness>	0.000000	</smoothness>
+		<useEdgeAlpha>	true	</useEdgeAlpha>
+		<useSimulation>	true	</useSimulation>
+	</water>
+</root>

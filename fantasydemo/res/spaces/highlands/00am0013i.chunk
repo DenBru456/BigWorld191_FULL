@@ -1,0 +1,113 @@
+<root>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.432273 0.025469 0.272131	</row0>
+			<row1>	0.014282 0.510616 -0.025100	</row1>
+			<row2>	-0.272945 -0.013617 -0.432296	</row2>
+			<row3>	-1.055801 37.346573 -2.431076	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-1.041245 38.010727 -2.509514	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<ambientLight>
+		<colour>	0.000000 2.000000 15.000002	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.212497 0.021788 -0.464687	</row0>
+			<row1>	0.013015 0.510391 0.029881	</row1>
+			<row2>	0.465014 -0.024242 0.211512	</row2>
+			<row3>	2.450714 42.148407 1.077469	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-1	</lighting>
+	</model>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.352280 42.465790 1.109848	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.831060 0.017097 0.555915	</row0>
+			<row1>	0.017612 0.999832 -0.004422	</row1>
+			<row2>	-0.555899 0.006115 -0.831224	</row2>
+			<row3>	-1.187576 35.992783 -2.674202	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.389874 0.010478 -0.920804	</row0>
+			<row1>	0.009595 0.999830 0.015441	</row1>
+			<row2>	0.920814 -0.014856 0.389708	</row2>
+			<row3>	2.664612 40.789459 1.205544	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<shell>
+		<resource>	sets/town/shells/tower_room04.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tower_room04-0	</lighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am0013i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.156631 37.408157 -2.536781	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.549622 42.230087 1.078735	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 211.999161 98.000008	</row3>
+	</transform>
+	<boundingBox>
+		<min>	208.635910 211.644867 94.500000	</min>
+		<max>	215.364059 499.203308 101.312965	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,9 @@
+<bridge.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-13.116377 -4.780304 -18.618340	</min>
+		<max>	-0.219785 7.701705 19.822495	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/props/bridge/models/bridge	</nodelessVisual>
+	<extent>	600.000000	</extent>
+</bridge.model>

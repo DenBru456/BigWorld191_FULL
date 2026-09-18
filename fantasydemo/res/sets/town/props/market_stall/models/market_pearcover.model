@@ -1,0 +1,9 @@
+<market_pearcover.model>
+	<nodelessVisual>	sets/town/props/market_stall/models/market_pearcover	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	50.000000	</extent>
+	<visibilityBox>
+		<min>	-0.350990 -0.007190 -0.332941	</min>
+		<max>	0.350990 0.246695 0.332942	</max>
+	</visibilityBox>
+</market_pearcover.model>

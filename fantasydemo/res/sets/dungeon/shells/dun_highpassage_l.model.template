@@ -1,0 +1,15 @@
+<dun_highpassage_l.model.template>
+	<omniLight>
+		<colour>	193.000122 83.000000 9.000000	</colour>
+		<position>	8.480803 1.291728 10.736437	</position>
+		<innerRadius>	3.000000	</innerRadius>
+		<outerRadius>	16.500000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	20.000000 30.000011 40.000000	</colour>
+	</ambientLight>
+</dun_highpassage_l.model.template>

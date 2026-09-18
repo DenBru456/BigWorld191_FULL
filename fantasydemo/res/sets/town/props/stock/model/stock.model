@@ -1,0 +1,9 @@
+<stock.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.119483 -0.032654 -0.771694	</min>
+		<max>	1.104444 1.607132 0.747984	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/stock/model/stock	</nodelessVisual>
+	<extent>	80.000000	</extent>
+</stock.model>

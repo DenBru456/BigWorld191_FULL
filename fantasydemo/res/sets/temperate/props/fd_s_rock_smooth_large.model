@@ -1,0 +1,9 @@
+<fd_s_rock_smooth_large.model>
+	<nodelessVisual>	sets/temperate/props/fd_s_rock_smooth_large	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.661100 -0.185300 -2.984900	</min>
+		<max>	3.361400 5.975801 2.148900	</max>
+	</visibilityBox>
+	<extent>	330.000000	</extent>
+</fd_s_rock_smooth_large.model>

@@ -1,0 +1,8 @@
+<root>
+	<nodefullVisual>	sets/temperate/props/sign	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.136500 -0.057600 -2.267200	</min>
+		<max>	3.136500 9.613501 2.267200	</max>
+	</visibilityBox>
+</root>

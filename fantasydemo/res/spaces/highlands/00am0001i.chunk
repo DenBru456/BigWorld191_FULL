@@ -1,0 +1,80 @@
+<root>
+	<ambientLight>
+		<colour>	20.000000 30.000032 40.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	-1.195553 2.410934 0.169189	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.538511	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.602326 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.602326 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.602326	</row2>
+			<row3>	-2.410282 2.502594 0.031921	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-2.499275 2.685638 0.048767	</position>
+		<colour>	255.000000 226.000015 138.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000000 0.000000 0.000000	</row2>
+			<row3>	-2.612141 1.188660 -0.004211	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-1	</lighting>
+	</model>
+	<shell>
+		<resource>	sets/temperate/shells/cor_end.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/cor_end-1	</lighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am0001i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	8d0b10ae.475a1419.40583f94.6b83ae3c	</uid>
+		<type>	water	</type>
+	</vlo>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	599.119202 156.382599 -136.249832	</row3>
+	</transform>
+	<boundingBox>
+		<min>	595.119141 156.182587 -140.249817	</min>
+		<max>	603.119141 191.895493 -132.149811	</max>
+	</boundingBox>
+</root>

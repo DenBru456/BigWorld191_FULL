@@ -1,0 +1,44 @@
+<root>
+	<model>
+		<resource>	sets/dungeon/shells/dun_highpassage_4x.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<lighting>	lighting/dun_highpassage_4x-1	</lighting>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<navmesh>
+		<resource>	00am0003i.cdata/navmesh	</resource>
+	</navmesh>
+	<waypointGenerationTime>
+		<hi>	29734717	</hi>
+		<lo>	-1564532528	</lo>
+	</waypointGenerationTime>
+	<omniLight>
+		<colour>	222.000015 118.000008 40.000000	</colour>
+		<position>	1.651676 3.684434 15.406006	</position>
+		<innerRadius>	2.400000	</innerRadius>
+		<outerRadius>	10.514959	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.600000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	40.000000 53.000004 64.000000	</colour>
+		<multiplier>	1.300000	</multiplier>
+	</ambientLight>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	-20.000000 -15.000000 -114.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-20.363499 -39.775959 -114.544395	</min>
+		<max>	-15.636498 -5.999996 -97.455597	</max>
+	</boundingBox>
+</root>

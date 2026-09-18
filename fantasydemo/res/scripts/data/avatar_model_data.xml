@@ -1,0 +1,47 @@
+<root>
+	<!--
+	This document contains a list of all the model resourceIDs that can be used
+	as part of an avatar model. This list exists so that these models can be
+	efficiently indexed for transmission across the network. 
+	ALL model files listed MUST EXIST in the resource tree. Errors related to
+	this list will be prefixed with "ASSET ERROR:" when printed to the python
+	log.
+
+	Example:
+	<models>
+		<model>	</model> # Empty model is a special case that should always be included.
+		<model> characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+	</models>
+
+	Note that special effects are not currently supported but the
+	section <specialEffects> should be included.
+
+		<specialEffects>
+		</specialEffects>
+	-->
+
+	<models>
+		<model>	</model>
+		<model> characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+		<model>	characters/npc/fd_orc_guard/orc.model </model>
+		<model> characters/avatars/warrior/warrior.model </model>
+        <model> characters/avatars/warrior/hair.model </model>
+        <model> characters/avatars/warrior/hair00.model </model>
+        <model> characters/avatars/warrior/1b_legs_00.model </model>
+        <model> characters/avatars/warrior/1b_legs_01.model </model>
+        <model> characters/avatars/warrior/1b_legs_02.model </model>
+        <model> characters/avatars/warrior/1a_legs_00.model </model>
+        <model> characters/avatars/warrior/1b_arms_00.model </model>
+        <model> characters/avatars/warrior/1b_arms_01.model </model>
+        <model> characters/avatars/warrior/1b_arms_02.model </model>
+        <model> characters/avatars/warrior/1b_arms_03.model </model>
+        <model> characters/avatars/warrior/1a_arms_00.model </model>
+        <model> characters/avatars/warrior/1b_chest_00.model </model>
+        <model> characters/avatars/warrior/1b_chest_01.model </model>
+	</models>
+
+	<specialEffects>
+	</specialEffects>
+</root>

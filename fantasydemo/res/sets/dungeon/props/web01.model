@@ -1,0 +1,9 @@
+<root>
+	<nodelessVisual>	sets/dungeon/props/web01	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.500000 -0.500000 0.000000	</min>
+		<max>	0.500000 0.500000 0.122600	</max>
+	</visibilityBox>
+	<extent>	21.000000	</extent>
+</root>

@@ -1,0 +1,8 @@
+<wall_accend_01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000412 -2.010171 -3.582694	</min>
+		<max>	19.999939 15.000821 -0.000001	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_accend_01	</nodelessVisual>
+</wall_accend_01.model>

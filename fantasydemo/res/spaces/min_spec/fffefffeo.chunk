@@ -1,0 +1,110 @@
+<fffefffeo.chunk>
+	<model>
+		<resource>	sets/minspec/props/bridge/models/bridge.model	</resource>
+		<transform>
+			<row0>	0.260970 -0.000000 1.268093	</row0>
+			<row1>	-0.000000 1.243466 -0.000000	</row1>
+			<row2>	-1.268093 0.000000 0.260970	</row2>
+			<row3>	75.099937 191.815552 52.712372	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.450811 -0.941493 0.086644	</row0>
+			<row1>	0.636210 0.373082 0.743771	</row1>
+			<row2>	-0.699395 -0.267484 0.732424	</row2>
+			<row3>	52.247696 189.621490 56.921997	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.795692 0.040978 0.679957	</row0>
+			<row1>	0.070603 1.044882 0.019649	</row1>
+			<row2>	-0.677522 0.060759 -0.796504	</row2>
+			<row3>	50.917175 196.580185 37.564896	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-1.483779 0.170420 0.073125	</row0>
+			<row1>	0.184618 1.301781 0.712233	</row1>
+			<row2>	0.017512 0.715762 -1.312771	</row2>
+			<row3>	44.648376 199.749985 33.663864	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.694336 -0.032181 -0.783587	</row0>
+			<row1>	0.070601 1.044882 0.019649	</row1>
+			<row2>	0.781063 -0.065840 0.694804	</row2>
+			<row3>	87.431313 126.741035 69.962326	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	0.457739 0.262326 -1.072171	</row0>
+			<row1>	0.365200 1.059345 0.415102	</row1>
+			<row2>	1.041631 -0.486689 0.325624	</row2>
+			<row3>	94.140556 124.704094 67.856613	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	1.452497 0.343376 -0.091305	</row0>
+			<row1>	-0.319674 1.430666 0.294955	</row1>
+			<row2>	0.155088 -0.266988 1.463097	</row2>
+			<row3>	84.117378 129.715485 61.724045	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	fffefffeo.cdata/terrain	</resource>
+	</terrain>
+	<particles>
+		<resource>	particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	-0.992084 -0.125573 0.000000	</row0>
+			<row1>	-0.125303 0.989953 -0.065505	</row1>
+			<row2>	0.008225 -0.064986 -0.997852	</row2>
+			<row3>	50.587769 200.616440 54.660995	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</fffefffeo.chunk>

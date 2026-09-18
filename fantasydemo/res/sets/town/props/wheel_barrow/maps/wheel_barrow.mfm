@@ -1,0 +1,32 @@
+<root>
+	<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+	<property>	diffuseLightExtraModulation
+		<Float>	1.000000	</Float>
+	</property>
+	<property>	lightEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	0	</Int>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	selfIllumination
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	sets/town/props/wheelbarrow/maps/wheel_barrow_d.tga	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	specularMap
+		<Texture>	sets/town/props/wheelbarrow/maps/wheel_barrow_s.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	sets/town/props/wheelbarrow/maps/wheel_barrow_norms.tga	</Texture>
+	</property>
+</root>

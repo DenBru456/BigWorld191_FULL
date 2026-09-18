@@ -1,0 +1,9 @@
+<fd_bridge_wooden.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.003500 0.411700 -15.984901	</min>
+		<max>	4.003500 3.173000 15.984901	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/fd_bridge_wooden	</nodelessVisual>
+	<extent>	90.000000	</extent>
+</fd_bridge_wooden.model>

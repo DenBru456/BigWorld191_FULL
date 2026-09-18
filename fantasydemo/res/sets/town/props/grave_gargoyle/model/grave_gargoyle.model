@@ -1,0 +1,9 @@
+<grave_gargoyle.model>
+	<nodelessVisual>	sets/town/props/grave_gargoyle/model/grave_gargoyle	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.500000 0.000000 -1.448241	</min>
+		<max>	1.500000 4.696841 1.485817	</max>
+	</visibilityBox>
+	<extent>	160.000000	</extent>
+</grave_gargoyle.model>

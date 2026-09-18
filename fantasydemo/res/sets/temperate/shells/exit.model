@@ -1,0 +1,9 @@
+<exit.model>
+	<nodelessVisual>	sets/temperate/shells/exit	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	100.000000	</extent>
+	<visibilityBox>
+		<min>	-6.000000 -0.047000 -1.694800	</min>
+		<max>	6.000000 4.072500 1.694600	</max>
+	</visibilityBox>
+</exit.model>

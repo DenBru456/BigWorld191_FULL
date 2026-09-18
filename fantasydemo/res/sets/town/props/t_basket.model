@@ -1,0 +1,9 @@
+<t_basket.static.model>
+	<nodelessVisual>	sets/town/props/t_basket.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	45.000000	</extent>
+	<visibilityBox>
+		<min>	-0.476788 -0.000485 -0.463671	</min>
+		<max>	0.476788 0.206506 0.463671	</max>
+	</visibilityBox>
+</t_basket.static.model>

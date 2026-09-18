@@ -1,0 +1,10 @@
+<plainplug.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/town/props/plainplug.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.000000 0.000000 0.000000	</min>
+		<max>	4.000000 4.000000 0.500000	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+</plainplug.model>

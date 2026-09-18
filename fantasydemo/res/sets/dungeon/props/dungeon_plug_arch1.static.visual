@@ -1,0 +1,55 @@
+<dungeon_plug_arch1.static.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	sets/dungeon/props/dungeon_plug_arch1.static.vertices	</vertices>
+			<primitive>	sets/dungeon/props/dungeon_plug_arch1.static.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dun_wall	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/dungeon/shells/dun_wall.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	dun_arc2	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.010000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/dungeon/shells/dun_arc2_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/dungeon/shells/dun_arc2_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/dungeon/shells/dun_arc2.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.004803 -0.002759 -0.000000	</min>
+		<max>	0.000000 8.999999 0.500001	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</dungeon_plug_arch1.static.visual>

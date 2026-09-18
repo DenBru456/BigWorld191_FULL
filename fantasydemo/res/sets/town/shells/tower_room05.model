@@ -1,0 +1,9 @@
+<tower_room05.model>
+	<nodelessVisual>	sets/town/shells/tower_room05	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.398499 45.381096 -4.265699	</min>
+		<max>	4.185200 67.294296 4.265700	</max>
+	</visibilityBox>
+	<extent>	200.000000	</extent>
+</tower_room05.model>

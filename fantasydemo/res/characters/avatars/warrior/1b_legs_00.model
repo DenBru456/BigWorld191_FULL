@@ -1,0 +1,8 @@
+<root>
+	<nodefullVisual>	characters/avatars/warrior/1b_legs_00	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.357359 -0.060705 -0.207687	</min>
+		<max>	0.361305 1.140939 0.084625	</max>
+	</visibilityBox>
+</root>

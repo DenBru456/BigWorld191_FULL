@@ -1,0 +1,8 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000042 -0.331793 -5.457185	</min>
+		<max>	15.000119 10.725500 0.498368	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_basic_lightshaft	</nodelessVisual>
+</root>

@@ -1,0 +1,66 @@
+<dun_highroom_big.model.template>
+	<omniLight>
+		<colour>	0.000000 0.000000 160.000000	</colour>
+		<position>	-5.500000 7.770000 10.559998	</position>
+		<innerRadius>	2.400000	</innerRadius>
+		<outerRadius>	9.900000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	224.000107 147.000000 31.000013	</colour>
+		<position>	2.021988 4.000000 17.081902	</position>
+		<innerRadius>	1.200000	</innerRadius>
+		<outerRadius>	11.900000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	222.000092 141.000000 33.000000	</colour>
+		<position>	2.230011 3.930000 2.155632	</position>
+		<innerRadius>	2.400000	</innerRadius>
+		<outerRadius>	17.500000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<spotLight>
+		<colour>	1.000000 228.000061 254.000061	</colour>
+		<position>	-0.750000 14.430000 9.309998	</position>
+		<direction>	0.000000 0.961524 -0.274721	</direction>
+		<innerRadius>	15.000000	</innerRadius>
+		<outerRadius>	20.000000	</outerRadius>
+		<cosConeAngle>	0.945519	</cosConeAngle>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</spotLight>
+	<ambientLight>
+		<colour>	20.000000 30.000008 40.000000	</colour>
+	</ambientLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.230003 3.930000 1.079987	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-5.500000 7.770000 10.559998	</position>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.989998 4.000000 19.029999	</position>
+		<colour>	224.000000 147.000000 31.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/streak.xml	</resource>
+		<position>	-0.750000 14.430000 9.309998	</position>
+		<colour>	1.000000 228.000000 254.000000	</colour>
+	</flare>
+</dun_highroom_big.model.template>

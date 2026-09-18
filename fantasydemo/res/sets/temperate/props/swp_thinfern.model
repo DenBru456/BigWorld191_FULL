@@ -1,0 +1,9 @@
+<root>
+	<nodelessVisual>	sets/temperate/props/swp_thinfern	</nodelessVisual>
+	<extent>	103.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.252700 -0.576600 -1.765700	</min>
+		<max>	1.295800 3.005300 1.340000	</max>
+	</visibilityBox>
+</root>

@@ -1,0 +1,41 @@
+<gravestone_004.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	grave_cross	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/town/props/gravestone/maps/gravestone_cross_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/gravestone/maps/gravestone_cross_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/gravestone/maps/gravestone_cross_d.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.476469 0.000000 -0.480243	</min>
+		<max>	0.475970 2.313458 0.480186	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</gravestone_004.visual>

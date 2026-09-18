@@ -1,0 +1,9 @@
+<rock_large.model>
+	<nodelessVisual>	sets/minspec/props/rock_large/models/rock_large	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	600.000000	</extent>
+	<visibilityBox>
+		<min>	-4.808981 -0.062528 -3.640959	</min>
+		<max>	4.949155 6.447434 2.395209	</max>
+	</visibilityBox>
+</rock_large.model>

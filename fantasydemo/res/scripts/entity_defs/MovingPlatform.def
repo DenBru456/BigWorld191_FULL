@@ -1,0 +1,34 @@
+<root>
+	<Volatile>
+		<position/>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<platformName>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+			<Default>		Platform			</Default>
+		</platformName>
+
+		<startNode>
+			<Type>			PLATFORM_NODE_LINK	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</startNode>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>
+

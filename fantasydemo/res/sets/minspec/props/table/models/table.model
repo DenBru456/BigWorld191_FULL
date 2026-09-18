@@ -1,0 +1,8 @@
+<table.model>
+	<nodelessVisual>	sets/minspec/props/table/models/table	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.003125 0.000000 -1.003125	</min>
+		<max>	0.996303 1.051387 0.995315	</max>
+	</visibilityBox>
+</table.model>

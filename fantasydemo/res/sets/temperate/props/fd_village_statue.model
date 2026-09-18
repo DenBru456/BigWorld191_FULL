@@ -1,0 +1,9 @@
+<fd_village_statue.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.992700 -0.018700 -1.992700	</min>
+		<max>	1.992700 10.906301 1.992700	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/fd_village_statue	</nodelessVisual>
+	<extent>	150.000000	</extent>
+</fd_village_statue.model>

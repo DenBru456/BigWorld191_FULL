@@ -1,0 +1,8 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000014 0.002665 -4.586395	</min>
+		<max>	4.600107 4.666901 -0.013606	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_exit	</nodelessVisual>
+</root>

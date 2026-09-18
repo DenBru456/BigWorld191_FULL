@@ -1,0 +1,10 @@
+<t_crate.model>
+	<extent>	50.000000	</extent>
+	<batched>	false	</batched>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.413542 0.001069 -0.372994	</min>
+		<max>	0.413542 0.637560 0.372994	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/t_crate	</nodelessVisual>
+</t_crate.model>

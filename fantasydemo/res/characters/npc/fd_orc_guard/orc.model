@@ -1,0 +1,11 @@
+<orc.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.987195 -0.239328 -1.111070	</min>
+		<max>	1.175296 2.206560 1.201072	</max>
+	</visibilityBox>
+	<dye>	</dye>
+	<extent>	67.000000	</extent>
+	<parent>	characters/avatars/base/base	</parent>
+	<nodefullVisual>	characters/npc/fd_orc_guard/orc	</nodefullVisual>
+</orc.model>

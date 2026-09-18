@@ -1,0 +1,9 @@
+<tower_corridor.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.099000 -0.218500 -4.800000	</min>
+		<max>	1.104000 4.355800 -3.408099	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/shells/tower_corridor	</nodelessVisual>
+	<extent>	250.000000	</extent>
+</tower_corridor.model>

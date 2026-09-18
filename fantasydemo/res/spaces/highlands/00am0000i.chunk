@@ -1,0 +1,115 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/exit-0	</lighting>
+	</shell>
+	<shell>
+		<resource>	sets/temperate/shells/exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/exit-1	</lighting>
+	</shell>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.602326	</row0>
+			<row1>	0.000000 0.602326 0.000000	</row1>
+			<row2>	0.602326 0.000000 0.000000	</row2>
+			<row3>	4.189644 2.618580 -1.224640	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	4.199646 1.318584 -1.444626	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-1	</lighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.292114 2.948582 -1.275314	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	-1.623657 2.269054 1.071083	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.392507	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.602326	</row0>
+			<row1>	0.000000 0.602326 0.000000	</row1>
+			<row2>	-0.602326 0.000000 0.000000	</row2>
+			<row3>	-1.222092 2.399788 1.217825	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-1.232094 1.099792 1.437819	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.139801 2.729790 1.274233	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<ambientLight>
+		<colour>	20.000000 30.000004 40.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	4.416557 2.870903 -0.596016	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.392507	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	524.369995 156.379990 -87.779999	</row3>
+	</transform>
+	<boundingBox>
+		<min>	518.369934 156.332977 -89.779991	</min>
+		<max>	530.369934 160.879974 -85.779991	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0000i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,84 @@
+<exporter_033_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	2	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/village_building/maps/fd_s_village_building_2_dif.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/village_building/maps/fd_s_village_building_2_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/town/props/village_building/maps/fd_s_village_building_2_s.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	2	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/village_building/maps/fd_s_village_building_1_dif.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/village_building/maps/fd_s_village_building_1_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/town/props/village_building/maps/fd_s_village_building_1_s.dds	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-9.013106 -0.014293 -5.576388	</min>
+		<max>	9.057566 13.326774 6.488660	</max>
+	</boundingBox>
+</exporter_033_temp.visual>

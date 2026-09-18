@@ -1,0 +1,36 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/cor_end.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/cor_end-1	</lighting>
+	</shell>
+	<omniLight>
+		<colour>	84.000000 252.000015 151.000000	</colour>
+		<position>	3.412033 2.190575 0.265186	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	9.728013	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	59.099991 0.660000 33.679985	</row3>
+	</transform>
+	<boundingBox>
+		<min>	54.999985 0.565900 29.679981	</min>
+		<max>	63.099987 5.160000 37.679981	</max>
+	</boundingBox>
+</root>

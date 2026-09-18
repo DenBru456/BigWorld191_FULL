@@ -1,0 +1,84 @@
+<root>
+	<model>
+		<resource>	sets/dungeon/shells/dun_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<lighting>	lighting/dun_exit-0	</lighting>
+	</model>
+	<ambientLight>
+		<colour>	93.000000 93.000000 93.000000	</colour>
+	</ambientLight>
+	<navmesh>
+		<resource>	00am0001i.cdata/navmesh	</resource>
+	</navmesh>
+	<waypointGenerationTime>
+		<hi>	29734717	</hi>
+		<lo>	-1580470028	</lo>
+	</waypointGenerationTime>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.914024 2.467885 -1.490318	</position>
+		<colour>	222.000000 141.000000 33.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.695641 2.429863 -1.479179	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.745747 2.471846 -1.437325	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.073358 0.000000 -0.997306	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.997306 0.000000 0.073358	</row2>
+			<row3>	3.896549 0.949091 -1.483208	</row3>
+		</transform>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.605936 0.000000 0.044570	</row0>
+			<row1>	0.000000 0.607573 0.000000	</row1>
+			<row2>	-0.044570 0.000000 0.605936	</row2>
+			<row3>	3.658604 2.210974 -1.494545	</row3>
+		</transform>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<pulseLight>
+		<colour>	255.000000 154.000000 74.000000	</colour>
+		<position>	2.661877 2.549089 -2.594208	</position>
+		<innerRadius>	2.000000	</innerRadius>
+		<outerRadius>	6.000000	</outerRadius>
+		<multiplier>	2.500000	</multiplier>
+	</pulseLight>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.997306 0.000000 0.073358	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.073358 0.000000 0.997306	</row2>
+			<row3>	3.651020 2.321239 -1.500267	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	-16.000000 -15.000000 -98.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-20.491034 -39.775959 -97.999992	</min>
+		<max>	-15.508964 -5.999996 -91.046951	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,9 @@
+<fd_wall_stonea_lod01.model>
+	<nodelessVisual>	sets/temperate/props/lods/fd_wall_stonea_lod01	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	150.000000	</extent>
+	<visibilityBox>
+		<min>	-3.165800 -0.167800 -0.926400	</min>
+		<max>	2.934700 5.860900 1.674100	</max>
+	</visibilityBox>
+</fd_wall_stonea_lod01.model>

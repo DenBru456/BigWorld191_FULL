@@ -1,0 +1,10 @@
+<upperskull.model>
+	<extent>	25.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/items/upperskull.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.098474 -0.016328 -0.129583	</min>
+		<max>	0.086601 0.189216 0.116645	</max>
+	</visibilityBox>
+</upperskull.model>

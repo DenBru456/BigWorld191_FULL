@@ -1,0 +1,268 @@
+<root>
+	<!--
+	This file contains information about what models can be used as player
+	models. Player models use the avatar model system and so all model files
+	referenced must be included in the file avatar_model_data.xml
+
+	The structure of the player model is such that a base model is chosen
+	which will then have a list of available customisations.
+	Customisations can be either model customisations or material
+	customisations. One option is chosen from each customisation.
+
+	A material customisation contains a list of tint options to be applied to a
+	set of material groups(aka matters). Note that the material group must have
+	at least one tint in Model Editor to be used in a material customisation.
+
+	Example:
+	<materialCustomisation>
+		<name>	Pants Colour		</name>
+		<materialGroups>
+			<materialGroup>		Legs_skinned	</materialGroup>
+		</materialGroups>
+		<tints>
+			<tint>
+				<name>	Red Pants	</name>
+				<tintName>	Default	</tintName>
+			</tint>
+			<tint>
+				<name>	Merchant Pants	</name>
+				<tintName>	Merchant	</tintName>
+			</tint>
+		</tints>
+	</materialCustomisation>
+
+	Model customisations contain a list of model options in the same format as
+	the base model. They may include additional customisations possibilities 
+	that only exist when that model is selected.
+
+	Example:
+	<modelCustomisation>
+		<name>	Head	</name>
+		<models>
+			<model>
+				<name>	Warrior Hair - Short	</name>
+				<models>
+					<resPath>	characters/avatars/warrior/hair.model </resPath>
+				</models>
+				<customisations>
+				</customisations>
+			</model>
+			<model>
+				<name>	Warrior Hair - Long	</name>
+				<models>
+					<resPath>	characters/avatars/warrior/hair00.model </resPath>
+				</models>
+				<customisations>
+				</customisations>
+			</model>
+		</models>
+	</modelCustomisation>
+	-->
+
+	<playerModels>
+		<playerModel>
+			<name>		Ranger	</name>
+			<models>
+				<resPath>	characters/avatars/ranger/ranger_body.model </resPath>
+			</models>
+			<customisations>
+				<modelCustomisation>
+					<name>	Head	</name>
+					<models>
+						<model>
+							<name>	Ranger Head	</name>
+							<models>
+								<resPath>	characters/avatars/ranger/ranger_head.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+
+				<materialCustomisation>
+					<name>	Body Colour		</name>
+					<materialGroups>
+						<materialGroup>	Single_material_skinned	</materialGroup>
+					</materialGroups>
+					<tints>
+						<tint>
+							<name>	Red Tunic	</name>
+							<tintName>	Default	</tintName>
+						</tint>
+						<tint>
+							<name>	Colourful Tunic	</name>
+							<tintName>	CustomTorso	</tintName>
+						</tint>
+					</tints>
+				</materialCustomisation>
+				<materialCustomisation>
+					<name>	Pants Colour		</name>
+					<materialGroups>
+						<materialGroup>		Legs_skinned	</materialGroup>
+					</materialGroups>
+					<tints>
+						<tint>
+							<name>	Red Pants	</name>
+							<tintName>	Default	</tintName>
+						</tint>
+						<tint>
+							<name>	Merchant Pants	</name>
+							<tintName>	Merchant	</tintName>
+						</tint>
+					</tints>
+				</materialCustomisation>
+			</customisations>
+		</playerModel>
+
+
+		<playerModel>
+			<name>		Warrior		</name>
+			<models>
+				<resPath>	characters/avatars/warrior/warrior.model </resPath>
+			</models>
+			<customisations>
+                <modelCustomisation>
+					<name>	Head	</name>
+					<models>
+						<model>
+							<name>	Warrior Hair - Short	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/hair.model </resPath>
+							</models>
+							<customisations>
+                            </customisations>
+						</model>
+						<model>
+							<name>	Warrior Hair - Long	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/hair00.model </resPath>
+							</models>
+							<customisations>
+                            </customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+            <modelCustomisation>
+					<name>	Legs	</name>
+					<models>
+						<model>
+							<name>	1b-00	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_legs_00.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+                        <model>
+							<name>	1b-01	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_legs_01.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+                        <model>
+							<name>	1b-02	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_legs_02.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+                       <model>
+							<name>	1a-00	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1a_legs_00.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+            <modelCustomisation>
+					<name>	Arms	</name>
+					<models>
+						<model>
+							<name>	1b-00	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_arms_00.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+                        <model>
+							<name>	1b_01	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_arms_01.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+                        <model>
+							<name>	1b_02	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_arms_02.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+                        <model>
+							<name>	1b_03	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_arms_03.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+						<model>
+							<name>	1a-00	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1a_arms_00.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+            <modelCustomisation>
+					<name>	Chest	</name>
+					<models>
+						<model>
+							<name>	1b Chest -00	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_chest_00.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+   						<model>
+							<name>	1b Chest -01	</name>
+							<models>
+								<resPath>	characters/avatars/warrior/1b_chest_01.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>                  
+				<!--<materialCustomisation>
+					<name>		Hair Colour		</name>
+					<materialGroups>
+						<materialGroup>		_Default_skinned	</materialGroup>
+					</materialGroups>
+					<tints>
+						<tint>
+							<name>		Blond Hair		</name>
+							<tintName>	Default		</tintName>
+						</tint>
+						<tint>
+							<name>		Red Hair		</name>
+							<tintName>	red_hair		</tintName>
+						</tint>
+					</tints>
+				</materialCustomisation>-->
+			</customisations>
+		</playerModel>
+	</playerModels>
+</root>

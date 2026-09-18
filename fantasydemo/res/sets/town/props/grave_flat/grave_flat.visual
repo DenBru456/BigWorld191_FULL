@@ -1,0 +1,41 @@
+<grave_flat.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	grave_flat	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/town/props/grave_flat/grave_flat_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/grave_flat/grave_flat_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/grave_flat/grave_flat_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.523143 0.000000 -1.222884	</min>
+		<max>	0.523144 0.903256 1.222884	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</grave_flat.visual>

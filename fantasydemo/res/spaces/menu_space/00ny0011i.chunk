@@ -1,0 +1,107 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/t_intersection.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/t_intersection-0	</lighting>
+	</shell>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	-1.461994 3.190391 0.234295	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.571180	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.458542 3.087408 0.265545	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.059722 0.000000 0.960668	</row0>
+			<row1>	0.000000 0.962524 0.000000	</row1>
+			<row2>	-0.960668 0.000000 0.059722	</row2>
+			<row3>	-2.585548 1.374803 0.009571	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.022831 0.000000 -0.999738	</row0>
+			<row1>	-0.000001 0.999999 0.000000	</row1>
+			<row2>	0.999738 0.000001 0.022831	</row2>
+			<row3>	-2.411884 2.669058 0.018665	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.412094	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	-0.412094 0.000000 0.000000	</row2>
+			<row3>	-2.424534 2.687445 0.018787	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.002055 0.705019 0.709182	</row0>
+			<row1>	0.999993 -0.000049 0.002946	</row1>
+			<row2>	0.002112 0.709184 -0.705015	</row2>
+			<row3>	-2.751225 0.247855 1.408600	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.695503 0.005708 0.718497	</row0>
+			<row1>	-0.008595 0.999828 -0.016263	</row1>
+			<row2>	-0.718467 -0.017486 -0.695335	</row2>
+			<row3>	-2.302090 0.011450 0.591713	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-0	</lighting>
+	</model>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	51.099998 0.660000 33.679985	</row3>
+	</transform>
+	<boundingBox>
+		<min>	46.999996 0.302648 29.579979	</min>
+		<max>	55.199997 5.160000 37.779980	</max>
+	</boundingBox>
+</root>

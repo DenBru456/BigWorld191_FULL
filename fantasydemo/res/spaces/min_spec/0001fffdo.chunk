@@ -1,0 +1,35 @@
+<root>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.359482 0.000000 1.341601	</row0>
+			<row1>	0.000000 1.388929 0.000000	</row1>
+			<row2>	-1.341601 0.000000 0.359482	</row2>
+			<row3>	18.744469 216.174911 19.350586	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.030471 0.358188 1.341601	</row0>
+			<row1>	-1.383929 -0.117729 0.000000	</row1>
+			<row2>	0.113718 -1.336772 0.359482	</row2>
+			<row3>	31.359138 215.933838 4.785828	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0001fffdo.cdata/terrain	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</root>

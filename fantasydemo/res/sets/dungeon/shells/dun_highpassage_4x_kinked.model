@@ -1,0 +1,10 @@
+<dun_highpassage_4x_kinked.model>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/dungeon/shells/dun_highpassage_4x_kinked.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.763300 -0.337200 -0.544400	</min>
+		<max>	4.948000 7.738801 16.544401	</max>
+	</visibilityBox>
+	<extent>	400.000000	</extent>
+</dun_highpassage_4x_kinked.model>

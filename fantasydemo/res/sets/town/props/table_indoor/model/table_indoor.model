@@ -1,0 +1,9 @@
+<table_indoor.model>
+	<nodelessVisual>	sets/town/props/table_indoor/model/table_indoor	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.003125 0.000000 -1.003125	</min>
+		<max>	1.003125 1.004552 0.995315	</max>
+	</visibilityBox>
+	<extent>	50.000000	</extent>
+</table_indoor.model>

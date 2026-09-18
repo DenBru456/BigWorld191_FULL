@@ -1,0 +1,84 @@
+/**
+ * Default styles.
+ */
+
+.debug {
+    border: 1px solid black;
+    background-color: #fff0f0;
+    font-family: LucidaConsole;
+    padding-left: 100px;
+}
+
+form {
+    /*font-size: xxx-small;*/
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #fff0f0;
+	margin: 1em;
+	padding: 1em;
+	
+	
+}
+
+.status {
+    border: 1px solid blue;
+    background-color: #f0f0f8;
+	margin: 1em;
+	padding: 1em;
+}
+
+
+h1 {
+	background-color: #f0f0ff;
+	border-bottom: 1px solid gray;
+	padding: 0.5em;
+	margin: 0;
+}
+
+h2 { 
+	padding:0;
+	margin-bottom: 0.5em;
+/*	margin-left:1em; */
+	
+}
+
+h3, h4, h5, h6 { 
+	margin-bottom: 0.5em;
+/*	margin-left:3em; */
+}
+
+
+body {
+/*	font-size: xx-small; */
+	font-family: Arial, Verdana;
+}
+
+
+div.menubar {
+	background-color: #f0f0f0;
+	border-top: 1px solid gray;
+	margin: 0;
+	padding-top: 0.5em;
+	padding-left: 2em;
+	padding-bottom: 0.5em;
+}
+
+.loginbox {
+	border: 1px solid black;
+	background-color: #e0f8e0;
+}
+
+
+.example {
+	page-break-inside: avoid;
+	border: 1px solid black;
+	background-color: #f0f0ff;
+	font-family: Lucida Console, Courier New;
+	font-size: x-small;
+}
+
+ul {
+	margin: 2em;
+}

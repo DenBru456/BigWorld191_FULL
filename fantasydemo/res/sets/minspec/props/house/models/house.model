@@ -1,0 +1,9 @@
+<house.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-9.324784 0.074622 -9.892497	</min>
+		<max>	9.849622 16.555176 7.950263	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/minspec/props/house/models/house	</nodelessVisual>
+	<extent>	600.000000	</extent>
+</house.model>

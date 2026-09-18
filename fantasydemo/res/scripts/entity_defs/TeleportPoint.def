@@ -1,0 +1,39 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<!-- Base properties -->			
+		<label>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</label>
+		
+		<dstPos>
+			<Type>			VECTOR3			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dstPos>
+		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>	
+		<teleport>
+			<Arg>	MAILBOX	</Arg>	<!-- Cell entity -->
+		</teleport>
+	</BaseMethods>
+
+	<CellMethods>
+		<tryToTeleport>
+			<Arg>	STRING	 </Arg>	<!-- Cell entity -->
+			<Arg> 	PYTHON   </Arg>
+			<Arg> 	INT32	 </Arg>
+		</tryToTeleport>
+	</CellMethods>
+</root>

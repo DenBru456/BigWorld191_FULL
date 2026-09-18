@@ -1,0 +1,11 @@
+<root>
+	<batched>	true	</batched>
+	<nodefullVisual>	characters/npc/guard/orc_moria_onesheet	</nodefullVisual>
+	<parent>	characters/avatars/base/base	</parent>
+	<extent>	100.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.257739 -0.362436 -1.211791	</min>
+		<max>	1.054740 2.498269 1.285402	</max>
+	</visibilityBox>
+</root>

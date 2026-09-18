@@ -1,0 +1,9 @@
+<mushroom02_cluster.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.254908 -0.016836 -0.479400	</min>
+		<max>	0.337518 0.534453 0.360461	</max>
+	</visibilityBox>
+	<extent>	69.000000	</extent>
+	<nodelessVisual>	sets/temperate/props/mushrooms/mushroom02_cluster	</nodelessVisual>
+</mushroom02_cluster.model>

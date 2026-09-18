@@ -1,0 +1,9 @@
+<grave_flat.model>
+	<materialNames>	</materialNames>
+	<extent>	90.000000	</extent>
+	<visibilityBox>
+		<min>	-0.523143 0.000000 -1.222883	</min>
+		<max>	0.523143 0.903256 1.222884	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/grave_flat/grave_flat	</nodelessVisual>
+</grave_flat.model>

@@ -1,0 +1,9 @@
+<fd_magic_shrine.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.366200 -0.009100 -1.510200	</min>
+		<max>	1.635800 2.993300 1.521600	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/props/fd_magic_shrine	</nodelessVisual>
+	<extent>	70.000000	</extent>
+</fd_magic_shrine.model>

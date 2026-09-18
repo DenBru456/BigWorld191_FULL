@@ -1,0 +1,28 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29728296	</hi>
+		<lo>	-708899912	</lo>
+	</waypointGenerationTime>
+	<navmesh>
+		<resource>	00010002o.cdata/navmesh	</resource>
+	</navmesh>
+	<entity>
+		<guid>	6353DC8F.4B9CC6E4.45C1F781.FA4847C9	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	66.192169 1.000026 1.862183	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo3	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<terrain>
+		<resource>	00010002o.cdata/terrain	</resource>
+	</terrain>
+</root>

@@ -1,0 +1,14 @@
+<beast_stomp.xml>
+	<Actor> particles
+		<ParticleSystem>	particles/dust_storm.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<DummyModel/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>	
+
+</beast_stomp.xml>

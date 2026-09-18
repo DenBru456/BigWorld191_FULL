@@ -1,0 +1,44 @@
+<chat_window.gui>	175492224
+	<ConsoleGUIComponent>	140400800
+		<position>	-0.950000 -0.950000 0.100000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>		0	</verticalPositionMode>
+		<widthMode>					0	</widthMode>
+		<width>						1.9	</width>
+		<heightMode>				1	</heightMode>
+		<height>					100	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/maps/aid_null.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script> &quot;FDGUI.ChatConsole&quot;
+			<buffer_size>	250			</buffer_size>
+			<timeout> 		15			</timeout>
+			<auto_hide> 	true		</auto_hide>
+			<textColour>			163 238 238 	</textColour>
+			<otherWhisperColour>	32 128 255		</otherWhisperColour>
+			<otherSayColour>		64 128 255		</otherSayColour>
+			<systemColour>			255 128 0		</systemColour>
+		</script>
+		<lines/>
+	</ConsoleGUIComponent>
+</chat_window.gui>

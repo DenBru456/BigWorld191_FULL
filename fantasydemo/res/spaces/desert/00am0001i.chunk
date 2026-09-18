@@ -1,0 +1,42 @@
+<root>
+	<model>
+		<resource>	sets/dungeon/shells/dun_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<lighting>	lighting/dun_exit-1	</lighting>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29728290	</hi>
+		<lo>	-330033636	</lo>
+	</waypointGenerationTime>
+	<ambientLight>
+		<colour>	62.000004 43.000000 30.000002	</colour>
+	</ambientLight>
+	<navmesh>
+		<resource>	00am0001i.cdata/navmesh	</resource>
+	</navmesh>
+	<omniLight>
+		<colour>	142.000000 90.000000 61.000008	</colour>
+		<position>	1.710510 1.900000 -6.479233	</position>
+		<innerRadius>	2.778169	</innerRadius>
+		<outerRadius>	9.695888	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.700000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	-48.000000 10.000000 -106.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-52.491032 9.999999 -105.999992	</min>
+		<max>	-47.508961 19.000000 -99.046951	</max>
+	</boundingBox>
+</root>

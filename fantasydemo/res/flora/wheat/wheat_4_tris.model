@@ -1,0 +1,9 @@
+<wheat_4_tris.model>
+	<nodelessVisual>	flora/wheat/wheat_4_tris	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.400000 -0.032800 -0.400000	</min>
+		<max>	0.400000 1.467200 0.400000	</max>
+	</visibilityBox>
+	<extent>	40.000000	</extent>
+</wheat_4_tris.model>

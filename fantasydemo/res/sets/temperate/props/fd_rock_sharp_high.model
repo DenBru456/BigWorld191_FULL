@@ -1,0 +1,9 @@
+<fd_rock_sharp_high.model>
+	<nodelessVisual>	sets/temperate/props/fd_rock_sharp_high	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	240.000000	</extent>
+	<visibilityBox>
+		<min>	-4.809000 -0.062500 -3.641000	</min>
+		<max>	4.949200 6.447400 2.395200	</max>
+	</visibilityBox>
+</fd_rock_sharp_high.model>

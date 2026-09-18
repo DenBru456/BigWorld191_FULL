@@ -1,0 +1,10 @@
+<well.model>
+	<nodelessVisual>	sets/town/props/well	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.210900 -2.311000 -1.236100	</min>
+		<max>	1.235300 2.721700 1.236000	</max>
+	</visibilityBox>
+	<extent>	46.000000	</extent>
+	<parent>	sets/town/props/lods/well_lod01	</parent>
+</well.model>

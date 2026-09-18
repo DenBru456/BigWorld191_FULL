@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	objects/models/fx/debris6	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.039200 -0.024200 -0.151100	</min>
+		<max>	0.039200 0.024200 0.151100	</max>
+	</visibilityBox>
+</root>

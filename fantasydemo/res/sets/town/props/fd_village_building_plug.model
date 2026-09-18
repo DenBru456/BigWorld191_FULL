@@ -1,0 +1,9 @@
+<fd_village_building_plug.model>
+	<nodelessVisual>	sets/town/props/fd_village_building_plug	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	40.000000	</extent>
+	<visibilityBox>
+		<min>	-1.921900 0.000000 0.039100	</min>
+		<max>	2.078100 4.000000 0.118700	</max>
+	</visibilityBox>
+</fd_village_building_plug.model>

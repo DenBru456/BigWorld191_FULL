@@ -1,0 +1,132 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<entityTypeName>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		Guard				</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</entityTypeName>
+
+		<spawnTimers>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</spawnTimers>
+
+		<entityDecrementTimer>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</entityDecrementTimer>		
+
+		<entityDecrementList>
+			<Type>			ARRAY <of> FLOAT </of> 	</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		[]						</Default>
+		</entityDecrementList>
+
+		<guardTimeToLive>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		300.0				</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</guardTimeToLive>
+
+		<dictionary>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</dictionary>
+
+		<spawnPoints>
+			<Type>	ARRAY	<of> PATROL_NODE </of>	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</spawnPoints>
+
+		<entityCreationDictionary>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</entityCreationDictionary>
+
+		<numberSpawned>
+			<Type>			UINT16				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0					</Default>
+		</numberSpawned>
+		
+		<spawning>
+			<Type>			BOOL				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		False				</Default>
+		</spawning>
+
+		<nameProperty>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		Guard Spawner		</Default>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</nameProperty>
+
+		<guardList>
+			<Type>	ARRAY	<of> MAILBOX </of>	</Type>
+			<Flags>			BASE				</Flags>
+		</guardList>
+
+		<loadedGuards>
+			<Type>			INT16				</Type>
+			<Flags>			BASE				</Flags>
+		</loadedGuards>
+	</Properties>
+
+	<BaseMethods>
+		<registerGuard>
+			<Arg>		MAILBOX		</Arg>
+		</registerGuard>
+		<deregisterGuard>
+			<Arg>		ENTITY_ID		</Arg>
+		</deregisterGuard>
+		<addLoadDemoGuards>
+			<Arg>		UINT32			</Arg>	<!-- count -->
+		</addLoadDemoGuards>
+		<delLoadDemoGuards>
+			<Arg>		UINT32			</Arg>	<!-- count -->
+		</delLoadDemoGuards>
+	</BaseMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>	
+		<spawnLoadGuards>
+			<Arg>		UINT16		</Arg>
+			<Arg>		MAILBOX		</Arg>
+		</spawnLoadGuards>
+		<spawnEntities>
+			<Exposed/>
+			<Arg>		UINT16		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		UINT16		</Arg>
+		</spawnEntities>
+		<addLoadDemoGuards>
+			<Exposed/>
+			<Arg>		UINT32			</Arg>	<!-- count -->
+		</addLoadDemoGuards>
+		<delLoadDemoGuards>
+			<Exposed/>
+			<Arg>		UINT32			</Arg>	<!-- count -->
+		</delLoadDemoGuards>
+	</CellMethods>
+</root>
+

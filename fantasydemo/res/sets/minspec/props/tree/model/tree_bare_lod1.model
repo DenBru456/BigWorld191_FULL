@@ -1,0 +1,8 @@
+<tree_bare_lod1.model>
+	<nodelessVisual>	sets/minspec/props/tree/model/tree_bare_lod1	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.237778 -2.459455 -2.949742	</min>
+		<max>	2.974813 17.705456 3.035471	</max>
+	</visibilityBox>
+</tree_bare_lod1.model>

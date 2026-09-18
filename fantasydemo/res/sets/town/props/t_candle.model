@@ -1,0 +1,9 @@
+<t_candle.model>
+	<animation>
+		<name>	t_candle_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/t_candle_anim	</nodes>
+	</animation>
+	<nodefullVisual>	sets/town/props/t_candle	</nodefullVisual>
+	<extent>	108.000000	</extent>
+</t_candle.model>

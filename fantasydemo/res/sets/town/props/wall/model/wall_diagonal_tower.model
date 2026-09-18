@@ -1,0 +1,8 @@
+<wall_diagonal_tower.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.014412 -2.007155 -20.003855	</min>
+		<max>	19.899876 10.000794 -0.493052	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/wall/model/wall_diagonal_tower	</nodelessVisual>
+</wall_diagonal_tower.model>

@@ -1,0 +1,52 @@
+<root>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	-1.195553 2.410934 0.169189	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.538511	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	20.000000 30.000034 40.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-2.499272 2.580185 0.048767	</position>
+		<colour>	255.000000 226.000015 138.000000	</colour>
+	</flare>
+	<shell>
+		<resource>	sets/temperate/shells/cor_end.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/cor_end-1	</lighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am0003i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	8d0b10ae.475a1419.40583f94.6b83ae3c	</uid>
+		<type>	water	</type>
+	</vlo>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	631.619202 156.382599 -103.749863	</row3>
+	</transform>
+	<boundingBox>
+		<min>	627.519165 156.182587 -107.749855	</min>
+		<max>	635.619141 191.895493 -99.749855	</max>
+	</boundingBox>
+</root>

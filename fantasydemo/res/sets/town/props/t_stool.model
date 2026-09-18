@@ -1,0 +1,10 @@
+<root>
+	<batched>	false	</batched>
+	<extent>	50.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.308745 0.002390 -0.271921	</min>
+		<max>	0.243740 0.542739 0.185867	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/town/props/t_stool	</nodelessVisual>
+</root>

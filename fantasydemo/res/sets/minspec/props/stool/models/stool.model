@@ -1,0 +1,9 @@
+<stool.model>
+	<nodelessVisual>	sets/minspec/props/stool/models/stool	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	100.000000	</extent>
+	<visibilityBox>
+		<min>	-0.217863 0.002937 -0.199150	</min>
+		<max>	0.236912 0.441641 0.255626	</max>
+	</visibilityBox>
+</stool.model>

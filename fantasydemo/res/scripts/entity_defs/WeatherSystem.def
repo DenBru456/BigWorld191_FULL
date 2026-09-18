@@ -1,0 +1,61 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+
+		<name>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</name>
+
+		<propensity>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</propensity>
+
+		<arg0>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</arg0>
+
+		<arg1>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</arg1>
+
+		<arg2>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</arg2>
+
+		<arg3>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</arg3>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<kill>
+			<Arg> 	ARRAY <of> STRING </of>	</Arg>  <!-- weather names -->
+		</kill>
+	</CellMethods>
+</root>
+

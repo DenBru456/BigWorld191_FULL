@@ -1,0 +1,24 @@
+<space.settings>
+	<timeOfDay>	environments/desert_sky.xml	</timeOfDay>
+	<skyGradientDome>	environments/desert_sky.xml	</skyGradientDome>
+	<bounds>
+		<minX>	-2	</minX>
+		<maxX>	2	</maxX>
+		<minY>	-2	</minY>
+		<maxY>	2	</maxY>
+	</bounds>
+	<startPosition>	-49.552429 12.256700 -92.594681	</startPosition>
+	<startDirection>	-0.000345 0.089999 -0.113623	</startDirection>
+	<farPlane>	1000.000000	</farPlane>
+	<terrain>
+		<version>	100	</version>
+	</terrain>
+	<oldClouds>	false	</oldClouds>
+	<minimap>
+		<mapName>	spaces/desert/space_hand_drawn.dds	</mapName>
+		<worldMapWidth>	500.0 </worldMapWidth>
+		<worldMapHeight> -500.0 </worldMapHeight>
+		<worldMapAnchor>	50.0 50.0	</worldMapAnchor>
+	</minimap>
+	<skyDome>	sets/desert/props/skybox.visual	</skyDome>
+</space.settings>

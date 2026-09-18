@@ -1,0 +1,8 @@
+<fff7000do.chunk>
+	<terrain>
+		<resource>	fff7000do.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fff7000do.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fff7000do.chunk>

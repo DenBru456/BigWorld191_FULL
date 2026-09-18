@@ -1,0 +1,8 @@
+<dungeon_tunnel_stairs.model>
+	<nodelessVisual>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_stairs	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000046 -3.333365 -5.457185	</min>
+		<max>	15.000117 5.627563 0.498373	</max>
+	</visibilityBox>
+</dungeon_tunnel_stairs.model>

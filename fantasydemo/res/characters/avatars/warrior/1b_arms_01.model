@@ -1,0 +1,8 @@
+<root>
+	<nodefullVisual>	characters/avatars/warrior/1b_arms_01	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.821901 1.216299 -0.145378	</min>
+		<max>	0.821984 1.501706 -0.003468	</max>
+	</visibilityBox>
+</root>

@@ -1,0 +1,11 @@
+<root>
+	<terrain>
+		<resource>	00000000o.cdata/terrain2	</resource>
+	</terrain>
+	<overlapper>	00ny0003i	</overlapper>
+	<overlapper>	00ny000fi	</overlapper>
+	<overlapper>	00ny0010i	</overlapper>
+	<overlapper>	00ny0011i	</overlapper>
+	<overlapper>	00ny0016i	</overlapper>
+	<overlapper>	00ny0002i	</overlapper>
+</root>

@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	sets/dungeon/props/flameplane	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.400000 0.004000 -0.400000	</min>
+		<max>	0.400000 1.604000 0.400000	</max>
+	</visibilityBox>
+</root>

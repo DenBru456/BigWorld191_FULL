@@ -1,0 +1,9 @@
+<pot_large.model>
+	<nodelessVisual>	sets/temperate/props/pot_large	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	60.000000	</extent>
+	<visibilityBox>
+		<min>	-1.073780 -0.002980 -1.090250	</min>
+		<max>	1.106720 2.787680 1.090250	</max>
+	</visibilityBox>
+</pot_large.model>

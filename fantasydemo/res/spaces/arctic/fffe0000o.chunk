@@ -1,0 +1,28 @@
+<fffe0000o.chunk>
+	<navmesh>
+		<resource>	fffe0000o.cdata/navmesh	</resource>
+	</navmesh>
+	<waypointGenerationTime>
+		<hi>	29734717	</hi>
+		<lo>	1150903518	</lo>
+	</waypointGenerationTime>
+	<entity>
+		<guid>	36E621F2.476AC365.4C7C03B0.83BFE3B2	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	86.774414 14.867030 56.596279	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo3	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<terrain>
+		<resource>	fffe0000o.cdata/terrain	</resource>
+	</terrain>
+</fffe0000o.chunk>

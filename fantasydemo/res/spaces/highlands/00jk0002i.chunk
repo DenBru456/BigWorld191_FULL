@@ -1,0 +1,663 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29819490	</hi>
+		<lo>	1420038460	</lo>
+	</waypointGenerationTime>
+	<shell>
+		<resource>	sets/dungeon/shells/dun_highpassage_l.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/dun_highpassage_l-0	</lighting>
+	</shell>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.370000 0.000000 0.001048	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.001048 0.000000 1.370000	</row2>
+			<row3>	3.283840 -0.079999 8.148842	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-27	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.510956 0.000000 1.295034	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-1.295034 0.000000 1.510956	</row2>
+			<row3>	3.702542 -0.079999 8.336484	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.082780 0.000000 -0.839337	</row0>
+			<row1>	0.000000 0.970000 0.000000	</row1>
+			<row2>	0.667794 0.000000 0.861482	</row2>
+			<row3>	3.511623 0.190001 8.159701	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.180969 0.000000 0.983488	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.983488 0.000000 -0.180969	</row2>
+			<row3>	4.757901 -0.250000 8.687876	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-2	</lighting>
+	</model>
+	<ambientLight>
+		<colour>	20.000000 30.000031 40.000000	</colour>
+		<multiplier>	1.200000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	3.584315 0.031945 8.090271	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.510956 0.000000 1.295034	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-1.295034 0.000000 1.510956	</row2>
+			<row3>	3.702548 0.031945 8.336487	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	3.994319 -0.008055 8.441719	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.370000 0.000000 0.001048	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.001048 0.000000 1.370000	</row2>
+			<row3>	3.283839 0.031945 8.148842	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-6	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.078618 0.157074 1.358693	</row0>
+			<row1>	0.009934 1.490108 -0.171692	</row1>
+			<row2>	-1.367712 0.000000 -0.079140	</row2>
+			<row3>	3.987796 0.001944 8.633690	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-7	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	4.154858 0.031945 8.776855	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-8	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.827609 0.000000 0.709340	</row0>
+			<row1>	0.000000 1.310000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	4.386974 -0.018056 8.936295	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-9	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	3.782810 0.241945 8.457977	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-10	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.774460 0.000000 0.663786	</row0>
+			<row1>	0.000000 1.120000 0.000000	</row1>
+			<row2>	-0.663786 0.000000 0.774460	</row2>
+			<row3>	3.663448 0.271944 8.289841	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-11	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.082780 0.000000 -0.839337	</row0>
+			<row1>	0.000000 0.970000 0.000000	</row1>
+			<row2>	0.667794 0.000000 0.861482	</row2>
+			<row3>	3.511622 0.301945 8.159698	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-12	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	4.498699 0.031945 9.190102	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-13	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	4.711285 0.031945 9.372322	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-14	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	3.203578 0.321945 8.211769	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-15	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.632236 -1.206999 0.142583	</row0>
+			<row1>	1.082294 0.719134 1.288560	</row1>
+			<row2>	-1.031554 -0.410896 1.095746	</row2>
+			<row3>	3.891269 0.281945 8.669487	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-16	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.040206 0.000000 0.891556	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	-0.891556 0.000000 1.040206	</row2>
+			<row3>	4.202618 0.301945 8.936317	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-17	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.356867 0.000000 -0.189242	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	0.189242 0.000000 1.356867	</row2>
+			<row3>	4.392437 0.301945 9.099007	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-18	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.144452 0.415687 1.297397	</row0>
+			<row1>	-0.200908 1.408954 -0.473800	</row1>
+			<row2>	-1.349949 -0.219399 -0.080008	</row2>
+			<row3>	4.605023 0.271944 9.281212	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-19	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.936712 0.000000 -0.403696	</row0>
+			<row1>	0.000000 0.920000 0.000000	</row1>
+			<row2>	0.423486 0.000000 0.982629	</row2>
+			<row3>	3.412936 0.451945 8.259483	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-20	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.078507 -0.003333 0.056680	</row0>
+			<row1>	0.016409 1.019106 -0.252298	</row1>
+			<row2>	-0.054211 0.260033 1.046826	</row2>
+			<row3>	3.701450 0.541944 8.506783	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-21	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.105501 -0.342281 -0.733221	</row0>
+			<row1>	0.782489 1.089637 0.671121	</row1>
+			<row2>	0.379488 -0.877108 0.981617	</row2>
+			<row3>	3.796909 0.521944 8.733475	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-22	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.395844 0.000000 0.940058	</row0>
+			<row1>	0.000000 0.920000 0.000000	</row1>
+			<row2>	-0.986139 0.000000 0.415248	</row2>
+			<row3>	3.424861 0.581944 8.322388	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-23	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.032363 -0.422847 -0.795190	</row0>
+			<row1>	0.963699 0.799255 0.826121	</row1>
+			<row2>	0.190825 -1.079454 0.821745	</row2>
+			<row3>	4.410839 0.521944 9.154312	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-24	</lighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.105501 -0.342281 -0.733221	</row0>
+			<row1>	0.782489 1.089637 0.671121	</row1>
+			<row2>	0.379488 -0.877108 0.981617	</row2>
+			<row3>	4.199329 0.521944 9.078407	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/upperskull-25	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	1.156907 0.000000 0.890598	</row0>
+			<row1>	0.000000 1.580000 0.000000	</row1>
+			<row2>	-0.890598 0.000000 1.156907	</row2>
+			<row3>	3.070918 0.800003 6.685333	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	particles/shimmer.xml	</resource>
+		<transform>
+			<row0>	-0.609999 0.000000 0.792402	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.792402 0.000000 -0.609999	</row2>
+			<row3>	3.083720 0.917969 6.678375	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.494099 0.000000 0.641846	</row0>
+			<row1>	0.000000 0.990000 0.000000	</row1>
+			<row2>	-0.641846 0.000000 -0.494099	</row2>
+			<row3>	2.763194 0.800003 6.722931	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<omniLight>
+		<colour>	194.000259 121.000130 58.000065	</colour>
+		<position>	2.885997 1.516556 4.945526	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.000000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.200000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.972694 0.000001 1.088790	</row0>
+			<row1>	0.000001 1.580000 -0.000001	</row1>
+			<row2>	-1.088790 0.000000 -0.972694	</row2>
+			<row3>	2.055598 0.800018 5.960632	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.604055 0.000000 -0.539646	</row0>
+			<row1>	0.000000 0.990000 0.000000	</row1>
+			<row2>	0.539646 0.000000 -0.604055	</row2>
+			<row3>	2.326930 0.800018 5.746948	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	particles/shimmer.xml	</resource>
+		<transform>
+			<row0>	-0.775603 0.000000 0.631221	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.631221 0.000000 -0.775603	</row2>
+			<row3>	2.162822 0.917969 5.795746	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.559123 1.263474 5.288574	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.019786 1.386185 5.975220	</position>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/web03.model	</resource>
+		<transform>
+			<row0>	1.489334 -0.000003 -2.326082	</row0>
+			<row1>	0.000000 2.762022 0.000000	</row1>
+			<row2>	2.326083 0.000000 1.489337	</row2>
+			<row3>	2.169647 5.573410 5.635284	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/web03-0	</lighting>
+	</model>
+	<shell>
+		<resource>	sets/dungeon/shells/dun_highpassage_l.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/dun_highpassage_l-1	</lighting>
+	</shell>
+	<model>
+		<resource>	sets/town/props/t_table.model	</resource>
+		<transform>
+			<row0>	-0.550557 -0.000000 -0.834795	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.669665 0.000000 -0.441652	</row2>
+			<row3>	2.733109 0.020004 6.476746	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/t_table-0	</lighting>
+	</model>
+	<worldNavmesh>
+		<resource>	00jk0002i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.317368 1.116547 5.768372	</position>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.751541 1.114395 6.750183	</position>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.061127 1.328888 6.677826	</position>
+	</flare>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	8.019974 2.970001 8.760071	</row3>
+		</transform>
+		<guid>	5F01B709.49913968.E6E05BA9.FBA16C30	</guid>
+		<properties>
+			<next>
+				<guid>	</guid>
+				<chunkId>	</chunkId>
+			</next>
+		</properties>
+		<backLinks>	</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	8.019974 2.970001 8.760071	</row3>
+		</transform>
+		<guid>	92ECEFF3.438E2AF3.E3FF6FB1.67910524	</guid>
+		<properties>
+			<next>
+				<guid>	</guid>
+				<chunkId>	</chunkId>
+			</next>
+		</properties>
+		<backLinks>	</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.866026 0.000000 0.500000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.500000 0.000000 -0.866026	</row2>
+			<row3>	3.029999 2.970001 5.500061	</row3>
+		</transform>
+		<guid>	F6683BDD.4D15F8D1.21D941B9.720EB8EF	</guid>
+		<properties>
+			<next>
+				<guid>	81E22E6B.40FF9F65.D2CF458D.822B51C2	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	685D6D28.43563C3A.D1C248BF.A8F1AAF4	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000001 0.000000 0.000000	</row2>
+			<row3>	1.710022 2.439987 6.220062	</row3>
+		</transform>
+		<guid>	6288343D.4708B01D.488FD787.3B1D7032	</guid>
+		<properties>
+			<next>
+				<guid>	D0B4D6A8.49D14CD4.445DFD89.BE31E247	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	C53B6B5B.4FA4396A.83D0E3AC.C0C934A0	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 0.999999	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-0.999999 0.000000 0.000000	</row2>
+		<row3>	474.619659 156.382736 -145.749908	</row3>
+	</transform>
+	<boundingBox>
+		<min>	462.251160 156.045517 -146.113388	</min>
+		<max>	475.164032 165.382721 -133.203506	</max>
+	</boundingBox>
+</root>

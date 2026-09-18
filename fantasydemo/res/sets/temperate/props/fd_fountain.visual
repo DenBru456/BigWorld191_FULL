@@ -1,0 +1,55 @@
+<fd_fountain.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	fd_s_fountain_01	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_fountain_01_dif.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_fountain_01_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_fountain_01_dif.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	fd_s_fountain_02	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_fountain_02_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_fountain_02_dif.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.632500 -0.017500 -1.632500	</min>
+		<max>	1.632500 5.819800 1.632500	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</fd_fountain.visual>

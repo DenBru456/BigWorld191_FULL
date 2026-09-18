@@ -1,0 +1,260 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/t_intersection.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/t_intersection-1	</lighting>
+	</shell>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	-1.957714 3.035836 -0.098278	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	2.342192	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	0.040157 2.995578 0.586197	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	1.870600	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	1.376801 2.709324 2.582870	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	2.342192	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.504898 2.700421 2.523991	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	-2.038441 3.345235 -0.691422	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.860428	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<pulseLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	-1.954838 2.609091 -0.341320	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.909316	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.412094	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	-0.412094 0.000000 0.000000	</row2>
+			<row3>	-2.445457 2.703964 -0.053391	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-1	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.022831 0.000000 -0.999738	</row0>
+			<row1>	-0.000001 0.999999 0.000000	</row1>
+			<row2>	0.999738 0.000001 0.022831	</row2>
+			<row3>	-2.432808 2.685576 -0.053513	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	0.059722 0.000000 0.960668	</row0>
+			<row1>	0.000000 0.962524 0.000000	</row1>
+			<row2>	-0.960668 0.000000 0.059722	</row2>
+			<row3>	-2.606472 1.391322 -0.062607	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/torch.model	</resource>
+		<transform>
+			<row0>	-0.059722 0.000000 -0.960667	</row0>
+			<row1>	0.000000 0.962523 0.000000	</row1>
+			<row2>	0.960667 0.000000 -0.059722	</row2>
+			<row3>	1.785858 1.285127 2.609257	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/torch-0	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.022831 0.000000 0.999737	</row0>
+			<row1>	0.000001 0.999998 0.000000	</row1>
+			<row2>	-0.999737 0.000001 -0.022831	</row2>
+			<row3>	1.612202 2.579381 2.600163	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.412094	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	0.412094 0.000000 0.000000	</row2>
+			<row3>	1.624844 2.597768 2.600044	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/flameplane-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_table.model	</resource>
+		<transform>
+			<row0>	0.039319 0.000000 -0.999224	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999224 0.000000 0.039319	</row2>
+			<row3>	-2.173141 0.031234 0.450413	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/t_table-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.151956 0.000000 -0.795617	</row0>
+			<row1>	0.000000 0.989998 0.000000	</row1>
+			<row2>	0.795617 0.000000 -0.151956	</row2>
+			<row3>	-1.990906 0.811247 -0.373516	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.434074 0.000001 0.273896	</row0>
+			<row1>	0.000001 1.579997 -0.000000	</row1>
+			<row2>	-0.273896 0.000000 -1.434074	</row2>
+			<row3>	-2.336243 0.811247 -0.368626	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	0.377877 0.000000 1.410247	</row0>
+			<row1>	0.000000 1.579997 0.000000	</row1>
+			<row2>	-1.410247 0.000000 0.377877	</row2>
+			<row3>	-1.970051 0.811232 0.823864	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.782398 0.000000 0.209644	</row0>
+			<row1>	0.000000 0.989998 0.000000	</row1>
+			<row2>	-0.209644 0.000000 -0.782398	</row2>
+			<row3>	-2.237297 0.811232 0.666771	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.129477 0.031073 -0.407423	</row0>
+			<row1>	-0.102077 -0.689441 0.017640	</row1>
+			<row2>	-0.213770 0.250211 -0.117208	</row2>
+			<row3>	-0.088585 4.352099 2.963001	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/brush-0	</lighting>
+	</model>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	-1.435200 1.436692 0.070530	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	1.580631	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	35.099998 0.660000 33.679985	</row3>
+	</transform>
+	<boundingBox>
+		<min>	30.999996 0.565900 29.579979	</min>
+		<max>	39.199997 5.475380 37.779980	</max>
+	</boundingBox>
+</root>

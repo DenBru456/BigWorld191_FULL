@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	flora/reeds	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.451600 0.000000 -0.391100	</min>
+		<max>	0.451600 1.290200 0.391100	</max>
+	</visibilityBox>
+</root>

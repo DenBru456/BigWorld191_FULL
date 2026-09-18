@@ -1,0 +1,41 @@
+<fd_fence_stone_damaged.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	2	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	fd_s_fence_stone_damaged	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_fence_stone_damaged_spec.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_fence_stone_damaged_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_fence_stone_damaged_dif.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.249600 -0.051200 -4.000000	</min>
+		<max>	0.223900 1.400400 4.000000	</max>
+	</boundingBox>
+</fd_fence_stone_damaged.visual>

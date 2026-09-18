@@ -1,0 +1,8 @@
+<root>
+	<nodelessVisual>	objects/models/null_model	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.003800 0.000000 -0.003800	</min>
+		<max>	0.003800 0.007700 0.003800	</max>
+	</visibilityBox>
+</root>

@@ -1,0 +1,9 @@
+<t_room_entrance.model>
+	<nodelessVisual>	sets/town/shells/t_room_entrance	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.000000 0.000000 -0.500000	</min>
+		<max>	0.000000 4.000000 0.000000	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+</t_room_entrance.model>

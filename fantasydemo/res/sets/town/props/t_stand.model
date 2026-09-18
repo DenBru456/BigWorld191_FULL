@@ -1,0 +1,10 @@
+<t_stand.model>
+	<extent>	50.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/town/props/t_stand.static	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.627788 0.000040 -0.561203	</min>
+		<max>	0.629379 0.980106 0.572698	</max>
+	</visibilityBox>
+</t_stand.model>
