@@ -1,0 +1,75 @@
+<graphics_preferences.xml>
+	<deviceGUID>	D7B71E3E.11CF4747.36396D63.35CAC201	</deviceGUID>
+	<entry>
+		<label>	MRT_DEPTH	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	SKY_LIGHT_MAP	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	SHADER_VERSION_CAP	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	TEXTURE_QUALITY	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	TEXTURE_COMPRESSION	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	TEXTURE_FILTERING	</label>
+		<activeOption>	4	</activeOption>
+	</entry>
+	<entry>
+		<label>	MORPH_VERTICES	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	TERRAIN_LOD	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	TERRAIN_MESH_RESOLUTION	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	SPEEDTREE_QUALITY	</label>
+		<activeOption>	2	</activeOption>
+	</entry>
+	<entry>
+		<label>	CLASSIC_TERRAIN_QUALITY	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	HEAT_SHIMMER	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	BLOOM_FILTER	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	WATER_QUALITY	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	WATER_SIMULATION	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	FLORA_DENSITY	</label>
+		<activeOption>	2	</activeOption>
+	</entry>
+	<entry>
+		<label>	BUMPED_RENDERING	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	REFLECTION_RENDERING	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+</graphics_preferences.xml>
